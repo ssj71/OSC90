@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="33285" name-counter="3" event-counter="830087" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="33285" name-counter="3" event-counter="830925" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.0-rc1-39-g480e0b2"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
