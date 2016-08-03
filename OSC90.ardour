@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="45539" name-counter="3" event-counter="939205" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="45591" name-counter="3" event-counter="946784" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 4.1-4961-g388a8fc"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -74,6 +74,7 @@
     <Source name="Bass-2.mid" type="midi" flags="Writable,CanRename" id="20218" captured-for="Bass" origin=""/>
     <Source name="Chords-1.mid" type="midi" flags="Writable,CanRename" id="20408" captured-for="Chords" origin=""/>
     <Source name="Wow-2.mid" type="midi" flags="Writable,CanRename" id="45426" origin=""/>
+    <Source name="HH-1.mid" type="midi" flags="Writable,CanRename" id="45557" origin=""/>
   </Sources>
   <Regions>
     <Region name="Kick-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="88200" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="1235" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
@@ -115,8 +116,8 @@
   </Regions>
   <Locations>
     <Location id="1238" name="session" start="0" end="846720" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1248" name="Loop" start="423360" end="509355" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-    <Location id="45437" name="Punch" start="423360" end="509355" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1248" name="Loop" start="423360" end="555660" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
+    <Location id="45437" name="Punch" start="423360" end="582120" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -4892,7 +4893,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state21">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state22">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.294118"/>
@@ -4917,13 +4918,13 @@
           <Port symbol="fil_attack" value="+0.132353"/>
           <Port symbol="fil_decay" value="+0.264706"/>
           <Port symbol="fil_env_depth" value="+0.653406"/>
-          <Port symbol="fil_release" value="+0.191176"/>
-          <Port symbol="fil_sustain" value="+0.279412"/>
+          <Port symbol="fil_release" value="+0.117647"/>
+          <Port symbol="fil_sustain" value="+0.235294"/>
           <Port symbol="filter_saturation" value="+0.608000"/>
           <Port symbol="filter_type" value="+0.000000"/>
           <Port symbol="formant_on" value="+1.000000"/>
-          <Port symbol="formant_x" value="+0.136986"/>
-          <Port symbol="formant_y" value="+0.450450"/>
+          <Port symbol="formant_x" value="+0.027397"/>
+          <Port symbol="formant_y" value="+0.477477"/>
           <Port symbol="keytrack" value="+0.500000"/>
           <Port symbol="legato" value="+0.000000"/>
           <Port symbol="mod_attack" value="+0.117647"/>
@@ -5050,13 +5051,13 @@
         <Controllable name="fil_attack" id="19990" flags="" value="0.132352948189" parameter="25" symbol="fil_attack"/>
         <Controllable name="fil_decay" id="19992" flags="" value="0.264705896378" parameter="26" symbol="fil_decay"/>
         <Controllable name="fil_env_depth" id="19994" flags="" value="0.653405904770" parameter="27" symbol="fil_env_depth"/>
-        <Controllable name="fil_release" id="19996" flags="" value="0.191176474094" parameter="28" symbol="fil_release"/>
-        <Controllable name="fil_sustain" id="19998" flags="" value="0.279411762953" parameter="29" symbol="fil_sustain"/>
+        <Controllable name="fil_release" id="19996" flags="" value="0.117647059262" parameter="28" symbol="fil_release"/>
+        <Controllable name="fil_sustain" id="19998" flags="" value="0.235294118524" parameter="29" symbol="fil_sustain"/>
         <Controllable name="filter_saturation" id="20000" flags="" value="0.607999980450" parameter="30" symbol="filter_saturation"/>
         <Controllable name="filter_type" id="20002" flags="" value="0.000000000000" parameter="31" symbol="filter_type"/>
         <Controllable name="formant_on" id="20004" flags="" value="1.000000000000" parameter="32" symbol="formant_on"/>
-        <Controllable name="formant_x" id="20006" flags="" value="0.136986300349" parameter="33" symbol="formant_x"/>
-        <Controllable name="formant_y" id="20008" flags="" value="0.450450450182" parameter="34" symbol="formant_y"/>
+        <Controllable name="formant_x" id="20006" flags="" value="0.027397260070" parameter="33" symbol="formant_x"/>
+        <Controllable name="formant_y" id="20008" flags="" value="0.477477490902" parameter="34" symbol="formant_y"/>
         <Controllable name="keytrack" id="20010" flags="" value="0.500000000000" parameter="35" symbol="keytrack"/>
         <Controllable name="legato" id="20012" flags="" value="0.000000000000" parameter="36" symbol="legato"/>
         <Controllable name="mod_attack" id="20014" flags="" value="0.117647059262" parameter="37" symbol="mod_attack"/>
@@ -5215,7 +5216,8 @@
       <Region name="HH-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="18622" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
       <Region name="HH-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="19420" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
       <Region name="HH-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="19423" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="19426" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+      <Region name="HH-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="104560" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="3.95162509448" id="19426" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+      <Region name="HH-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105839" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="8" start-beats="0" length-beats="4" id="45559" type="midi" first-edit="nothing" source-0="45557" master-source-0="45557"/>
       <Region name="HH-3.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="19429" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
       <Region name="HH-3.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="19432" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
       <Region name="HH-3.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="19435" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
@@ -5283,7 +5285,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="348" y-size="333"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="669" y-off="103" x-size="571" y-size="435"/>
+      <Window name="audio-midi-setup" visible="no" x-off="438" y-off="344" x-size="571" y-size="435"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -5482,7 +5484,7 @@
       <Window name="PM-45014-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-45016-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-45017-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-44984-45149" visible="yes" x-off="1716" y-off="907" x-size="1012" y-size="787" custom-ui="yes"/>
+      <Window name="P-44984-45149" visible="no" x-off="514" y-off="535" x-size="418" y-size="53" custom-ui="yes"/>
       <Window name="PM-45149-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-44984-45526" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-45526-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -5610,7 +5612,7 @@
         <Object id="strip 13637" strip-width="Wide" visible="1">
           <Object id="processor 13667"/>
         </Object>
-        <Object id="rtav 18200" height="46" visible="1" note-range-min="44" note-range-max="78" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 18200" height="250" visible="1" note-range-min="44" note-range-max="78" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 18204" height="46" visible="0"/>
         <Object id="automation 18200 12/0/0" height="46" visible="0"/>
         <Object id="strip 18200" strip-width="Wide" visible="1">
