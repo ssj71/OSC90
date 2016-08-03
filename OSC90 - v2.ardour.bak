@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="39140" name-counter="3" event-counter="936316" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="40539" name-counter="3" event-counter="1118915" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.0-rc1-39-g480e0b2"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -73,6 +73,16 @@
     <Source name="HH-3.mid" type="midi" flags="Writable,CanRename" id="18620" origin=""/>
     <Source name="Bass-2.mid" type="midi" flags="Writable,CanRename" id="20218" captured-for="Bass" origin=""/>
     <Source name="Chords-1.mid" type="midi" flags="Writable,CanRename" id="20408" captured-for="Chords" origin=""/>
+    <Source name="Chords-2.mid" type="midi" flags="Writable,CanRename" id="37547" captured-for="Chords" origin=""/>
+    <Source name="MIDI-1.mid" type="midi" flags="Writable,CanRename" id="39174" origin=""/>
+    <Source name="Snare Midi-2.mid" type="midi" flags="Writable,CanRename" id="39201" origin=""/>
+    <Source name="HH-1.mid" type="midi" flags="Writable,CanRename" id="39523" origin=""/>
+    <Source name="HH-5.mid" type="midi" flags="Writable,CanRename" id="39884" origin=""/>
+    <Source name="HH-4.mid" type="midi" flags="Writable,CanRename" id="39959" origin=""/>
+    <Source name="HH-6.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="39979" origin=""/>
+    <Source name="HH-7.mid" type="midi" flags="Writable,CanRename" id="40002" origin=""/>
+    <Source name="HH-9.mid" type="midi" flags="Writable,CanRename" id="40155" origin=""/>
+    <Source name="Chords.1-1.mid" type="midi" flags="Writable,CanRename" id="40403" origin=""/>
   </Sources>
   <Regions>
     <Region name="Kick-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="88200" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="1235" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
@@ -99,6 +109,15 @@
     <Region name="Snare Bottom-2.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="99225" position="441000" beat="16.6666666667" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4.5" id="9638" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="99225" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4.5" id="9644" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="99225" position="617400" beat="23.3333333333" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4.5" id="9650" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Kick-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="13606" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="13609" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="13612" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="13615" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="13618" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="13621" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="13624" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Kick-1.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="13627" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+    <Region name="Snare Bottom-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="13761" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="119070" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5" id="13764" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="119070" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5" id="13767" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="119070" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5" id="13770" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
@@ -107,14 +126,76 @@
     <Region name="Snare Bottom-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="119070" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5" id="13779" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Bottom-2.23" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="119070" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5" id="13782" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
     <Region name="Snare Midi-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="220499" position="749700" beat="28.3333333333" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="8" start-beats="0" length-beats="10" id="13795" type="midi" first-edit="nothing" source-0="13793" master-source-0="13793"/>
+    <Region name="Test-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="423360" position="793800" beat="30" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="16" id="13853" type="midi" first-edit="nothing" source-0="13851" master-source-0="13851"/>
     <Region name="HH-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="88200" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="18605" type="midi" first-edit="nothing" source-0="18603" master-source-0="18603"/>
+    <Region name="HH-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="18622" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="19420" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="19423" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="19426" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="19429" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="19432" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="19435" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+    <Region name="HH-3.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="19438" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
     <Region name="Bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="565248" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="21.3623582766" id="20227" type="midi" first-edit="nothing" source-0="20218" master-source-0="20218"/>
+    <Region name="Bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="105840" length="423360" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="16" id="20230" type="midi" first-edit="nothing" source-0="20218" master-source-0="20218"/>
+    <Region name="Bass-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="105840" length="423360" position="423360" beat="16" sync-position="105840" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="16" id="20349" type="midi" first-edit="nothing" source-0="20218" master-source-0="20218"/>
     <Region name="Chords-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="841216" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="31.7919879063" id="20784" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+    <Region name="Chords-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="8" length-beats="8" id="20787" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
     <Region name="Chords-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="224910" beat="8.5" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="8" length-beats="8" id="20890" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+    <Region name="Chords-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="211680" beat="8" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="8" length-beats="8" id="20899" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+    <Region name="Chords-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="423360" beat="16" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="8" length-beats="8" id="20902" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+    <Region name="Chords-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="635040" beat="24" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="8" length-beats="8" id="20905" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+    <Region name="Snare Bottom-2.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="33187" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="33190" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="33193" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.27" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="33196" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.28" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="33199" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="33202" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="Snare Bottom-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="33205" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+    <Region name="HH-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1375920" beat="52" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="1" id="39525" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1397969" beat="52.9999622071" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="1" id="39799" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1420018" beat="53.9999244142" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="1" id="39802" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1442067" beat="54.9998866213" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="1" id="39805" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1464116" beat="55.9998488284" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="1" id="39808" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1486165" beat="56.9998110355" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="1" id="39811" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1508214" beat="57.9997732426" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="1" id="39814" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="1530264" beat="58.9997354497" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="1" id="39817" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="211680" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="8" id="39886" type="midi" first-edit="nothing" source-0="39884" master-source-0="39884"/>
+    <Region name="HH-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="1" id="39890" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="22049" beat="0.833295540438" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="1" id="39893" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="44098" beat="1.66659108088" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="1" id="39896" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="66147" beat="2.49988662132" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="1" id="39899" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="88196" beat="3.33318216175" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="1" id="39902" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="110245" beat="4.16647770219" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="1" id="39905" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="132294" beat="4.99977324263" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="1" id="39908" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-1.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26460" position="154344" beat="5.83310657596" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="1" id="39911" type="midi" first-edit="nothing" source-0="39523" master-source-0="39523"/>
+    <Region name="HH-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="39961" type="midi" first-edit="nothing" source-0="39959" master-source-0="39959"/>
+    <Region name="HH-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="38588" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="1.75" id="39981" type="midi" first-edit="nothing" source-0="39979" master-source-0="39979"/>
+    <Region name="HH-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="1" id="40004" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="0" id="40119" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="0" id="40125" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="22050" beat="1" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="1" id="40132" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="44100" beat="2" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="1" id="40135" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="66150" beat="3" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="1" id="40138" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="1" id="40141" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="110250" beat="5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="8" start-beats="0" length-beats="1" id="40144" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="132300" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="9" start-beats="0" length-beats="1" id="40147" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="154350" beat="7" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="10" start-beats="0" length-beats="1" id="40150" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="1" id="40161" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="22050" beat="1" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="1" id="40164" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="44100" beat="2" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="1" id="40167" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="66150" beat="3" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="1" id="40170" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="1" id="40173" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="110250" beat="5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="8" start-beats="0" length-beats="1" id="40176" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="132300" beat="6" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="9" start-beats="0" length-beats="1" id="40179" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="HH-7.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="154350" beat="7" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="10" start-beats="0" length-beats="1" id="40182" type="midi" first-edit="nothing" source-0="40002" master-source-0="40002"/>
+    <Region name="Chords-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1378304" position="215040" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="62.5081179138" id="40388" type="midi" first-edit="nothing" source-0="37547" master-source-0="37547"/>
+    <Region name="Chords-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="931560" length="446744" position="1146600" beat="52" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="42.2476190476" length-beats="20" id="40391" type="midi" first-edit="nothing" source-0="37547" master-source-0="37547"/>
+    <Region name="Chords-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="931560" length="446744" position="88200" beat="4" sync-position="931560" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="42.2476190476" length-beats="20.2604988662" id="40409" type="midi" first-edit="nothing" source-0="37547" master-source-0="37547"/>
   </Regions>
   <Locations>
-    <Location id="1238" name="session" start="0" end="846720" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1248" name="Loop" start="0" end="846720" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1238" name="session" start="0" end="1411200" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1248" name="Loop" start="0" end="1411200" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -775,7 +856,7 @@
           <Automation/>
         </Pannable>
         <Processor id="19564" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="19563" flags="" value="0.058484602720"/>
+          <Controllable name="gaincontrol" id="19563" flags="" value="0.249167501926"/>
         </Processor>
       </Processor>
       <Processor id="9355" name="meter-Bus 2" active="yes" user-latency="0" type="meter"/>
@@ -944,7 +1025,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state20">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state23">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -1331,7 +1412,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state14">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state17">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.147059"/>
@@ -1797,7 +1878,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state22">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state25">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.117647"/>
@@ -2263,7 +2344,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state24">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state27">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.044118"/>
@@ -2776,7 +2857,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state9">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state12">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.147059"/>
@@ -3242,7 +3323,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state19">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state22">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.161879"/>
@@ -3708,7 +3789,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state6">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state10">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.102941"/>
@@ -3973,7 +4054,7 @@
         <Controllable name="unison_1_harmonize" id="18586" flags="" value="0.000000000000" parameter="132" symbol="unison_1_harmonize"/>
         <Controllable name="unison_2_harmonize" id="18588" flags="" value="0.000000000000" parameter="133" symbol="unison_2_harmonize"/>
         <Controllable name="velocity_track" id="18590" flags="" value="0.500000000000" parameter="134" symbol="velocity_track"/>
-        <Controllable name="volume" id="18592" flags="" value="0.707107007504" parameter="135" symbol="volume"/>
+        <Controllable name="volume" id="18592" flags="" value="0.707106769085" parameter="135" symbol="volume"/>
       </Processor>
       <Processor id="39130" name="Ping Pong Pan" active="yes" user-latency="0" type="lv2" unique-id="http://distrho.sf.net/plugins/PingPongPan" count="1" custom="no">
         <ConfiguredInput>
@@ -3998,14 +4079,14 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state1">
-          <Port symbol="freq" value="+89.500000"/>
-          <Port symbol="width" value="+31.000000"/>
+          <Port symbol="freq" value="+50.000000"/>
+          <Port symbol="width" value="+11.500000"/>
         </lv2>
-        <Controllable name="Frequency" id="39132" flags="" value="89.500000000000" parameter="4" symbol="freq"/>
-        <Controllable name="Width" id="39134" flags="" value="31.000000000000" parameter="5" symbol="width"/>
+        <Controllable name="Frequency" id="39132" flags="" value="50.000000000000" parameter="4" symbol="freq"/>
+        <Controllable name="Width" id="39134" flags="" value="11.500000000000" parameter="5" symbol="width"/>
       </Processor>
       <Processor id="18230" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="18204" flags="" value="0.081861048937"/>
+        <Controllable name="gaincontrol" id="18204" flags="" value="0.023785369471"/>
       </Processor>
       <Processor id="19582" name="Reverb Bus" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intsend" role="Aux" bitslot="2" selfdestruct="no" target="19448">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes">
@@ -4041,8 +4122,8 @@
       <Controllable name="recenable" id="18236" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="HH" name="HH" id="18241" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="19805" name="Bass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
-      <PresentationInfo order="14" flags="MidiTrack,Selected,OrderSet" color="3856785663"/>
+    <Route id="19805" name="Bass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="14" flags="MidiTrack,OrderSet" color="3856785663"/>
       <Controllable name="solo" id="36888" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="36894" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="36896" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -4092,7 +4173,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state9">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state14">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.294118"/>
@@ -4121,8 +4202,8 @@
           <Port symbol="fil_sustain" value="+0.000000"/>
           <Port symbol="filter_saturation" value="+0.580000"/>
           <Port symbol="filter_type" value="+0.000000"/>
-          <Port symbol="formant_on" value="+1.000000"/>
-          <Port symbol="formant_x" value="+0.506849"/>
+          <Port symbol="formant_on" value="+0.000000"/>
+          <Port symbol="formant_x" value="+0.611111"/>
           <Port symbol="formant_y" value="+1.000000"/>
           <Port symbol="keytrack" value="+0.500000"/>
           <Port symbol="legato" value="+0.000000"/>
@@ -4154,7 +4235,7 @@
           <Port symbol="osc_2_tune" value="+0.500000"/>
           <Port symbol="osc_2_unison_detune" value="+0.000000"/>
           <Port symbol="osc_2_unison_voices" value="+0.000000"/>
-          <Port symbol="osc_2_volume" value="+0.306452"/>
+          <Port symbol="osc_2_volume" value="+0.370968"/>
           <Port symbol="osc_2_waveform" value="+0.300000"/>
           <Port symbol="osc_feedback_amount" value="+0.500000"/>
           <Port symbol="osc_feedback_transpose" value="+0.500000"/>
@@ -4215,7 +4296,7 @@
           <Port symbol="stutter_resample_frequency" value="+0.727273"/>
           <Port symbol="stutter_resample_sync" value="+0.333333"/>
           <Port symbol="stutter_resample_tempo" value="+0.545455"/>
-          <Port symbol="stutter_softness" value="+0.200000"/>
+          <Port symbol="stutter_softness" value="+0.000000"/>
           <Port symbol="stutter_sync" value="+0.333333"/>
           <Port symbol="stutter_tempo" value="+0.400000"/>
           <Port symbol="sub_shuffle" value="+0.000000"/>
@@ -4254,8 +4335,8 @@
         <Controllable name="fil_sustain" id="19998" flags="" value="0.000000000000" parameter="29" symbol="fil_sustain"/>
         <Controllable name="filter_saturation" id="20000" flags="" value="0.579999983311" parameter="30" symbol="filter_saturation"/>
         <Controllable name="filter_type" id="20002" flags="" value="0.000000000000" parameter="31" symbol="filter_type"/>
-        <Controllable name="formant_on" id="20004" flags="" value="1.000000000000" parameter="32" symbol="formant_on"/>
-        <Controllable name="formant_x" id="20006" flags="" value="0.506849288940" parameter="33" symbol="formant_x"/>
+        <Controllable name="formant_on" id="20004" flags="" value="0.000000000000" parameter="32" symbol="formant_on"/>
+        <Controllable name="formant_x" id="20006" flags="" value="0.611111104488" parameter="33" symbol="formant_x"/>
         <Controllable name="formant_y" id="20008" flags="" value="1.000000000000" parameter="34" symbol="formant_y"/>
         <Controllable name="keytrack" id="20010" flags="" value="0.500000000000" parameter="35" symbol="keytrack"/>
         <Controllable name="legato" id="20012" flags="" value="0.000000000000" parameter="36" symbol="legato"/>
@@ -4287,7 +4368,7 @@
         <Controllable name="osc_2_tune" id="20064" flags="" value="0.500000000000" parameter="62" symbol="osc_2_tune"/>
         <Controllable name="osc_2_unison_detune" id="20066" flags="" value="0.000000000000" parameter="63" symbol="osc_2_unison_detune"/>
         <Controllable name="osc_2_unison_voices" id="20068" flags="" value="0.000000000000" parameter="64" symbol="osc_2_unison_voices"/>
-        <Controllable name="osc_2_volume" id="20070" flags="" value="0.306451618671" parameter="65" symbol="osc_2_volume"/>
+        <Controllable name="osc_2_volume" id="20070" flags="" value="0.370967745781" parameter="65" symbol="osc_2_volume"/>
         <Controllable name="osc_2_waveform" id="20072" flags="" value="0.300000011921" parameter="66" symbol="osc_2_waveform"/>
         <Controllable name="osc_feedback_amount" id="20074" flags="" value="0.500000000000" parameter="67" symbol="osc_feedback_amount"/>
         <Controllable name="osc_feedback_transpose" id="20076" flags="" value="0.500000000000" parameter="68" symbol="osc_feedback_transpose"/>
@@ -4348,7 +4429,7 @@
         <Controllable name="stutter_resample_frequency" id="20186" flags="" value="0.727272987366" parameter="123" symbol="stutter_resample_frequency"/>
         <Controllable name="stutter_resample_sync" id="20188" flags="" value="0.333332985640" parameter="124" symbol="stutter_resample_sync"/>
         <Controllable name="stutter_resample_tempo" id="20190" flags="" value="0.545454978943" parameter="125" symbol="stutter_resample_tempo"/>
-        <Controllable name="stutter_softness" id="20192" flags="" value="0.200000002980" parameter="126" symbol="stutter_softness"/>
+        <Controllable name="stutter_softness" id="20192" flags="" value="0.000000000000" parameter="126" symbol="stutter_softness"/>
         <Controllable name="stutter_sync" id="20194" flags="" value="0.333332985640" parameter="127" symbol="stutter_sync"/>
         <Controllable name="stutter_tempo" id="20196" flags="" value="0.400000005960" parameter="128" symbol="stutter_tempo"/>
         <Controllable name="sub_shuffle" id="20198" flags="" value="0.000000000000" parameter="129" symbol="sub_shuffle"/>
@@ -4399,7 +4480,7 @@
         <Controllable name="Low Pass Resonance" id="26531" flags="" value="0.707000017166" parameter="5"/>
       </Processor>
       <Processor id="19835" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="19809" flags="" value="0.379629880190"/>
+        <Controllable name="gaincontrol" id="19809" flags="" value="0.800059497356"/>
       </Processor>
       <Processor id="19837" name="meter-MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="19838" name="Bass" active="yes" user-latency="0" own-input="yes" own-output="no" output="Bass" type="main-outs" role="Main">
@@ -4414,13 +4495,13 @@
         </Pannable>
       </Processor>
       <Slavable/>
-      <Controllable name="monitoring" id="19845" flags="RealTime" value="0.000000000000" monitoring=""/>
+      <Controllable name="monitoring" id="19845" flags="RealTime" value="1.000000000000" monitoring="MonitorInput"/>
       <Controllable name="recsafe" id="19843" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="recenable" id="19841" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Bass" name="Bass" id="19846" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="20364" name="Chords" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
-      <PresentationInfo order="15" flags="MidiTrack,Selected,OrderSet" color="3849494271"/>
+    <Route id="20364" name="Chords" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
+      <PresentationInfo order="15" flags="MidiTrack,OrderSet" color="3849494271"/>
       <Controllable name="solo" id="37213" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="37219" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="37221" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -4438,8 +4519,8 @@
         </Port>
         <Port type="midi" name="Chords/midi_out 1"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="yes"/>
-      <Controllable name="mute" id="37215" flags="Toggle,RealTime" value="1.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="37215" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="20376" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -4470,12 +4551,12 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state7">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state13">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
-          <Port symbol="amp_attack" value="+0.000000"/>
-          <Port symbol="amp_decay" value="+0.558824"/>
+          <Port symbol="amp_attack" value="+0.029297"/>
+          <Port symbol="amp_decay" value="+1.000000"/>
           <Port symbol="amp_release" value="+0.191176"/>
-          <Port symbol="amp_sustain" value="+0.147059"/>
+          <Port symbol="amp_sustain" value="+0.176471"/>
           <Port symbol="arp_frequency" value="+0.600000"/>
           <Port symbol="arp_gate" value="+0.500000"/>
           <Port symbol="arp_octaves" value="+0.000000"/>
@@ -4484,8 +4565,8 @@
           <Port symbol="arp_sync" value="+0.333333"/>
           <Port symbol="arp_tempo" value="+0.818182"/>
           <Port symbol="beats_per_minute" value="+0.357143"/>
-          <Port symbol="cross_modulation" value="+0.412000"/>
-          <Port symbol="cutoff" value="+0.545833"/>
+          <Port symbol="cross_modulation" value="+0.000000"/>
+          <Port symbol="cutoff" value="+0.689076"/>
           <Port symbol="delay_dry_wet" value="+0.264000"/>
           <Port symbol="delay_feedback" value="+0.700000"/>
           <Port symbol="delay_frequency" value="+0.571429"/>
@@ -4494,15 +4575,15 @@
           <Port symbol="delay_tempo" value="+0.727273"/>
           <Port symbol="fil_attack" value="+0.000000"/>
           <Port symbol="fil_decay" value="+0.161765"/>
-          <Port symbol="fil_env_depth" value="+0.634484"/>
+          <Port symbol="fil_env_depth" value="+0.546593"/>
           <Port symbol="fil_release" value="+0.235294"/>
           <Port symbol="fil_sustain" value="+0.000000"/>
-          <Port symbol="filter_saturation" value="+0.500000"/>
+          <Port symbol="filter_saturation" value="+0.583891"/>
           <Port symbol="filter_type" value="+0.000000"/>
           <Port symbol="formant_on" value="+0.000000"/>
           <Port symbol="formant_x" value="+0.876712"/>
           <Port symbol="formant_y" value="+0.198198"/>
-          <Port symbol="keytrack" value="+0.616000"/>
+          <Port symbol="keytrack" value="+1.000000"/>
           <Port symbol="legato" value="+0.000000"/>
           <Port symbol="mod_attack" value="+0.000000"/>
           <Port symbol="mod_decay" value="+0.375000"/>
@@ -4532,7 +4613,7 @@
           <Port symbol="osc_2_tune" value="+0.500000"/>
           <Port symbol="osc_2_unison_detune" value="+0.205078"/>
           <Port symbol="osc_2_unison_voices" value="+0.428571"/>
-          <Port symbol="osc_2_volume" value="+0.400000"/>
+          <Port symbol="osc_2_volume" value="+0.282813"/>
           <Port symbol="osc_2_waveform" value="+0.300000"/>
           <Port symbol="osc_feedback_amount" value="+0.500000"/>
           <Port symbol="osc_feedback_transpose" value="+0.500000"/>
@@ -4543,10 +4624,10 @@
           <Port symbol="poly_lfo_sync" value="+0.333333"/>
           <Port symbol="poly_lfo_tempo" value="+0.636364"/>
           <Port symbol="poly_lfo_waveform" value="+0.000000"/>
-          <Port symbol="polyphony" value="+0.225806"/>
+          <Port symbol="polyphony" value="+1.000000"/>
           <Port symbol="portamento" value="+0.000000"/>
           <Port symbol="portamento_type" value="+0.000000"/>
-          <Port symbol="resonance" value="+0.288732"/>
+          <Port symbol="resonance" value="+0.126761"/>
           <Port symbol="reverb_damping" value="+0.500000"/>
           <Port symbol="reverb_dry_wet" value="+0.000000"/>
           <Port symbol="reverb_feedback" value="+0.500000"/>
@@ -4597,18 +4678,18 @@
           <Port symbol="stutter_sync" value="+0.333333"/>
           <Port symbol="stutter_tempo" value="+0.400000"/>
           <Port symbol="sub_shuffle" value="+0.000000"/>
-          <Port symbol="sub_volume" value="+0.000000"/>
-          <Port symbol="sub_waveform" value="+0.200000"/>
+          <Port symbol="sub_volume" value="+0.129032"/>
+          <Port symbol="sub_waveform" value="+0.000000"/>
           <Port symbol="unison_1_harmonize" value="+0.000000"/>
           <Port symbol="unison_2_harmonize" value="+0.000000"/>
           <Port symbol="velocity_track" value="+0.544000"/>
-          <Port symbol="volume" value="+0.707107"/>
+          <Port symbol="volume" value="+0.662338"/>
         </lv2>
         <Controllable name="hidden" id="20513" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
-        <Controllable name="amp_attack" id="20515" flags="" value="0.000000000000" parameter="5" symbol="amp_attack"/>
-        <Controllable name="amp_decay" id="20517" flags="" value="0.558824002743" parameter="6" symbol="amp_decay"/>
+        <Controllable name="amp_attack" id="20515" flags="" value="0.029296880588" parameter="5" symbol="amp_attack"/>
+        <Controllable name="amp_decay" id="20517" flags="" value="1.000000000000" parameter="6" symbol="amp_decay"/>
         <Controllable name="amp_release" id="20519" flags="" value="0.191175997257" parameter="7" symbol="amp_release"/>
-        <Controllable name="amp_sustain" id="20521" flags="" value="0.147058993578" parameter="8" symbol="amp_sustain"/>
+        <Controllable name="amp_sustain" id="20521" flags="" value="0.176470592618" parameter="8" symbol="amp_sustain"/>
         <Controllable name="arp_frequency" id="20523" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
         <Controllable name="arp_gate" id="20525" flags="" value="0.500000000000" parameter="10" symbol="arp_gate"/>
         <Controllable name="arp_octaves" id="20527" flags="" value="0.000000000000" parameter="11" symbol="arp_octaves"/>
@@ -4617,8 +4698,8 @@
         <Controllable name="arp_sync" id="20533" flags="" value="0.333332985640" parameter="14" symbol="arp_sync"/>
         <Controllable name="arp_tempo" id="20535" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
         <Controllable name="beats_per_minute" id="20537" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
-        <Controllable name="cross_modulation" id="20539" flags="" value="0.412000000477" parameter="17" symbol="cross_modulation"/>
-        <Controllable name="cutoff" id="20541" flags="" value="0.545832991600" parameter="18" symbol="cutoff"/>
+        <Controllable name="cross_modulation" id="20539" flags="" value="0.000000000000" parameter="17" symbol="cross_modulation"/>
+        <Controllable name="cutoff" id="20541" flags="" value="0.689075648785" parameter="18" symbol="cutoff"/>
         <Controllable name="delay_dry_wet" id="20543" flags="" value="0.263999998569" parameter="19" symbol="delay_dry_wet"/>
         <Controllable name="delay_feedback" id="20545" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
         <Controllable name="delay_frequency" id="20547" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
@@ -4627,15 +4708,15 @@
         <Controllable name="delay_tempo" id="20553" flags="" value="0.727272987366" parameter="24" symbol="delay_tempo"/>
         <Controllable name="fil_attack" id="20555" flags="" value="0.000000000000" parameter="25" symbol="fil_attack"/>
         <Controllable name="fil_decay" id="20557" flags="" value="0.161764994264" parameter="26" symbol="fil_decay"/>
-        <Controllable name="fil_env_depth" id="20559" flags="" value="0.634483993053" parameter="27" symbol="fil_env_depth"/>
+        <Controllable name="fil_env_depth" id="20559" flags="" value="0.546593368053" parameter="27" symbol="fil_env_depth"/>
         <Controllable name="fil_release" id="20561" flags="" value="0.235293999314" parameter="28" symbol="fil_release"/>
         <Controllable name="fil_sustain" id="20563" flags="" value="0.000000000000" parameter="29" symbol="fil_sustain"/>
-        <Controllable name="filter_saturation" id="20565" flags="" value="0.500000000000" parameter="30" symbol="filter_saturation"/>
+        <Controllable name="filter_saturation" id="20565" flags="" value="0.583890616894" parameter="30" symbol="filter_saturation"/>
         <Controllable name="filter_type" id="20567" flags="" value="0.000000000000" parameter="31" symbol="filter_type"/>
         <Controllable name="formant_on" id="20569" flags="" value="0.000000000000" parameter="32" symbol="formant_on"/>
         <Controllable name="formant_x" id="20571" flags="" value="0.876712024212" parameter="33" symbol="formant_x"/>
         <Controllable name="formant_y" id="20573" flags="" value="0.198198005557" parameter="34" symbol="formant_y"/>
-        <Controllable name="keytrack" id="20575" flags="" value="0.615999996662" parameter="35" symbol="keytrack"/>
+        <Controllable name="keytrack" id="20575" flags="" value="1.000000000000" parameter="35" symbol="keytrack"/>
         <Controllable name="legato" id="20577" flags="" value="0.000000000000" parameter="36" symbol="legato"/>
         <Controllable name="mod_attack" id="20579" flags="" value="0.000000000000" parameter="37" symbol="mod_attack"/>
         <Controllable name="mod_decay" id="20581" flags="" value="0.375000000000" parameter="38" symbol="mod_decay"/>
@@ -4665,7 +4746,7 @@
         <Controllable name="osc_2_tune" id="20629" flags="" value="0.500000000000" parameter="62" symbol="osc_2_tune"/>
         <Controllable name="osc_2_unison_detune" id="20631" flags="" value="0.205078005791" parameter="63" symbol="osc_2_unison_detune"/>
         <Controllable name="osc_2_unison_voices" id="20633" flags="" value="0.428570985794" parameter="64" symbol="osc_2_unison_voices"/>
-        <Controllable name="osc_2_volume" id="20635" flags="" value="0.400000005960" parameter="65" symbol="osc_2_volume"/>
+        <Controllable name="osc_2_volume" id="20635" flags="" value="0.282812505960" parameter="65" symbol="osc_2_volume"/>
         <Controllable name="osc_2_waveform" id="20637" flags="" value="0.300000011921" parameter="66" symbol="osc_2_waveform"/>
         <Controllable name="osc_feedback_amount" id="20639" flags="" value="0.500000000000" parameter="67" symbol="osc_feedback_amount"/>
         <Controllable name="osc_feedback_transpose" id="20641" flags="" value="0.500000000000" parameter="68" symbol="osc_feedback_transpose"/>
@@ -4676,10 +4757,10 @@
         <Controllable name="poly_lfo_sync" id="20651" flags="" value="0.333332985640" parameter="73" symbol="poly_lfo_sync"/>
         <Controllable name="poly_lfo_tempo" id="20653" flags="" value="0.636363983154" parameter="74" symbol="poly_lfo_tempo"/>
         <Controllable name="poly_lfo_waveform" id="20655" flags="" value="0.000000000000" parameter="75" symbol="poly_lfo_waveform"/>
-        <Controllable name="polyphony" id="20657" flags="" value="0.225805997849" parameter="76" symbol="polyphony"/>
+        <Controllable name="polyphony" id="20657" flags="" value="1.000000000000" parameter="76" symbol="polyphony"/>
         <Controllable name="portamento" id="20659" flags="" value="0.000000000000" parameter="77" symbol="portamento"/>
         <Controllable name="portamento_type" id="20661" flags="" value="0.000000000000" parameter="78" symbol="portamento_type"/>
-        <Controllable name="resonance" id="20663" flags="" value="0.288731992245" parameter="79" symbol="resonance"/>
+        <Controllable name="resonance" id="20663" flags="" value="0.126760557294" parameter="79" symbol="resonance"/>
         <Controllable name="reverb_damping" id="20665" flags="" value="0.500000000000" parameter="80" symbol="reverb_damping"/>
         <Controllable name="reverb_dry_wet" id="20667" flags="" value="0.000000000000" parameter="81" symbol="reverb_dry_wet"/>
         <Controllable name="reverb_feedback" id="20669" flags="" value="0.500000000000" parameter="82" symbol="reverb_feedback"/>
@@ -4730,12 +4811,12 @@
         <Controllable name="stutter_sync" id="20759" flags="" value="0.333332985640" parameter="127" symbol="stutter_sync"/>
         <Controllable name="stutter_tempo" id="20761" flags="" value="0.400000005960" parameter="128" symbol="stutter_tempo"/>
         <Controllable name="sub_shuffle" id="20763" flags="" value="0.000000000000" parameter="129" symbol="sub_shuffle"/>
-        <Controllable name="sub_volume" id="20765" flags="" value="0.000000000000" parameter="130" symbol="sub_volume"/>
-        <Controllable name="sub_waveform" id="20767" flags="" value="0.200000002980" parameter="131" symbol="sub_waveform"/>
+        <Controllable name="sub_volume" id="20765" flags="" value="0.129032254219" parameter="130" symbol="sub_volume"/>
+        <Controllable name="sub_waveform" id="20767" flags="" value="0.000000000000" parameter="131" symbol="sub_waveform"/>
         <Controllable name="unison_1_harmonize" id="20769" flags="" value="0.000000000000" parameter="132" symbol="unison_1_harmonize"/>
         <Controllable name="unison_2_harmonize" id="20771" flags="" value="0.000000000000" parameter="133" symbol="unison_2_harmonize"/>
         <Controllable name="velocity_track" id="20773" flags="" value="0.544000029564" parameter="134" symbol="velocity_track"/>
-        <Controllable name="volume" id="20775" flags="" value="0.707107007504" parameter="135" symbol="volume"/>
+        <Controllable name="volume" id="20775" flags="" value="0.662337660789" parameter="135" symbol="volume"/>
       </Processor>
       <Processor id="26519" name="a-High/Low Pass Filter" active="yes" user-latency="0" type="luaproc" unique-id="f264055749ffefb17f322baf791beb32f1aa10ac" count="1" custom="no">
         <ConfiguredInput>
@@ -4763,21 +4844,21 @@
         <luaproc last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
           <script lua="Lua 5.3">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJhLUhpZ2gvTG93IFBhc3MgRmlsdGVyIiwKCWNhdGVnb3J5ICAgID0gIkZpbHRlciIsCglsaWNlbnNlICAgICA9ICJHUEx2MiIsCglhdXRob3IgICAgICA9ICJBcmRvdXIgVGVhbSIsCglkZXNjcmlwdGlvbiA9IFtbSGlnaCBhbmQgTG93IFBhc3MgRmlsdGVyIHdpdGggZGUtemlwcGVkIGNvbnRyb2xzLCB3cml0dGVuIGluIEFyZG91ci1MdWFdXQp9CgpmdW5jdGlvbiBkc3BfaW9jb25maWcgKCkKCXJldHVybgoJewoJCS0tIGFsbG93IGFueSBudW1iZXIgb2YgSS9PIGFzIGxvbmcgYXMgcG9ydC1jb3VudCBtYXRjaGVzCgkJeyBhdWRpb19pbiA9IC0xLCBhdWRpb19vdXQgPSAtMX0sCgl9CmVuZAoKCmZ1bmN0aW9uIGRzcF9wYXJhbXMgKCkKCXJldHVybgoJewoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkhpZ2ggUGFzcyBTdGVlcG5lc3MiLCBtaW4gPSAwLCBtYXggPSA0LCBkZWZhdWx0ID0gMSwgZW51bSA9IHRydWUsIHNjYWxlcG9pbnRzID0KCQkJewoJCQkJWyJPZmYiXSA9IDAsCgkJCQlbIjEyZEIvb2N0Il0gPSAxLAoJCQkJWyIyNGRCL29jdCJdID0gMiwKCQkJCVsiMzZkQi9vY3QiXSA9IDMsCgkJCQlbIjQ4ZEIvb2N0Il0gPSA0LAoJCQl9CgkJfSwKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJIaWdoIFBhc3MgQ3V0IG9mZiBmcmVxdWVuY3kiLCBtaW4gPSAgIDUsIG1heCA9IDIwMDAwLCBkZWZhdWx0ID0gMTAwLCB1bml0PSJIeiIsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkhpZ2ggUGFzcyBSZXNvbmFuY2UiLCAgICAgICAgIG1pbiA9IDAuMSwgbWF4ID0gNiwgICAgIGRlZmF1bHQgPSAuNzA3LCBsb2dhcml0aG1pYyA9IHRydWUgfSwKCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiTG93IFBhc3MgU3RlZXBuZXNzIiwgbWluID0gMCwgbWF4ID0gNCwgZGVmYXVsdCA9IDEsIGVudW0gPSB0cnVlLCBzY2FsZXBvaW50cyA9CgkJCXsKCQkJCVsiT2ZmIl0gPSAwLAoJCQkJWyIxMmRCL29jdCJdID0gMSwKCQkJCVsiMjRkQi9vY3QiXSA9IDIsCgkJCQlbIjM2ZEIvb2N0Il0gPSAzLAoJCQkJWyI0OGRCL29jdCJdID0gNCwKCQkJfQoJCX0sCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiTG93IFBhc3MgQ3V0IG9mZiBmcmVxdWVuY3kiLCAgbWluID0gIDIwLCBtYXggPSAyMDAwMCwgZGVmYXVsdCA9IDE4MDAwLCB1bml0PSJIeiIsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkxvdyBQYXNzIFJlc29uYW5jZSIsICAgICAgICAgIG1pbiA9IDAuMSwgbWF4ID0gNiwgICAgIGRlZmF1bHQgPSAuNzA3LCBsb2dhcml0aG1pYyA9IHRydWUgfSwKCX0KZW5kCgotLSB0aGVzZSBnbG9iYWxzIGFyZSAqbm90KiBzaGFyZWQgYmV0d2VlbiBEU1AgYW5kIFVJCmxvY2FsIGhwID0ge30gIC0tIHRoZSBiaXF1YWQgaGlnaC1wYXNzIGZpbHRlciBpbnN0YW5jZXMgKERTUCkKbG9jYWwgbHAgPSB7fSAgLS0gdGhlIGJpcXVhZCBoaWdoLXBhc3MgZmlsdGVyIGluc3RhbmNlcyAoRFNQKQpsb2NhbCBmaWx0ID0gbmlsIC0tIHRoZSBiaXF1YWQgZmlsdGVyIGluc3RhbmNlIChHVUksIHJlc3BvbnNlKQpsb2NhbCBjdXIgPSB7MCwgMCwgMCwgMCwgMCwgMH0gLS0gY3VycmVudCBwYXJhbWV0ZXJzCmxvY2FsIGxwZiA9IDAuMDMgLS0gcGFyYW1ldGVyIGxvdy1wYXNzIGZpbHRlciB0aW1lLWNvbnN0YW50CmxvY2FsIGNobiA9IDAgLS0gY2hhbm5lbC9maWx0ZXIgY291bnQKbG9jYWwgbHBmX2NodW5rID0gMCAtLSBjaHVuayBzaXplIGZvciBhdWRpbyBwcm9jZXNzaW5nIHdoZW4gaW50ZXJwb2xhdGluZyBwYXJhbWV0ZXJzCmxvY2FsIG1heF9mcmVxID0gMjAwMDAKCmxvY2FsIG1lbSA9IG5pbCAtLSBtZW1vcnkgeC1mYWRlIGJ1ZmZlcgoKZnVuY3Rpb24gZHNwX2luaXQgKHJhdGUpCgktLSBhbGxvY2F0ZSBzb21lIG1peC1idWZmZXIKCW1lbSA9IEFSRE9VUi5EU1AuRHNwU2htICg4MTkyKQoKCS0tIG1heCBhbGxvd2VkIGN1dC1vZmYgZnJlcXVlbmN5CgltYXhfZnJlcSA9IC40OTkgKiByYXRlCgoJLS0gY3JlYXRlIGEgdGFibGUgb2Ygb2JqZWN0cyB0byBzaGFyZSB3aXRoIHRoZSBHVUkKCWxvY2FsIHRibCA9IHt9Cgl0YmxbJ3NhbXBsZXJhdGUnXSA9IHJhdGUKCXRibFsnbWF4X2ZyZXEnXSA9IG1heF9mcmVxCglzZWxmOnRhYmxlICgpOnNldCAodGJsKQoKCgktLSBQYXJhbWV0ZXIgc21vb3RoaW5nOiB3ZSB3YW50IHRvIGZpbHRlciBvdXQgcGFyYW1ldGVyIGNoYW5nZXMgdGhhdCBhcmUKCS0tIGZhc3RlciB0aGFuIDE1SHosIGFuZCBpbnRlcnBvbGF0ZSBiZXR3ZWVuIHBhcmFtZXRlciB2YWx1ZXMuCgktLSBGb3IgcGVyZm9ybWFuY2UgcmVhc29ucywgd2Ugd2FudCB0byBlbnN1cmUgdGhhdCB0d28gY29uc2VjdXRpdmUgdmFsdWVzCgktLSBvZiB0aGUgaW50ZXJwb2xhdGVkICJzdGVlcG5lc3MiIGFyZSBsZXNzIHRoYXQgMSBhcGFydC4gQnkgY2hvb3NpbmcgdGhlCgktLSBpbnRlcnBvbGF0aW9uIGNodW5rIHNpemUgdG8gYmUgNjQgaW4gbW9zdCBjYXNlcywgYnV0IDMyIGlmIHRoZSByYXRlIGlzCgktLSBzdHJpY3RseSBsZXNzIHRoYW4gMjJrSHogKHRoZXJlJ3Mgb25seSA4a0h6IGluIHN0YW5kYXJkIHJhdGVzKSwgd2UgY2FuCgktLSBlbnN1cmUgdGhhdCBzdGVlcG5lc3MgaW50ZXJwb2xhdGlvbiB3aWxsIG5ldmVyIGNoYW5nZSB0aGUgcGFyYW1ldGVyIGJ5CgktLSBtb3JlIHRoYW4gfjAuODYuCglscGZfY2h1bmsgPSA2NAoJaWYgcmF0ZSA8IDIyMDAwIHRoZW4gbHBmX2NodW5rID0gMzIgZW5kCgktLSBXZSBhcHBseSBhIGRpc2NyZXRlIHZlcnNpb24gb2YgdGhlIHN0YW5kYXJkIFJDIGxvdy1wYXNzLCB3aXRoIGEgY3V0b2ZmCgktLSBmcmVxdWVuY3kgb2YgMTVIei4gRm9yIG1vcmUgaW5mb3JtYXRpb24gYWJvdXQgdGhlIHVuZGVybHlpbmcgbWF0aCwgc2VlCgktLSBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9Mb3ctcGFzc19maWx0ZXIjRGlzY3JldGUtdGltZV9yZWFsaXphdGlvbgoJLS0gKGhlcmUgzpR0IGlzIGxwZl9jaHVuayAvIHJhdGUpCglsb2NhbCBSID0gMiAqIG1hdGgucGkgKiBscGZfY2h1bmsgKiAxNSAtLSBIegoJbHBmID0gUiAvIChSICsgcmF0ZSkKZW5kCgpmdW5jdGlvbiBkc3BfY29uZmlndXJlIChpbnMsIG91dHMpCglhc3NlcnQgKGluczpuX2F1ZGlvICgpID09IG91dHM6bl9hdWRpbyAoKSkKCWxvY2FsIHRibCA9IHNlbGY6dGFibGUgKCk6Z2V0ICgpIC0tIGdldCBzaGFyZWQgbWVtb3J5IHRhYmxlCgoJY2huID0gaW5zOm5fYXVkaW8gKCkKCWN1ciA9IHswLCAwLCAwLCAwLCAwLCAwfQoKCWhwID0ge30KCWxwID0ge30KCgljb2xsZWN0Z2FyYmFnZSAoKQoKCWZvciBjID0gMSwgY2huIGRvCgkJaHBbY10gPSB7fQoJCWxwW2NdID0ge30KCQktLSBpbml0aWFsaXplIGZpbHRlcnMKCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0FSRE9VUjpEU1A6QmlxdWFkCgoJCS0tIEEgZGlmZmVyZW50IEJpcXVhZCBpcyBuZWVkZWQgZm9yIGVhY2ggcGFzcyBhbmQgY2hhbm5lbCBiZWNhdXNlIHRoZXkKCQktLSByZW1lbWJlciB0aGUgbGFzdCB0d28gc2FtcGxlcyBzZWVuIGR1cmluZyB0aGUgbGFzdCBjYWxsIG9mIEJpcXVhZDpydW4oKS4KCQktLSBGb3IgY29udGludWl0eSB0aGVzZSBoYXZlIHRvIGNvbWUgZnJvbSB0aGUgcHJldmlvdXMgYXVkaW8gY2h1bmsgb2YgdGhlCgkJLS0gc2FtZSBjaGFubmVsIGFuZCBwYXNzIGFuZCB3b3VsZCBiZSBjbG9iYmVyZWQgaWYgdGhlIHNhbWUgQmlxdWFkIHdhcwoJCS0tIGNhbGxlZCBzZXZlcmFsIHRpbWVzIGJ5IGN5Y2xlLgoJCWZvciBrID0gMSw0IGRvCgkJCWhwW2NdW2tdID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCQlscFtjXVtrXSA9IEFSRE9VUi5EU1AuQmlxdWFkICh0YmxbJ3NhbXBsZXJhdGUnXSkKCQllbmQKCWVuZAplbmQKCmZ1bmN0aW9uIHNhbnRpemVfcGFyYW1zIChjdHJsKQoJLS0gZG9uJ3QgYWxsb3cgbWFudWFsIGNyb3NzLWZhZGVzLiBlbmZvcmNlIGVudW1zCgljdHJsWzFdID0gbWF0aC5mbG9vcihjdHJsWzFdICsgLjUpCgljdHJsWzRdID0gbWF0aC5mbG9vcihjdHJsWzRdICsgLjUpCgoJLS0gaGlnaCBwYXNzLCBjbGFtcCByYW5nZQoJY3RybFsyXSA9IG1hdGgubWluIChtYXhfZnJlcSwgbWF0aC5tYXggKDUsIGN0cmxbMl0pKQoJY3RybFszXSA9IG1hdGgubWluICg2LCBtYXRoLm1heCAoMC4xLCBjdHJsWzNdKSkKCgktLSBsb3cgcGFzcywgY2xhbXAgcmFuZ2UKCWN0cmxbNV0gPSBtYXRoLm1pbiAobWF4X2ZyZXEsIG1hdGgubWF4ICgyMCwgY3RybFs1XSkpCgljdHJsWzZdID0gbWF0aC5taW4gKDYsIG1hdGgubWF4ICgwLjEsIGN0cmxbNl0pKQoJcmV0dXJuIGN0cmwKZW5kCgotLSBoZWxwZXIgZnVuY3Rpb25zIGZvciBwYXJhbWV0ZXIgaW50ZXJwb2xhdGlvbgpmdW5jdGlvbiBwYXJhbV9jaGFuZ2VkIChjdHJsKQoJZm9yIHAgPSAxLDYgZG8KCQlpZiBjdHJsW3BdIH49IGN1cltwXSB0aGVuCgkJCXJldHVybiB0cnVlCgkJZW5kCgllbmQKCXJldHVybiBmYWxzZQplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIGFwcGx5IHBhcmFtZXRlcnMsIHJlLWNvbXB1dGUgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiBuZWVkZWQKZnVuY3Rpb24gYXBwbHlfcGFyYW1zIChjdHJsKQoJaWYgbm90IHBhcmFtX2NoYW5nZWQgKGN0cmwpIHRoZW4KCQlyZXR1cm4KCWVuZAoKCS0tIGxvdy1wYXNzIGZpbHRlciBjdHJsIHBhcmFtZXRlciB2YWx1ZXMsIHNtb290aCB0cmFuc2l0aW9uCgljdXJbMV0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsxXSwgY3RybFsxXSwgMC4wNSkgLS0gSFAgb3JkZXIgeC1mYWRlCgljdXJbMl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsyXSwgY3RybFsyXSwgMS4wKSAgLS0gSFAgZnJlcS9IegoJY3VyWzNdID0gbG93X3Bhc3NfZmlsdGVyX3BhcmFtIChjdXJbM10sIGN0cmxbM10sIDAuMDEpIC0tIEhQIHF1YWxpdHkKCWN1cls0XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzRdLCBjdHJsWzRdLCAwLjA1KSAtLSBMUCBvcmRlciB4LWZhZGUKCWN1cls1XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzVdLCBjdHJsWzVdLCAxLjApICAtLSBMUCBmcmVxL0h6CgljdXJbNl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cls2XSwgY3RybFs2XSwgMC4wMSkgLS0gTFAgcXVhbGl0eQoKCWZvciBjID0gMSwgY2huIGRvCgkJZm9yIGsgPSAxLDQgZG8KCQkJaHBbY11ba106Y29tcHV0ZSAoQVJET1VSLkRTUC5CaXF1YWRUeXBlLkhpZ2hQYXNzLCBjdXJbMl0sIGN1clszXSwgMCkKCQkJbHBbY11ba106Y29tcHV0ZSAoQVJET1VSLkRTUC5CaXF1YWRUeXBlLkxvd1Bhc3MsICBjdXJbNV0sIGN1cls2XSwgMCkKCQllbmQKCWVuZAplbmQKCgotLSB0aGUgYWN0dWFsIERTUCBjYWxsYmFjawpmdW5jdGlvbiBkc3BfcnVuIChpbnMsIG91dHMsIG5fc2FtcGxlcykKCWFzc2VydCAobl9zYW1wbGVzIDwgODE5MikKCWFzc2VydCAoI2lucyA9PSBjaG4pCglsb2NhbCBjdHJsID0gc2FudGl6ZV9wYXJhbXMgKEN0cmxQb3J0czphcnJheSAoKSkKCglsb2NhbCBjaGFuZ2VkID0gZmFsc2UKCWxvY2FsIHNpeiA9IG5fc2FtcGxlcwoJbG9jYWwgb2ZmID0gMAoKCS0tIGlmIGEgcGFyYW1ldGVyIHdhcyBjaGFuZ2VkLCBwcm9jZXNzIGF0IG1vc3QgbHBmX2NodW5rIHNhbXBsZXMKCS0tIGF0IGEgdGltZSBhbmQgaW50ZXJwb2xhdGUgcGFyYW1ldGVycyB1bnRpbCB0aGUgY3VycmVudCBzZXR0aW5ncwoJLS0gbWF0Y2ggdGhlIHRhcmdldCB2YWx1ZXMKCWlmIHBhcmFtX2NoYW5nZWQgKGN0cmwpIHRoZW4KCQljaGFuZ2VkID0gdHJ1ZQoJCXNpeiA9IGxwZl9jaHVuawoJZW5kCgoJd2hpbGUgbl9zYW1wbGVzID4gMCBkbwoJCWlmIGNoYW5nZWQgdGhlbiBhcHBseV9wYXJhbXMgKGN0cmwpIGVuZAoJCWlmIHNpeiA+IG5fc2FtcGxlcyB0aGVuIHNpeiA9IG5fc2FtcGxlcyBlbmQKCgkJbG9jYWwgaG8gPSBtYXRoLmZsb29yKGN1clsxXSkKCQlsb2NhbCBsbyA9IG1hdGguZmxvb3IoY3VyWzRdKQoKCQktLSBwcm9jZXNzIGFsbCBjaGFubmVscwoJCWZvciBjID0gMSwgI2lucyBkbwoKCQkJLS0gSGlnaCBQYXNzCgkJCWxvY2FsIHhmYWRlID0gY3VyWzFdIC0gaG8KCgkJCS0tIHByZXBhcmUgc2NyYXRjaCBtZW1vcnkKCQkJQVJET1VSLkRTUC5jb3B5X3ZlY3RvciAobWVtOnRvX2Zsb2F0IChvZmYpLCBpbnNbY106b2Zmc2V0IChvZmYpLCBzaXopCgoJCQktLSBydW4gYXQgbGVhc3QgfGhvfCBiaXF1YWRzLi4uCgkJCWZvciBrID0gMSxobyBkbwoJCQkJaHBbY11ba106cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJZW5kCgkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCgkJCS0tIG1peCB0aGUgb3V0cHV0IG9mIHxob3wgYmlxdWFkcyAod2l0aCB3ZWlnaHQgfDEteGZhZGV8KQoJCQktLSB3aXRoIHRoZSBvdXRwdXQgb2YgfGhvKzF8IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHx4ZmFkZXwpCgkJCWlmIHhmYWRlID4gMCB0aGVuCgkJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCAxIC0geGZhZGUpCgkJCQlocFtjXVtobysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQkJQVJET1VSLkRTUC5taXhfYnVmZmVyc193aXRoX2dhaW4gKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeiwgeGZhZGUpCgkJCQktLSBhbHNvIHJ1biB0aGUgbmV4dCBiaXF1YWQgYmVjYXVzZSBpdCBuZWVkcyB0byBoYXZlIHRoZSBjb3JyZWN0IHN0YXRlCgkJCQktLSBpbiBjYXNlIGl0IHN0YXJ0IGFmZmVjdGluZyB0aGUgbmV4dCBjaHVuY2sgb2Ygb3V0cHV0LiBIaWdoZXIgb3JkZXIKCQkJCS0tIG9uZXMgYXJlIGd1YXJhbnRlZWQgbm90IHRvIGJlIG5lZWRlZCBmb3IgdGhlIG5leHQgcnVuIGJlY2F1c2UgdGhlCgkJCQktLSBpbnRlcnBvbGF0ZWQgb3JkZXIgd29uJ3QgaW5jcmVhc2UgbW9yZSB0aGFuIDAuODYgaW4gb25lIHN0ZXAgdGhhbmtzCgkJCQktLSB0byB0aGUgY2hvaWNlIG9mIHRoZSB2YWx1ZSBvZiB8bHBmfC4KCQkJCWlmIGhvICsgMiA8PSA0IHRoZW4gaHBbY11baG8rMl06cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikgZW5kCgkJCWVsc2VpZiBobyArIDEgPD0gNCB0aGVuCgkJCQktLSBydW4gdGhlIG5leHQgYmlxdWFkIGluIGNhc2UgaXQgaXMgdXNlZCBuZXh0IGNodW5rCgkJCQlocFtjXVtobysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQllbmQKCgkJCS0tIExvdyBQYXNzCgkJCXhmYWRlID0gY3VyWzRdIC0gbG8KCgkJCS0tIHByZXBhcmUgc2NyYXRjaCBtZW1vcnkgKGZyb20gaGlnaCBwYXNzIG91dHB1dCkKCQkJQVJET1VSLkRTUC5jb3B5X3ZlY3RvciAobWVtOnRvX2Zsb2F0IChvZmYpLCBvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6KQoKCQkJLS0gcnVuIGF0IGxlYXN0IHxsb3wgYmlxdWFkcy4uLgoJCQlmb3IgayA9IDEsbG8gZG8KCQkJCWxwW2NdW2tdOnJ1biAobWVtOnRvX2Zsb2F0IChvZmYpLCBzaXopCgkJCWVuZAoJCQlBUkRPVVIuRFNQLmNvcHlfdmVjdG9yIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgbWVtOnRvX2Zsb2F0IChvZmYpLCBzaXopCgoJCQktLSBtaXggdGhlIG91dHB1dCBvZiB8bG98IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHwxLXhmYWRlfCkKCQkJLS0gd2l0aCB0aGUgb3V0cHV0IG9mIHxsbysxfCBiaXF1YWRzICh3aXRoIHdlaWdodCB8eGZhZGV8KQoJCQlpZiB4ZmFkZSA+IDAgdGhlbgoJCQkJQVJET1VSLkRTUC5hcHBseV9nYWluX3RvX2J1ZmZlciAob3V0c1tjXTpvZmZzZXQgKG9mZiksIHNpeiwgMSAtIHhmYWRlKQoJCQkJbHBbY11bbG8rMV06cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJCUFSRE9VUi5EU1AubWl4X2J1ZmZlcnNfd2l0aF9nYWluIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgbWVtOnRvX2Zsb2F0IChvZmYpLCBzaXosIHhmYWRlKQoJCQkJLS0gYWxzbyBydW4gdGhlIG5leHQgYmlxdWFkIGluIGNhc2UgaXQgc3RhcnQgYWZmZWN0aW5nIHRoZSBuZXh0CgkJCQktLSBjaHVuY2sgb2Ygb3V0cHV0LgoJCQkJaWYgbG8gKyAyIDw9IDQgdGhlbiBscFtjXVtsbysyXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KSBlbmQKCQkJZWxzZWlmIGxvICsgMSA8PSA0IHRoZW4KCQkJCS0tIHJ1biB0aGUgbmV4dCBiaXF1YWQgaW4gY2FzZSBpdCBpcyB1c2VkIG5leHQgY2h1bmsKCQkJCWxwW2NdW2xvKzFdOnJ1biAobWVtOnRvX2Zsb2F0IChvZmYpLCBzaXopCgkJCWVuZAoKCQllbmQKCgkJbl9zYW1wbGVzID0gbl9zYW1wbGVzIC0gc2l6CgkJb2ZmID0gb2ZmICsgc2l6CgllbmQKCglpZiBjaGFuZ2VkIHRoZW4KCQktLSBub3RpZnkgZGlzcGxheQoJCXNlbGY6cXVldWVfZHJhdyAoKQoJZW5kCmVuZAoKCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0tIGlubGluZSBkaXNwbGF5CgpmdW5jdGlvbiByb3VuZCAobikKCXJldHVybiBtYXRoLmZsb29yIChuICsgLjUpCmVuZAoKZnVuY3Rpb24gZnJlcV9hdF94ICh4LCB3KQoJLS0gZnJlcXVlbmN5IGluIEh6IGF0IGdpdmVuIHgtYXhpcyBwaXhlbAoJcmV0dXJuIDIwICogMTAwMCBeICh4IC8gdykKZW5kCgpmdW5jdGlvbiB4X2F0X2ZyZXEgKGYsIHcpCgktLSB4LWF4aXMgcGl4ZWwgZm9yIGdpdmVuIGZyZXF1ZW5jeSwgcG93ZXItc2NhbGUKCXJldHVybiB3ICogbWF0aC5sb2cgKGYgLyAyMC4wKSAvIG1hdGgubG9nICgxMDAwLjApCmVuZAoKZnVuY3Rpb24gZGJfdG9feSAoZGIsIGgpCgktLSB5LWF4aXMgZ2FpbiBtYXBwaW5nCglpZiBkYiA8IC02MCB0aGVuIGRiID0gLTYwIGVuZAoJaWYgZGIgPiAgMTIgdGhlbiBkYiA9ICAxMiBlbmQKCXJldHVybiAtLjUgKyByb3VuZCAoMC4yICogaCkgLSBoICogZGIgLyA2MAplbmQKCmZ1bmN0aW9uIGdyaWRfZGIgKGN0eCwgdywgaCwgZGIpCgktLSBkcmF3IGhvcml6b250YWwgZ3JpZCBsaW5lCgktLSBub3RlIHRoYXQgYSBjYWlybyBwaXhlbCBhdCBZIHNwYW5zIFtZIC0gMC41IHRvIFkgKyAwLjVdCglsb2NhbCB5ID0gLS41ICsgcm91bmQgKGRiX3RvX3kgKGRiLCBoKSkKCWN0eDptb3ZlX3RvICgwLCB5KQoJY3R4OmxpbmVfdG8gKHcsIHkpCgljdHg6c3Ryb2tlICgpCmVuZAoKZnVuY3Rpb24gZ3JpZF9mcmVxIChjdHgsIHcsIGgsIGYpCgktLSBkcmF3IHZlcnRpY2FsIGdyaWQgbGluZQoJbG9jYWwgeCA9IC0uNSArIHJvdW5kICh4X2F0X2ZyZXEgKGYsIHcpKQoJY3R4Om1vdmVfdG8gKHgsIDApCgljdHg6bGluZV90byAoeCwgaCkKCWN0eDpzdHJva2UgKCkKZW5kCgpmdW5jdGlvbiByZXNwb25zZSAoaG8sIGxvLCBmKQoJLS0gY2FsY3VsYXRlIHRyYW5zZmVyIGZ1bmN0aW9uIHJlc3BvbnNlIGZvciBnaXZlbgoJLS0gaGkvcG8gcGFzcyBvcmRlciBhdCBnaXZlbiBmcmVxdWVuY3kgW0h6XQoJbG9jYWwgZGIgPSBobyAqIGZpbHRbJ2hwJ106ZEJfYXRfZnJlcSAoZikKCXJldHVybiBkYiArIGxvICogZmlsdFsnbHAnXTpkQl9hdF9mcmVxIChmKQplbmQKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglpZiBub3QgZmlsdCB0aGVuCgkJbG9jYWwgdGJsID0gc2VsZjp0YWJsZSAoKTpnZXQgKCkgLS0gZ2V0IHNoYXJlZCBtZW1vcnkgdGFibGUKCQktLSBpbnN0YW50aWF0ZSBmaWx0ZXIgKHRvIGNhbGN1bGF0ZSB0aGUgdHJhbnNmZXIgZnVuY3Rpb24ncyByZXNwb25zZSkKCQlmaWx0ID0ge30KCQlmaWx0WydocCddID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCWZpbHRbJ2xwJ10gPSBBUkRPVVIuRFNQLkJpcXVhZCAodGJsWydzYW1wbGVyYXRlJ10pCgkJbWF4X2ZyZXEgICA9IHRibFsnbWF4X2ZyZXEnXQoJZW5kCgoJbG9jYWwgY3RybCA9IHNhbnRpemVfcGFyYW1zIChDdHJsUG9ydHM6YXJyYXkgKCkpCgktLSBzZXQgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiB0aGV5IGhhdmUgY2hhbmdlZAoJaWYgcGFyYW1fY2hhbmdlZCAoY3RybCkgdGhlbgoJCWZvciBrID0gMSw2IGRvIGN1cltrXSA9IGN0cmxba10gZW5kCgkJZmlsdFsnaHAnXTpjb21wdXRlIChBUkRPVVIuRFNQLkJpcXVhZFR5cGUuSGlnaFBhc3MsIGN1clsyXSwgY3VyWzNdLCAwKQoJCWZpbHRbJ2xwJ106Y29tcHV0ZSAoQVJET1VSLkRTUC5CaXF1YWRUeXBlLkxvd1Bhc3MsICBjdXJbNV0sIGN1cls2XSwgMCkKCWVuZAoKCS0tIGNhbGMgaGVpZ2h0IG9mIGlubGluZSBkaXNwbGF5Cglsb2NhbCBoID0gMSB8IG1hdGguY2VpbCAodyAqIDkgLyAxNikgLS0gdXNlIDE2OjkgYXNwZWN0LCBvZGQgbnVtYmVyIG9mIHkgcGl4ZWxzCglpZiAoaCA+IG1heF9oKSB0aGVuIGggPSBtYXhfaCBlbmQgLS0gYnV0IGF0IG1vc3QgbWF4LWhlaWdodAoKCS0tIGN0eCBpcyBhIGh0dHA6Ly9jYWlyb2dyYXBoaWNzLm9yZy8gY29udGV4dAoJLS0gaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDYWlybzpDb250ZXh0CgoJLS0gY2xlYXIgYmFja2dyb3VuZAoJY3R4OnJlY3RhbmdsZSAoMCwgMCwgdywgaCkKCWN0eDpzZXRfc291cmNlX3JnYmEgKC4yLCAuMiwgLjIsIDEuMCkKCWN0eDpmaWxsICgpCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OmNsaXAgKCkKCgktLSBzZXQgbGluZSB3aWR0aDogMXB4CgljdHg6c2V0X2xpbmVfd2lkdGggKDEuMCkKCgktLSBkcmF3IGdyaWQKCWxvY2FsIGRhc2gzID0gQy5Eb3VibGVWZWN0b3IgKCkKCWxvY2FsIGRhc2gyID0gQy5Eb3VibGVWZWN0b3IgKCkKCWRhc2gyOmFkZCAoezEsIDJ9KQoJZGFzaDM6YWRkICh7MSwgM30pCgljdHg6c2V0X2Rhc2ggKGRhc2gyLCAyKSAtLSBkb3R0ZWQgbGluZTogMSBwaXhlbCAyIHNwYWNlCgljdHg6c2V0X3NvdXJjZV9yZ2JhICguNSwgLjUsIC41LCAuOCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgMCkKCWN0eDpzZXRfZGFzaCAoZGFzaDMsIDIpIC0tIGRhc2hlZCBsaW5lOiAxIHBpeGVsIDMgc3BhY2UKCWN0eDpzZXRfc291cmNlX3JnYmEgKC41LCAuNSwgLjUsIC41KQoJZ3JpZF9kYiAoY3R4LCB3LCBoLCAtMTIpCglncmlkX2RiIChjdHgsIHcsIGgsIC0yNCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgLTM2KQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMCkKCWdyaWRfZnJlcSAoY3R4LCB3LCBoLCAxMDAwKQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMDAwKQoJY3R4OnVuc2V0X2Rhc2ggKCkKCgktLSBkcmF3IHRyYW5zZmVyIGZ1bmN0aW9uIGxpbmUKCWxvY2FsIGhvID0gbWF0aC5mbG9vcihjdXJbMV0pCglsb2NhbCBsbyA9IG1hdGguZmxvb3IoY3VyWzRdKQoKCWN0eDpzZXRfc291cmNlX3JnYmEgKC44LCAuOCwgLjgsIDEuMCkKCWN0eDptb3ZlX3RvICgtLjUsIGRiX3RvX3kgKHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICgwLCB3KSksIGgpKQoJZm9yIHggPSAxLHcgZG8KCQlsb2NhbCBkYiA9IHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICh4LCB3KSkKCQljdHg6bGluZV90byAoLS41ICsgeCwgZGJfdG9feSAoZGIsIGgpKQoJZW5kCgktLSBzdG9rZSBhIGxpbmUsIGtlZXAgdGhlIHBhdGgKCWN0eDpzdHJva2VfcHJlc2VydmUgKCkKCgktLSBmaWxsIGFyZWEgdG8gemVybyB1bmRlciB0aGUgY3VydmUKCWN0eDpsaW5lX3RvICh3LCAtLjUgKyByb3VuZCAoZGJfdG9feSAoMCwgaCkpKQoJY3R4OmxpbmVfdG8gKDAsIC0uNSArIHJvdW5kIChkYl90b195ICgwLCBoKSkpCgljdHg6Y2xvc2VfcGF0aCAoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjUsIC41LCAuNSwgLjUpCgljdHg6ZmlsbCAoKQoKCXJldHVybiB7dywgaH0KZW5kCg==</script>
           <Port id="0" value="+2.000000"/>
-          <Port id="1" value="+147.407135"/>
+          <Port id="1" value="+124.536469"/>
           <Port id="2" value="+0.702604"/>
           <Port id="3" value="+1.000000"/>
           <Port id="4" value="+20000.000000"/>
           <Port id="5" value="+0.707000"/>
         </luaproc>
         <Controllable name="High Pass Steepness" id="26521" flags="" value="2.000000000000" parameter="0"/>
-        <Controllable name="High Pass Cut off frequency" id="26523" flags="" value="147.407135009766" parameter="1"/>
+        <Controllable name="High Pass Cut off frequency" id="26523" flags="" value="124.536468505859" parameter="1"/>
         <Controllable name="High Pass Resonance" id="26525" flags="" value="0.702603995800" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="26527" flags="" value="1.000000000000" parameter="3"/>
         <Controllable name="Low Pass Cut off frequency" id="26529" flags="" value="20000.000000000000" parameter="4"/>
         <Controllable name="Low Pass Resonance" id="26531" flags="" value="0.707000017166" parameter="5"/>
       </Processor>
       <Processor id="20394" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="20368" flags="" value="0.716879487038"/>
+        <Controllable name="gaincontrol" id="20368" flags="" value="0.943687438965"/>
       </Processor>
       <Processor id="20929" name="Reverb Bus" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intsend" role="Aux" bitslot="3" selfdestruct="no" target="19448">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes">
@@ -4792,7 +4873,7 @@
           <Automation/>
         </Pannable>
         <Processor id="20944" name="Amp" active="yes" user-latency="0" type="amp">
-          <Controllable name="gaincontrol" id="20943" flags="" value="0.018068313599"/>
+          <Controllable name="gaincontrol" id="20943" flags="" value="0.248116031289"/>
         </Processor>
       </Processor>
       <Processor id="20396" name="meter-Chords" active="yes" user-latency="0" type="meter"/>
@@ -4815,51 +4896,46 @@
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="19847" name="Bass" type="midi" orig-track-id="19805" frozen="no" combine-ops="0">
-      <Region name="Bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="105840" length="423360" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="16" id="20230" type="midi" first-edit="nothing" source-0="20218" master-source-0="20218"/>
-      <Region name="Bass-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="105840" length="423360" position="423360" beat="16" sync-position="105840" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="4" length-beats="16" id="20349" type="midi" first-edit="nothing" source-0="20218" master-source-0="20218"/>
-    </Playlist>
+    <Playlist id="19847" name="Bass" type="midi" orig-track-id="19805" frozen="no" combine-ops="0"/>
     <Playlist id="20406" name="Chords.1" type="midi" orig-track-id="20364" frozen="no" combine-ops="0">
-      <Region name="Chords-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="8" length-beats="8" id="20787" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
-      <Region name="Chords-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="211680" beat="8" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="8" length-beats="8" id="20899" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
-      <Region name="Chords-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="423360" beat="16" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="8" length-beats="8" id="20902" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
-      <Region name="Chords-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="211680" length="211680" position="635040" beat="24" sync-position="211680" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="8" length-beats="8" id="20905" type="midi" first-edit="nothing" source-0="20408" master-source-0="20408"/>
+      <Region name="Chords.1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="176400" length="352800" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="8" length-beats="16" id="40405" type="midi" first-edit="nothing" source-0="40403" master-source-0="40403"/>
+      <Region name="Chords.2-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="176400" length="352800" position="352800" beat="16" sync-position="176400" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="8" length-beats="16" id="40524" type="midi" first-edit="nothing" source-0="40403" master-source-0="40403"/>
+      <Region name="Chords.3-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="176400" length="352800" position="705600" beat="32" sync-position="176400" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="8" length-beats="16" id="40527" type="midi" first-edit="nothing" source-0="40403" master-source-0="40403"/>
+      <Region name="Chords.4-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="176400" length="352800" position="1058400" beat="48" sync-position="176400" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="8" length-beats="16" id="40530" type="midi" first-edit="nothing" source-0="40403" master-source-0="40403"/>
     </Playlist>
     <Playlist id="929" name="Kick.1" type="midi" orig-track-id="5325" frozen="no" combine-ops="0"/>
     <Playlist id="18242" name="HH" type="midi" orig-track-id="18200" frozen="no" combine-ops="0">
-      <Region name="HH-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="18622" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="19420" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="19423" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="19426" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="19429" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="19432" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="19435" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
-      <Region name="HH-3.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="19438" type="midi" first-edit="nothing" source-0="18620" master-source-0="18620"/>
+      <Region name="HH-9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="7.99995464853" id="40157" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="176400" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="7.99995464853" id="40212" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="352800" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="7.99995464853" id="40215" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="529200" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="7.99995464853" id="40218" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="705600" beat="32" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="7.99995464853" id="40221" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="882000" beat="40" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="7.99995464853" id="40224" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="1058400" beat="48" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="7.99995464853" id="40227" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
+      <Region name="HH-9.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176399" position="1234800" beat="56" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="7.99995464853" id="40230" type="midi" first-edit="nothing" source-0="40155" master-source-0="40155"/>
     </Playlist>
     <Playlist id="13528" name="MIDI.1" type="midi" orig-track-id="13486" frozen="no" combine-ops="0">
-      <Region name="Kick-1.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="13627" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="13624" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="13621" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="13618" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="13615" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="13612" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="13609" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
-      <Region name="Kick-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="13606" type="midi" first-edit="nothing" source-0="1233" master-source-0="1233"/>
+      <Region name="MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="8" id="39176" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="176400" beat="8" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="4" length-beats="8" id="40234" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="352800" beat="16" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="4" length-beats="8" id="40237" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="529200" beat="24" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="4" length-beats="8" id="40240" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="705600" beat="32" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="4" length-beats="8" id="40243" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="882000" beat="40" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="4" length-beats="8" id="40246" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="1058400" beat="48" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="4" length-beats="8" id="40249" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
+      <Region name="MIDI-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="176400" position="1234800" beat="56" sync-position="88200" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="4" length-beats="8" id="40252" type="midi" first-edit="nothing" source-0="39174" master-source-0="39174"/>
     </Playlist>
-    <Playlist id="154" name="Test.1" type="midi" orig-track-id="115" frozen="no" combine-ops="0">
-      <Region name="Test-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="423360" position="793800" beat="30" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="16" id="13853" type="midi" first-edit="nothing" source-0="13851" master-source-0="13851"/>
-    </Playlist>
+    <Playlist id="154" name="Test.1" type="midi" orig-track-id="115" frozen="no" combine-ops="0"/>
     <Playlist id="9193" name="Snare Bottom.1" type="midi" orig-track-id="8772" frozen="no" combine-ops="0"/>
     <Playlist id="8377" name="Snare Bottom" type="midi" orig-track-id="8335" frozen="no" combine-ops="0"/>
     <Playlist id="13679" name="Snare Midi.1" type="midi" orig-track-id="13637" frozen="no" combine-ops="0">
-      <Region name="Snare Bottom-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="13761" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="105840" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="33187" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="211680" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="4" id="33190" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="317520" beat="12" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="4" id="33193" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.27" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="4" id="33196" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.28" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="529200" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="4" id="33199" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="635040" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="4" id="33202" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
-      <Region name="Snare Bottom-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="105840" position="740880" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="4" id="33205" type="midi" first-edit="nothing" source-0="8709" master-source-0="8709"/>
+      <Region name="Snare Midi-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="8" id="39203" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="176400" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="8" id="40190" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="352800" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="8" id="40193" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="529200" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="0" length-beats="8" id="40196" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="705600" beat="32" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="8" id="40199" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="882000" beat="40" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="8" id="40202" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="1058400" beat="48" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0" length-beats="8" id="40205" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
+      <Region name="Snare Midi-2.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="176400" position="1234800" beat="56" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0" length-beats="8" id="40208" type="midi" first-edit="nothing" source-0="39201" master-source-0="39201"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
@@ -4894,7 +4970,7 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+    <Tempo pulse="0.000000" frame="0" beats-per-minute="120.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
     <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
   </TempoMap>
   <ControlProtocols>
@@ -4905,6 +4981,30 @@
   </ControlProtocols>
   <Extra>
     <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="no" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="no" videotl="no"/>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="1248"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="false" path="/home/rob/Bureaublad"/>
+        <Field name="label" enabled="true" value="just derping"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="false"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="true" value="T_Delim"/>
+        <Field name="date" enabled="true" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -4913,7 +5013,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="363" y-size="350"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="318" y-off="428" x-size="582" y-size="456"/>
+      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="0" x-size="582" y-size="456"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -4963,8 +5063,8 @@
       <Window name="PM-19549-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9355-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9356-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-20364-20511" visible="no" x-off="23" y-off="486" x-size="418" y-size="54" custom-ui="no"/>
-      <Window name="P-20364-26519" visible="no" x-off="2774" y-off="516" x-size="534" y-size="327" custom-ui="no"/>
+      <Window name="P-20364-20511" visible="no" x-off="23" y-off="486" x-size="418" y-size="54" custom-ui="yes"/>
+      <Window name="P-20364-26519" visible="no" x-off="2774" y-off="516" x-size="534" y-size="327" custom-ui="yes"/>
       <Window name="P-20364-20394" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-20364-20929" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-20364-20396" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -5083,7 +5183,7 @@
       <Window name="PM-9180-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9182-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9183-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-18200-18328" visible="no" x-off="23" y-off="486" x-size="418" y-size="54" custom-ui="no"/>
+      <Window name="P-18200-18328" visible="no" x-off="23" y-off="486" x-size="418" y-size="54" custom-ui="yes"/>
       <Window name="P-18200-18230" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-18200-19582" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-18200-18232" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -5103,7 +5203,7 @@
       <Window name="PM-19835-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-19837-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-19838-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-18200-39130" visible="no" x-off="400" y-off="544" x-size="418" y-size="224" custom-ui="yes"/>
+      <Window name="P-18200-39130" visible="no" x-off="39" y-off="0" x-size="418" y-size="224" custom-ui="yes"/>
       <Window name="PM-39130-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="route 28" color="58981:54066:29490"/>
@@ -5217,7 +5317,7 @@
           </Object>
           <Object id="processor 33259"/>
         </Object>
-        <Object id="rtav 13486" height="46" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 13486" height="339" visible="1" note-range-min="48" note-range-max="83" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 13490" height="46" visible="0"/>
         <Object id="automation 13486 12/0/0" height="46" visible="0"/>
         <Object id="strip 13486" strip-width="Wide" visible="1">
@@ -5229,7 +5329,7 @@
         <Object id="strip 13637" strip-width="Wide" visible="1">
           <Object id="processor 13667"/>
         </Object>
-        <Object id="rtav 18200" height="46" visible="1" note-range-min="44" note-range-max="78" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 18200" height="331" visible="1" note-range-min="44" note-range-max="78" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 18204" height="46" visible="0"/>
         <Object id="automation 18200 12/0/0" height="46" visible="0"/>
         <Object id="strip 18200" strip-width="Wide" visible="1">
@@ -5263,7 +5363,7 @@
         </Object>
         <Object id="automation 19824" height="46" visible="0"/>
         <Object id="automation 19828" height="46" visible="0"/>
-        <Object id="rtav 20364" height="46" visible="1" note-range-min="46" note-range-max="81" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 20364" height="236" visible="1" note-range-min="40" note-range-max="81" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 20368" height="46" visible="0"/>
         <Object id="automation 20364 12/0/0" height="46" visible="0"/>
         <Object id="strip 20364" strip-width="Wide" visible="1">
