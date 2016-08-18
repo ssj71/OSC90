@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="OSC90"/>
-  <Main x="0" y="0" w="1918" h="1027" current-tab="editor"/>
-  <Editor id="18" edit-horizontal-pane-pos="0.800998" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="4096" snap-to="SnapToBar" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="4541136" left-frame="1593344" y-origin="578.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
+  <Main x="0" y="22" w="2876" h="1752" current-tab="editor"/>
+  <Editor id="18" edit-horizontal-pane-pos="0.900000" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="1024" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv4" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="6019099" left-frame="4870144" y-origin="0.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
     <Window name="Editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Region id="146278"/>
-      <Marker id="1248" start="no"/>
+      <Marker id="1238" start="no"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
     <ActionScript lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</ActionScript>
     <ActionHooks/>
   </Editor>
-  <Mixer mixer-rhs-pane1-pos="0.600000" mixer-rhs-pane2-pos="0.700000" mixer-list-hpane-pos="0.077244" mixer-inner-pane-pos="0.800000" narrow-strips="no" show-mixer="yes" show-mixer-list="yes" maximised="no">
-    <Window name="Mixer" visible="yes" x-off="1920" y-off="0" x-size="1436" y-size="872" tabbed="no"/>
-    <PluginOrder>
-      <PluginInfo sort="0" unique-id="1a4364e9bd9ac6d9fa91211b3ec514f641eca283" expanded="0"/>
-      <PluginInfo sort="1" unique-id="urn:ardour:a-comp" expanded="0"/>
-      <PluginInfo sort="2" unique-id="urn:ardour:a-comp#stereo" expanded="0"/>
-      <PluginInfo sort="3" unique-id="urn:ardour:a-delay" expanded="0"/>
-      <PluginInfo sort="4" unique-id="urn:ardour:a-eq" expanded="0"/>
-      <PluginInfo sort="5" unique-id="f264055749ffefb17f322baf791beb32f1aa10ac" expanded="0"/>
-      <PluginInfo sort="6" unique-id="9286724135bde5e27d5b08ee30d28514d7021097" expanded="0"/>
-      <PluginInfo sort="7" unique-id="463862083e200ce96fa781e4f92fe20322771a73" expanded="0"/>
-      <PluginInfo sort="8" unique-id="urn:ardour:a-reverb" expanded="0"/>
-      <PluginInfo sort="9" unique-id="a258c30d07b1ee17cc8b9b074e6d007d44223b80" expanded="0"/>
-      <PluginInfo sort="10" unique-id="http://calf.sourceforge.net/plugins/eq12" expanded="0"/>
-      <PluginInfo sort="11" unique-id="http://eq10q.sourceforge.net/compressor_stereo" expanded="0"/>
-      <PluginInfo sort="12" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" expanded="0"/>
-      <PluginInfo sort="13" unique-id="urn:juce:TalReverb2" expanded="0"/>
-    </PluginOrder>
+  <Mixer mixer-rhs-pane1-pos="0.600000" mixer-rhs-pane2-pos="0.700000" mixer-list-hpane-pos="0.200000" mixer-inner-pane-pos="0.800000" narrow-strips="no" show-mixer="no" show-mixer-list="yes" maximised="no">
+    <Window name="Mixer" visible="no" x-off="1920" y-off="0" x-size="1436" y-size="1752" tabbed="no"/>
+    <PluginOrder/>
   </Mixer>
   <Preferences>
     <Window name="Preferences" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
