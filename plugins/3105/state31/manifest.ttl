@@ -10,3 +10,8 @@
 	lv2:appliesTo <http://tytel.org/helm> ;
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> .
+
+<state.ttl>
+	a pset:Preset ;
+	rdfs:seeAlso <state.ttl> ;
+	lv2:appliesTo <http://tytel.org/helm> .
