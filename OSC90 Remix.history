@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1471795152" tv-usec="514070" name="region drag">
+  <UndoTransaction tv-sec="1471795152" tv-usec="656308992" name="region drag">
     <StatefulDiffCommand obj-id="273235" type-name="ARDOUR::MidiRegion">
       <Changes/>
     </StatefulDiffCommand>
@@ -17,7 +17,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795157" tv-usec="621284" name="move notes">
+  <UndoTransaction tv-sec="1471795157" tv-usec="656308992" name="move notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="3.99428" new="4.00151" id="3526896"/>
@@ -42,7 +42,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795161" tv-usec="30660" name="resize notes">
+  <UndoTransaction tv-sec="1471795161" tv-usec="656308992" name="resize notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="4.00151" new="4" id="3526896"/>
@@ -68,7 +68,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795181" tv-usec="565957" name="move notes">
+  <UndoTransaction tv-sec="1471795181" tv-usec="656308992" name="move notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="6.75498" new="7" id="3527081"/>
@@ -93,7 +93,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795182" tv-usec="801716" name="move notes">
+  <UndoTransaction tv-sec="1471795182" tv-usec="656308992" name="move notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="7.00663" new="7.25" id="3527083"/>
@@ -118,7 +118,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795184" tv-usec="371333" name="resize notes">
+  <UndoTransaction tv-sec="1471795184" tv-usec="656308992" name="resize notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="7.2572" new="7.5" id="3527085"/>
@@ -144,7 +144,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795206" tv-usec="264779" name="delete selection">
+  <UndoTransaction tv-sec="1471795206" tv-usec="656308992" name="delete selection">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes/>
       <AddedNotes/>
@@ -165,7 +165,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795223" tv-usec="798717" name="move notes">
+  <UndoTransaction tv-sec="1471795223" tv-usec="656308992" name="move notes">
     <NoteDiffCommand midi-source="273076">
       <ChangedNotes>
         <Change property="StartTime" old="15.2622" new="15.25" id="3527464"/>
@@ -191,14 +191,14 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795246" tv-usec="952826" name="bounce range">
+  <UndoTransaction tv-sec="1471795246" tv-usec="656308992" name="bounce range">
     <StatefulDiffCommand obj-id="144400" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
           <Add id="273468"/>
-          <Remove id="273327"/>
           <Remove id="273002"/>
           <Remove id="273235"/>
+          <Remove id="273327"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -217,7 +217,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795307" tv-usec="471769" name="Region start trim">
+  <UndoTransaction tv-sec="1471795307" tv-usec="656308992" name="Region start trim">
     <StatefulDiffCommand obj-id="273468" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="0" to="211680"/>
@@ -241,7 +241,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795310" tv-usec="443953" name="Region start trim">
+  <UndoTransaction tv-sec="1471795310" tv-usec="656308992" name="Region start trim">
     <StatefulDiffCommand obj-id="273468" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="211680" to="317520"/>
@@ -265,7 +265,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795357" tv-usec="68288" name="Region end trim">
+  <UndoTransaction tv-sec="1471795357" tv-usec="656308992" name="Region end trim">
     <StatefulDiffCommand obj-id="273468" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="1580808" to="1693440"/>
@@ -285,8 +285,8 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795378" tv-usec="372833" name="move marker">
-    <MementoCommand obj-id="312277" type-name="ARDOUR::Locations">
+  <UndoTransaction tv-sec="1471795378" tv-usec="656308992" name="move marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="1248" name="Loop" start="846720" end="1693440" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
@@ -313,8 +313,8 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795380" tv-usec="309744" name="move marker">
-    <MementoCommand obj-id="312277" type-name="ARDOUR::Locations">
+  <UndoTransaction tv-sec="1471795380" tv-usec="656308992" name="move marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="1248" name="Loop" start="423360" end="1693440" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
@@ -341,8 +341,8 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795381" tv-usec="568736" name="remove marker">
-    <MementoCommand obj-id="312277" type-name="ARDOUR::Locations">
+  <UndoTransaction tv-sec="1471795381" tv-usec="656308992" name="remove marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="1248" name="Loop" start="423360" end="1693440" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
@@ -367,8 +367,8 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795382" tv-usec="885553" name="move marker">
-    <MementoCommand obj-id="312277" type-name="ARDOUR::Locations">
+  <UndoTransaction tv-sec="1471795382" tv-usec="656308992" name="move marker">
+    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="1248" name="Loop" start="423360" end="1693440" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
@@ -393,15 +393,15 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795390" tv-usec="691301" name="bounce range">
+  <UndoTransaction tv-sec="1471795390" tv-usec="656308992" name="bounce range">
     <StatefulDiffCommand obj-id="19847" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
           <Add id="273511"/>
-          <Remove id="272821"/>
           <Remove id="259781"/>
           <Remove id="272668"/>
           <Remove id="272768"/>
+          <Remove id="272821"/>
           <Remove id="273259"/>
         </Regions>
       </Changes>
@@ -421,7 +421,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795395" tv-usec="472081" name="Region start trim">
+  <UndoTransaction tv-sec="1471795395" tv-usec="656308992" name="Region start trim">
     <StatefulDiffCommand obj-id="273511" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="0" to="105840"/>
@@ -445,15 +445,15 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795401" tv-usec="520888" name="bounce range">
+  <UndoTransaction tv-sec="1471795401" tv-usec="656308992" name="bounce range">
     <StatefulDiffCommand obj-id="20406" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
           <Add id="273537"/>
-          <Remove id="273321"/>
-          <Remove id="272874"/>
-          <Remove id="272676"/>
           <Remove id="272418"/>
+          <Remove id="272676"/>
+          <Remove id="272874"/>
+          <Remove id="273321"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -481,7 +481,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471795405" tv-usec="941683" name="Region end trim">
+  <UndoTransaction tv-sec="1471795405" tv-usec="656308992" name="Region end trim">
     <StatefulDiffCommand obj-id="273537" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="1666980" to="1693440"/>
