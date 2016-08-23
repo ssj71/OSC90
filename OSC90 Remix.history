@@ -1,441 +1,463 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1471896000" tv-usec="567919" name="Region end trim">
-    <StatefulDiffCommand obj-id="273171" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="105840" to="39690"/>
-        <length-beats from="4" to="1.5"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1471983258" tv-usec="259030" name="Region end trim">
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327860"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327860"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896002" tv-usec="604976" name="Region end trim">
-    <StatefulDiffCommand obj-id="273184" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471983259" tv-usec="975752" name="Region end trim">
+    <StatefulDiffCommand obj-id="327860" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="105840" to="39690"/>
-        <length-beats from="4" to="1.5"/>
+        <length from="92610" to="105840"/>
+        <length-beats from="3.5" to="4"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327860"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327860"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896005" tv-usec="202581" name="Region end trim">
-    <StatefulDiffCommand obj-id="299717" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471983767" tv-usec="397995" name="capture">
+    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="105840" to="39690"/>
-        <length-beats from="4" to="1.5"/>
+        <Regions>
+          <Add id="327883"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1471983770" tv-usec="954827" name="delete objects">
+    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="327883"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5533696" y-origin="87,000000">
         <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327883"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1234944" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5533696" y-origin="87,000000">
         <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896025" tv-usec="148927" name="Region end trim">
-    <StatefulDiffCommand obj-id="273171" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471983876" tv-usec="207438" name="capture">
+    <StatefulDiffCommand obj-id="327936" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="39690" to="52920"/>
-        <length-beats from="1.5" to="2"/>
+        <Regions>
+          <Add id="328118"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1471984041" tv-usec="11161" name="delete selection">
+    <NoteDiffCommand midi-source="328111">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="4590033" note="82" channel="8" time="50.0093" length="0.0379063" velocity="75"/>
+        <note id="4589764" note="82" channel="8" time="45.0075" length="0.0397581" velocity="74"/>
+        <note id="4589874" note="82" channel="8" time="49.0075" length="0.0399849" velocity="74"/>
+        <note id="4589850" note="82" channel="8" time="48.0124" length="0.034845" velocity="75"/>
+        <note id="4588626" note="82" channel="8" time="44.0074" length="0.0432729" velocity="75"/>
+        <note id="4589823" note="82" channel="8" time="47.0074" length="0.0399849" velocity="74"/>
+        <note id="4589794" note="82" channel="8" time="46.0073" length="0.0400227" velocity="75"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="328118">
+            <note channel="8" time="44,007370" note="82" length="0,043273" velocity="75" off-velocity="64"/>
+            <note channel="8" time="45,007521" note="82" length="0,039758" velocity="74" off-velocity="64"/>
+            <note channel="8" time="46,007294" note="82" length="0,040023" velocity="75" off-velocity="64"/>
+            <note channel="8" time="50,009335" note="82" length="0,037906" velocity="75" off-velocity="64"/>
+            <note channel="8" time="47,007370" note="82" length="0,039985" velocity="74" off-velocity="64"/>
+            <note channel="8" time="48,012396" note="82" length="0,034845" velocity="75" off-velocity="64"/>
+            <note channel="8" time="49,007483" note="82" length="0,039985" velocity="74" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896027" tv-usec="635840" name="Region end trim">
-    <StatefulDiffCommand obj-id="273171" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="52920" to="79380"/>
-        <length-beats from="2" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1471984072" tv-usec="772688" name="delete selection">
+    <NoteDiffCommand midi-source="328111">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="4588636" note="70" channel="8" time="44.2993" length="0.00136054" velocity="17"/>
+        <note id="4589843" note="69" channel="8" time="47.799" length="2.58828" velocity="48"/>
+        <note id="4589763" note="70" channel="8" time="45.0075" length="0.041421" velocity="50"/>
+        <note id="4589859" note="70" channel="8" time="48.3021" length="2.08522" velocity="17"/>
+        <note id="4589883" note="70" channel="8" time="49.5056" length="0.0416856" velocity="66"/>
+        <note id="4588643" note="70" channel="8" time="44.5056" length="0.0399471" velocity="66"/>
+        <note id="4589849" note="70" channel="8" time="48.0124" length="0.0366591" velocity="50"/>
+        <note id="4590028" note="69" channel="8" time="49.7991" length="3.77929e-05" velocity="48"/>
+        <note id="4589873" note="70" channel="8" time="49.0075" length="0.0415722" velocity="50"/>
+        <note id="4588625" note="70" channel="8" time="44.0074" length="0.0432729" velocity="50"/>
+        <note id="4589822" note="70" channel="8" time="47.0074" length="0.0415722" velocity="50"/>
+        <note id="4589772" note="70" channel="8" time="45.2991" length="0.00147392" velocity="17"/>
+        <note id="4589802" note="70" channel="8" time="46.2992" length="0.00124717" velocity="17"/>
+        <note id="4589807" note="70" channel="8" time="46.5055" length="0.0418745" velocity="66"/>
+        <note id="4589865" note="70" channel="8" time="48.5073" length="0.0417234" velocity="66"/>
+        <note id="4589837" note="70" channel="8" time="47.5055" length="0.0418367" velocity="66"/>
+        <note id="4589793" note="70" channel="8" time="46.0073" length="0.0417989" velocity="40"/>
+        <note id="4589788" note="69" channel="8" time="45.7993" length="4.58802" velocity="48"/>
+        <note id="4589777" note="70" channel="8" time="45.5056" length="0.0419501" velocity="66"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="328118">
+            <note channel="8" time="44,007370" note="70" length="0,043273" velocity="50" off-velocity="64"/>
+            <note channel="8" time="44,299282" note="70" length="0,001361" velocity="17" off-velocity="64"/>
+            <note channel="8" time="44,505631" note="70" length="0,039947" velocity="66" off-velocity="64"/>
+            <note channel="8" time="45,007521" note="70" length="0,041421" velocity="50" off-velocity="64"/>
+            <note channel="8" time="45,299131" note="70" length="0,001474" velocity="17" off-velocity="64"/>
+            <note channel="8" time="45,505556" note="70" length="0,041950" velocity="66" off-velocity="64"/>
+            <note channel="8" time="45,799282" note="69" length="4,588020" velocity="48" off-velocity="64"/>
+            <note channel="8" time="46,007294" note="70" length="0,041799" velocity="40" off-velocity="64"/>
+            <note channel="8" time="46,299169" note="70" length="0,001247" velocity="17" off-velocity="64"/>
+            <note channel="8" time="46,505480" note="70" length="0,041875" velocity="66" off-velocity="64"/>
+            <note channel="8" time="47,007370" note="70" length="0,041572" velocity="50" off-velocity="64"/>
+            <note channel="8" time="47,505518" note="70" length="0,041837" velocity="66" off-velocity="64"/>
+            <note channel="8" time="47,799017" note="69" length="2,588284" velocity="48" off-velocity="64"/>
+            <note channel="8" time="48,012396" note="70" length="0,036659" velocity="50" off-velocity="64"/>
+            <note channel="8" time="48,302079" note="70" length="2,085223" velocity="17" off-velocity="64"/>
+            <note channel="8" time="48,507294" note="70" length="0,041723" velocity="66" off-velocity="64"/>
+            <note channel="8" time="49,007483" note="70" length="0,041572" velocity="50" off-velocity="64"/>
+            <note channel="8" time="49,505593" note="70" length="0,041686" velocity="66" off-velocity="64"/>
+            <note channel="8" time="49,799131" note="69" length="0,000038" velocity="48" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896030" tv-usec="568104" name="Region end trim">
-    <StatefulDiffCommand obj-id="273158" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="105840" to="79380"/>
-        <length-beats from="4" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1471984077" tv-usec="938505" name="delete selection">
+    <NoteDiffCommand midi-source="328111">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="4589821" note="54" channel="8" time="47.0055" length="0.0467498" velocity="122"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273158"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="328118">
+            <note channel="8" time="47,005480" note="54" length="0,046750" velocity="122" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273158"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896032" tv-usec="715889" name="Region end trim">
-    <StatefulDiffCommand obj-id="273184" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="39690" to="79380"/>
-        <length-beats from="1.5" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1471984083" tv-usec="420230" name="delete selection">
+    <NoteDiffCommand midi-source="328111">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="4589846" note="49" channel="9" time="48.0055" length="0.00166289" velocity="67"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="328118">
+            <note channel="9" time="48,005480" note="49" length="0,001663" velocity="67" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="1065216" y-origin="716,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896034" tv-usec="632388" name="Region end trim">
-    <StatefulDiffCommand obj-id="299717" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984256" tv-usec="578917" name="Region end trim">
+    <StatefulDiffCommand obj-id="328118" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="39690" to="79380"/>
-        <length-beats from="1.5" to="3"/>
+        <length from="1333248" to="1164240"/>
+        <length-beats from="50.3873015873" to="44"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896036" tv-usec="606419" name="Region end trim">
-    <StatefulDiffCommand obj-id="273511" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984261" tv-usec="546145" name="region drag">
+    <StatefulDiffCommand obj-id="328118" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="1184085" to="1243620"/>
-        <length-beats from="44.75" to="47"/>
+        <position from="0" to="529200"/>
+        <beat from="0" to="20"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896045" tv-usec="770394" name="Region end trim">
-    <StatefulDiffCommand obj-id="273511" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984267" tv-usec="355184" name="Region start trim">
+    <StatefulDiffCommand obj-id="328118" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="1243620" to="1184085"/>
-        <length-beats from="47" to="44.75"/>
+        <start from="0" to="1051785"/>
+        <length from="1164240" to="112455"/>
+        <position from="529200" to="1580985"/>
+        <beat from="20" to="59.75"/>
+        <start-beats from="0" to="39.75"/>
+        <length-beats from="44" to="4.25"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1210880" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896055" tv-usec="622347" name="Region end trim">
-    <StatefulDiffCommand obj-id="273537" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984268" tv-usec="738032" name="region drag">
+    <StatefulDiffCommand obj-id="328118" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="1270080" to="1217160"/>
-        <length-beats from="48" to="46"/>
+        <position from="1580985" to="1177470"/>
+        <beat from="59.75" to="44.5"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="716,000000">
         <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896057" tv-usec="316866" name="Region end trim">
-    <StatefulDiffCommand obj-id="273537" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984281" tv-usec="570615" name="region drag">
+    <StatefulDiffCommand obj-id="327936" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="1217160" to="1190700"/>
-        <length-beats from="46" to="45"/>
+        <Regions>
+          <Remove id="328118"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="154" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="328290"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="397312" y-origin="563,000000">
         <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328118"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328290"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896065" tv-usec="140504" name="Region end trim">
-    <StatefulDiffCommand obj-id="273171" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984284" tv-usec="426330" name="delete objects">
+    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="79380" to="46305"/>
-        <length-beats from="3" to="1.75"/>
+        <Regions>
+          <Remove id="327835"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327835"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896067" tv-usec="199848" name="Region end trim">
-    <StatefulDiffCommand obj-id="273184" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984285" tv-usec="497768" name="delete objects">
+    <StatefulDiffCommand obj-id="13679" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="79380" to="39690"/>
-        <length-beats from="3" to="1.5"/>
+        <Regions>
+          <Remove id="327860"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="327860"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896079" tv-usec="367183" name="Region end trim">
-    <StatefulDiffCommand obj-id="273158" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984287" tv-usec="160684" name="region drag">
+    <StatefulDiffCommand obj-id="154" type-name="ARDOUR::MidiPlaylist">
       <Changes>
-        <length from="79380" to="105840"/>
-        <length-beats from="3" to="4"/>
+        <Regions>
+          <Remove id="328290"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="328303"/>
+        </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273158"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328290"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="1430528" y-origin="39,000000">
         <Selection>
-          <Region id="273158"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328303"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896081" tv-usec="120617" name="Region end trim">
-    <StatefulDiffCommand obj-id="273171" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984290" tv-usec="186866" name="region drag">
+    <StatefulDiffCommand obj-id="328303" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="46305" to="105840"/>
-        <length-beats from="1.75" to="4"/>
+        <position from="1713285" to="1693440"/>
+        <beat from="64.75" to="64"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="256" left-frame="1669376" y-origin="39,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328303"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1491456" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="256" left-frame="1669376" y-origin="39,000000">
         <Selection>
-          <Region id="273171"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328303"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471896102" tv-usec="983857" name="Region end trim">
-    <StatefulDiffCommand obj-id="273184" type-name="ARDOUR::MidiRegion">
+  <UndoTransaction tv-sec="1471984293" tv-usec="955672" name="region drag">
+    <StatefulDiffCommand obj-id="328303" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <length from="39690" to="105840"/>
-        <length-beats from="1.5" to="4"/>
+        <position from="1693440" to="1686825"/>
+        <beat from="64" to="63.75"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="256" left-frame="1669376" y-origin="39,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328303"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="256" left-frame="1669376" y-origin="39,000000">
         <Selection>
-          <Region id="273184"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471896105" tv-usec="283797" name="Region end trim">
-    <StatefulDiffCommand obj-id="299717" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="79380" to="105840"/>
-        <length-beats from="3" to="4"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="299717"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471896107" tv-usec="554072" name="Region end trim">
-    <StatefulDiffCommand obj-id="273511" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="1184085" to="1270080"/>
-        <length-beats from="44.75" to="48"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="273511"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471896110" tv-usec="167317" name="Region end trim">
-    <StatefulDiffCommand obj-id="273537" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="1190700" to="1270080"/>
-        <length-beats from="45" to="48"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="648192" y-origin="0,000000">
-        <Selection>
-          <Region id="273537"/>
-          <Marker id="1248" start="yes"/>
+          <Region id="328303"/>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
