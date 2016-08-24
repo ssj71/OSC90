@@ -1,447 +1,1351 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1471982787" tv-usec="715801" name="resize notes">
-    <NoteDiffCommand midi-source="1233">
+  <UndoTransaction tv-sec="1472032017" tv-usec="573974" name="change velocities">
+    <NoteDiffCommand midi-source="273535">
       <ChangedNotes>
-        <Change property="Length" old="0.25" new="0.5" id="4456997"/>
+        <Change property="Velocity" old="78" new="79" id="3588437"/>
+        <Change property="Velocity" old="83" new="84" id="3588438"/>
+        <Change property="Velocity" old="73" new="74" id="3588439"/>
+        <Change property="Velocity" old="93" new="94" id="3588440"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1,000000" note="60" length="0,250000" velocity="100" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="24,000000" note="57" length="3,000000" velocity="83" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="60" length="3,000000" velocity="78" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="64" length="3,000000" velocity="73" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="67" length="3,000000" velocity="93" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1.000000" note="60" length="0.500000" velocity="100" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="24,000000" note="57" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="60" length="3,000000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="64" length="3,000000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="67" length="3,000000" velocity="94" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471982793" tv-usec="720992" name="move notes">
-    <NoteDiffCommand midi-source="1233">
+  <UndoTransaction tv-sec="1472032035" tv-usec="403200" name="move notes">
+    <NoteDiffCommand midi-source="273535">
       <ChangedNotes>
-        <Change property="StartTime" old="1" new="1.25" id="4456997"/>
+        <Change property="NoteNumber" old="60" new="62" id="3588437"/>
+        <Change property="NoteNumber" old="57" new="59" id="3588438"/>
+        <Change property="NoteNumber" old="64" new="66" id="3588439"/>
+        <Change property="NoteNumber" old="67" new="69" id="3588440"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1,000000" note="60" length="0,500000" velocity="100" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="24,000000" note="57" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="60" length="3,000000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="64" length="3,000000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="67" length="3,000000" velocity="94" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1,250000" note="60" length="0,500000" velocity="100" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="24,000000" note="59" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="62" length="3,000000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="66" length="3,000000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="24,000000" note="69" length="3,000000" velocity="94" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471982799" tv-usec="466100" name="move notes">
-    <NoteDiffCommand midi-source="1233">
+  <UndoTransaction tv-sec="1472032043" tv-usec="758337" name="move notes">
+    <NoteDiffCommand midi-source="273535">
       <ChangedNotes>
-        <Change property="StartTime" old="1.25" new="1.5" id="4456997"/>
+        <Change property="NoteNumber" old="57" new="59" id="3588445"/>
+        <Change property="NoteNumber" old="66" new="68" id="3588446"/>
+        <Change property="NoteNumber" old="60" new="62" id="3588447"/>
+        <Change property="NoteNumber" old="62" new="64" id="3588448"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1,250000" note="60" length="0,500000" velocity="100" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="28,000000" note="66" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="57" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="60" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="62" length="3,000000" velocity="99" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="259664">
-            <note channel="0" time="1,500000" note="60" length="0,500000" velocity="100" off-velocity="64"/>
-          </MIDINote>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983037" tv-usec="56299" name="delete selection">
-    <NoteDiffCommand midi-source="299387">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="3667659" note="60" channel="0" time="0" length="0.5" velocity="41"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <MIDINote region-id="299389">
-            <note channel="0" time="0,000000" note="60" length="0,500000" velocity="41" off-velocity="64"/>
-          </MIDINote>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983038" tv-usec="671731" name="add note">
-    <NoteDiffCommand midi-source="18620">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="4496025" note="60" channel="0" time="0" length="0.25" velocity="31"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <MIDINote region-id="259753">
-            <note channel="0" time="0,000000" note="60" length="0,250000" velocity="31" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="28,000000" note="68" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="59" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="62" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="64" length="3,000000" velocity="99" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983045" tv-usec="421279" name="move notes">
-    <NoteDiffCommand midi-source="299387">
+  <UndoTransaction tv-sec="1472032049" tv-usec="609115" name="change velocities">
+    <NoteDiffCommand midi-source="273535">
       <ChangedNotes>
-        <Change property="StartTime" old="3" new="3.5" id="3732531"/>
+        <Change property="Velocity" old="92" new="91" id="3588445"/>
+        <Change property="Velocity" old="84" new="83" id="3588446"/>
+        <Change property="Velocity" old="92" new="91" id="3588447"/>
+        <Change property="Velocity" old="99" new="98" id="3588448"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="299389">
-            <note channel="0" time="3,000000" note="60" length="0,500000" velocity="41" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="28,000000" note="68" length="3,000000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="59" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="62" length="3,000000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="64" length="3,000000" velocity="99" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="22528" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="299389">
-            <note channel="0" time="3,500000" note="60" length="0,500000" velocity="41" off-velocity="64"/>
-          </MIDINote>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983048" tv-usec="238562" name="add note">
-    <NoteDiffCommand midi-source="18620">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="4497748" note="60" channel="0" time="3" length="0.25" velocity="47"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <MIDINote region-id="299389">
-            <note channel="0" time="3,500000" note="60" length="0,500000" velocity="41" off-velocity="64"/>
-          </MIDINote>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <MIDINote region-id="259753">
-            <note channel="0" time="3,000000" note="60" length="0,250000" velocity="47" off-velocity="64"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="28,000000" note="68" length="3,000000" velocity="83" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="59" length="3,000000" velocity="91" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="62" length="3,000000" velocity="91" off-velocity="64"/>
+            <note channel="0" time="28,000000" note="64" length="3,000000" velocity="98" off-velocity="64"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983050" tv-usec="425851" name="delete selection">
-    <NoteDiffCommand midi-source="18620">
-      <ChangedNotes/>
+  <UndoTransaction tv-sec="1472032073" tv-usec="766493" name="transpose">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="45" new="46" id="3588258"/>
+        <Change property="NoteNumber" old="57" new="58" id="3588260"/>
+        <Change property="NoteNumber" old="55" new="56" id="3588262"/>
+        <Change property="NoteNumber" old="48" new="49" id="3588264"/>
+        <Change property="NoteNumber" old="50" new="51" id="3588266"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588268"/>
+        <Change property="NoteNumber" old="55" new="56" id="3588270"/>
+        <Change property="NoteNumber" old="45" new="46" id="3588272"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588274"/>
+        <Change property="NoteNumber" old="50" new="51" id="3588276"/>
+        <Change property="NoteNumber" old="48" new="49" id="3588278"/>
+        <Change property="NoteNumber" old="43" new="44" id="3588280"/>
+        <Change property="NoteNumber" old="44" new="45" id="3588282"/>
+      </ChangedNotes>
       <AddedNotes/>
-      <RemovedNotes>
-        <note id="431964" note="60" channel="0" time="3.5" length="0.25" velocity="51"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <MIDINote region-id="259753">
-            <note channel="0" time="3,500000" note="60" length="0,250000" velocity="51" off-velocity="64"/>
-          </MIDINote>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="398592" y-origin="39,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983120" tv-usec="73091" name="create region">
-    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="327835"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="1525248" y-origin="87,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="1525248" y-origin="87,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983179" tv-usec="252295" name="add note">
-    <NoteDiffCommand midi-source="327833">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="4521764" note="60" channel="0" time="0" length="0.5" velocity="64"/>
-      </AddedNotes>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="1525248" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="45" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="57" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="55" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="48" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="50" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="51" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="55" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="45" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="50" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="48" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="43" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="44" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="1525248" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
-          <MIDINote region-id="327835">
-            <note channel="0" time="0,000000" note="60" length="0,500000" velocity="64" off-velocity="64"/>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="46" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="58" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="56" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="49" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="51" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="52" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="56" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="46" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="49" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="44" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="45" length="0,499948" velocity="97" off-velocity="0"/>
           </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983187" tv-usec="153114" name="set loop range from region">
-    <MementoCommand obj-id="1248" type-name="ARDOUR::Location">
-      <Location id="1248" name="Loop" start="410130" end="648270" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      <Location id="1248" name="Loop" start="1693440" end="1799279" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1472032075" tv-usec="918391" name="transpose">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="46" new="47" id="3588258"/>
+        <Change property="NoteNumber" old="58" new="59" id="3588260"/>
+        <Change property="NoteNumber" old="56" new="57" id="3588262"/>
+        <Change property="NoteNumber" old="49" new="50" id="3588264"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588266"/>
+        <Change property="NoteNumber" old="52" new="53" id="3588268"/>
+        <Change property="NoteNumber" old="56" new="57" id="3588270"/>
+        <Change property="NoteNumber" old="46" new="47" id="3588272"/>
+        <Change property="NoteNumber" old="52" new="53" id="3588274"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588276"/>
+        <Change property="NoteNumber" old="49" new="50" id="3588278"/>
+        <Change property="NoteNumber" old="44" new="45" id="3588280"/>
+        <Change property="NoteNumber" old="45" new="46" id="3588282"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
-          <Region id="327835"/>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="46" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="58" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="56" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="49" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="51" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="52" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="56" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="46" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="49" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="44" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="45" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
-          <Region id="327835"/>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="47" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="59" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="57" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="50" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="52" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="53" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="57" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="47" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="53" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="50" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="45" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="46" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983191" tv-usec="625535" name="move marker">
-    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="1693440" end="1799279" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="1680210" end="1799279" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1472032092" tv-usec="359572" name="change velocities">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="Velocity" old="87" new="86" id="3588258"/>
+        <Change property="Velocity" old="92" new="91" id="3588260"/>
+        <Change property="Velocity" old="92" new="91" id="3588262"/>
+        <Change property="Velocity" old="74" new="73" id="3588264"/>
+        <Change property="Velocity" old="92" new="91" id="3588266"/>
+        <Change property="Velocity" old="87" new="86" id="3588268"/>
+        <Change property="Velocity" old="99" new="98" id="3588270"/>
+        <Change property="Velocity" old="84" new="83" id="3588272"/>
+        <Change property="Velocity" old="99" new="98" id="3588274"/>
+        <Change property="Velocity" old="99" new="98" id="3588276"/>
+        <Change property="Velocity" old="110" new="109" id="3588278"/>
+        <Change property="Velocity" old="79" new="78" id="3588280"/>
+        <Change property="Velocity" old="97" new="96" id="3588282"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
-          <Region id="327835"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="47" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="59" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="57" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="50" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="52" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="53" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="57" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="47" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="53" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="50" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="45" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="46" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="351,000000">
         <Selection>
-          <Region id="327835"/>
-          <Marker id="1248" start="yes"/>
+          <MIDINote region-id="273511">
+            <note channel="0" time="28,000000" note="47" length="0,750000" velocity="86" off-velocity="64"/>
+            <note channel="0" time="28,750000" note="59" length="0,750000" velocity="91" off-velocity="64"/>
+            <note channel="0" time="29,500000" note="57" length="0,750000" velocity="91" off-velocity="64"/>
+            <note channel="0" time="30,250000" note="50" length="0,500000" velocity="73" off-velocity="64"/>
+            <note channel="0" time="30,750000" note="52" length="0,250000" velocity="91" off-velocity="64"/>
+            <note channel="0" time="31,000000" note="53" length="0,500000" velocity="86" off-velocity="64"/>
+            <note channel="0" time="31,500000" note="57" length="0,500000" velocity="98" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="47" length="0,750000" velocity="83" off-velocity="64"/>
+            <note channel="0" time="32,750000" note="53" length="0,750000" velocity="98" off-velocity="64"/>
+            <note channel="0" time="33,500000" note="52" length="0,750000" velocity="98" off-velocity="64"/>
+            <note channel="0" time="34,250000" note="50" length="0,750000" velocity="109" off-velocity="64"/>
+            <note channel="0" time="35,000000" note="45" length="0,500000" velocity="78" off-velocity="64"/>
+            <note channel="0" time="35,500000" note="46" length="0,499948" velocity="96" off-velocity="0"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983192" tv-usec="677838" name="move marker">
-    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="1680210" end="1799279" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="1238" name="session" start="0" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="1680210" end="1812510" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1472032098" tv-usec="566342" name="transpose">
+    <NoteDiffCommand midi-source="273535">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="70" new="69" id="3588453"/>
+        <Change property="NoteNumber" old="67" new="66" id="3588454"/>
+        <Change property="NoteNumber" old="60" new="59" id="3588455"/>
+        <Change property="NoteNumber" old="63" new="62" id="3588456"/>
+        <Change property="NoteNumber" old="60" new="59" id="3588461"/>
+        <Change property="NoteNumber" old="63" new="62" id="3588462"/>
+        <Change property="NoteNumber" old="69" new="68" id="3588463"/>
+        <Change property="NoteNumber" old="65" new="64" id="3588464"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="429,000000">
         <Selection>
-          <Region id="327835"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="32,000000" note="67" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="70" length="3,500000" velocity="94" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="63" length="3,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="60" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="60" length="3,500000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="63" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="69" length="3,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="65" length="3,500000" velocity="110" off-velocity="64"/>
+          </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="430080" y-origin="429,000000">
         <Selection>
-          <Region id="327835"/>
+          <MIDINote region-id="273537">
+            <note channel="0" time="32,000000" note="66" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="69" length="3,500000" velocity="94" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="62" length="3,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="59" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="59" length="3,500000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="32,000000" note="62" length="3,500000" velocity="81" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="68" length="3,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="36,000000" note="64" length="3,500000" velocity="110" off-velocity="64"/>
+          </MIDINote>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1471983251" tv-usec="325484" name="create region">
-    <StatefulDiffCommand obj-id="13679" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="327860"/>
-        </Regions>
-      </Changes>
+  <UndoTransaction tv-sec="1472032158" tv-usec="910918" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="83" new="82" id="3852207"/>
+        <Change property="NoteNumber" old="81" new="80" id="3852182"/>
+        <Change property="NoteNumber" old="80" new="79" id="3852168"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852148"/>
+        <Change property="NoteNumber" old="80" new="79" id="3852128"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852118"/>
+        <Change property="NoteNumber" old="80" new="79" id="3852110"/>
+        <Change property="NoteNumber" old="80" new="79" id="3850571"/>
+        <Change property="NoteNumber" old="81" new="80" id="3850559"/>
+        <Change property="NoteNumber" old="83" new="82" id="3850545"/>
+        <Change property="NoteNumber" old="85" new="84" id="3850535"/>
+        <Change property="NoteNumber" old="78" new="77" id="3881140"/>
+        <Change property="NoteNumber" old="74" new="73" id="3848948"/>
+        <Change property="NoteNumber" old="82" new="81" id="3848925"/>
+        <Change property="NoteNumber" old="81" new="80" id="3848910"/>
+        <Change property="NoteNumber" old="79" new="78" id="3848899"/>
+        <Change property="NoteNumber" old="81" new="80" id="3848891"/>
+        <Change property="NoteNumber" old="81" new="80" id="3848844"/>
+        <Change property="NoteNumber" old="82" new="81" id="3847297"/>
+        <Change property="NoteNumber" old="84" new="83" id="3847283"/>
+        <Change property="NoteNumber" old="86" new="85" id="3847274"/>
+        <Change property="NoteNumber" old="79" new="78" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="82" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="81" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="74" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="80" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="79" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="86" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="84" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="81" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="79" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="81" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="82" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="78" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="85" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="83" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="81" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="80" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="78" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="80" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="78" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="80" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="81" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="83" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="81" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="80" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="73" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="79" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="78" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="85" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="83" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="80" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="78" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="80" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="81" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="77" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="84" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="82" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="80" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="79" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="77" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="79" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="77" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="79" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="80" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="82" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="410667" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="82" new="81" id="3852207"/>
+        <Change property="NoteNumber" old="80" new="79" id="3852182"/>
+        <Change property="NoteNumber" old="79" new="78" id="3852168"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852148"/>
+        <Change property="NoteNumber" old="79" new="78" id="3852128"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852118"/>
+        <Change property="NoteNumber" old="79" new="78" id="3852110"/>
+        <Change property="NoteNumber" old="79" new="78" id="3850571"/>
+        <Change property="NoteNumber" old="80" new="79" id="3850559"/>
+        <Change property="NoteNumber" old="82" new="81" id="3850545"/>
+        <Change property="NoteNumber" old="84" new="83" id="3850535"/>
+        <Change property="NoteNumber" old="77" new="76" id="3881140"/>
+        <Change property="NoteNumber" old="73" new="72" id="3848948"/>
+        <Change property="NoteNumber" old="81" new="80" id="3848925"/>
+        <Change property="NoteNumber" old="80" new="79" id="3848910"/>
+        <Change property="NoteNumber" old="78" new="77" id="3848899"/>
+        <Change property="NoteNumber" old="80" new="79" id="3848891"/>
+        <Change property="NoteNumber" old="80" new="79" id="3848844"/>
+        <Change property="NoteNumber" old="81" new="80" id="3847297"/>
+        <Change property="NoteNumber" old="83" new="82" id="3847283"/>
+        <Change property="NoteNumber" old="85" new="84" id="3847274"/>
+        <Change property="NoteNumber" old="78" new="77" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="81" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="80" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="73" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="79" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="78" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="85" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="83" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="80" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="78" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="80" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="81" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="77" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="84" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="82" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="80" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="79" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="77" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="79" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="77" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="79" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="80" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="82" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="80" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="79" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="72" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="78" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="77" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="84" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="82" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="79" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="77" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="79" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="80" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="76" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="83" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="81" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="79" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="78" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="76" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="78" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="76" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="78" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="79" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="81" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="440361" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="81" new="80" id="3852207"/>
+        <Change property="NoteNumber" old="79" new="78" id="3852182"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852168"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852148"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852128"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852118"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852110"/>
+        <Change property="NoteNumber" old="78" new="77" id="3850571"/>
+        <Change property="NoteNumber" old="79" new="78" id="3850559"/>
+        <Change property="NoteNumber" old="81" new="80" id="3850545"/>
+        <Change property="NoteNumber" old="83" new="82" id="3850535"/>
+        <Change property="NoteNumber" old="76" new="75" id="3881140"/>
+        <Change property="NoteNumber" old="72" new="71" id="3848948"/>
+        <Change property="NoteNumber" old="80" new="79" id="3848925"/>
+        <Change property="NoteNumber" old="79" new="78" id="3848910"/>
+        <Change property="NoteNumber" old="77" new="76" id="3848899"/>
+        <Change property="NoteNumber" old="79" new="78" id="3848891"/>
+        <Change property="NoteNumber" old="79" new="78" id="3848844"/>
+        <Change property="NoteNumber" old="80" new="79" id="3847297"/>
+        <Change property="NoteNumber" old="82" new="81" id="3847283"/>
+        <Change property="NoteNumber" old="84" new="83" id="3847274"/>
+        <Change property="NoteNumber" old="77" new="76" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="80" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="79" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="72" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="78" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="77" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="84" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="82" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="79" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="77" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="79" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="80" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="76" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="83" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="81" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="79" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="78" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="76" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="78" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="76" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="78" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="79" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="81" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="79" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="78" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="71" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="77" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="76" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="83" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="81" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="78" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="76" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="78" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="79" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="75" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="82" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="80" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="78" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="77" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="75" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="77" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="75" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="77" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="78" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="80" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="470118" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="80" new="79" id="3852207"/>
+        <Change property="NoteNumber" old="78" new="77" id="3852182"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852168"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852148"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852128"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852118"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852110"/>
+        <Change property="NoteNumber" old="77" new="76" id="3850571"/>
+        <Change property="NoteNumber" old="78" new="77" id="3850559"/>
+        <Change property="NoteNumber" old="80" new="79" id="3850545"/>
+        <Change property="NoteNumber" old="82" new="81" id="3850535"/>
+        <Change property="NoteNumber" old="75" new="74" id="3881140"/>
+        <Change property="NoteNumber" old="71" new="70" id="3848948"/>
+        <Change property="NoteNumber" old="79" new="78" id="3848925"/>
+        <Change property="NoteNumber" old="78" new="77" id="3848910"/>
+        <Change property="NoteNumber" old="76" new="75" id="3848899"/>
+        <Change property="NoteNumber" old="78" new="77" id="3848891"/>
+        <Change property="NoteNumber" old="78" new="77" id="3848844"/>
+        <Change property="NoteNumber" old="79" new="78" id="3847297"/>
+        <Change property="NoteNumber" old="81" new="80" id="3847283"/>
+        <Change property="NoteNumber" old="83" new="82" id="3847274"/>
+        <Change property="NoteNumber" old="76" new="75" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="79" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="78" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="71" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="77" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="76" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="83" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="81" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="78" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="76" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="78" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="79" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="75" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="82" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="80" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="78" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="77" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="75" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="77" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="75" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="77" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="78" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="80" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="78" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="77" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="70" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="76" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="75" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="82" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="80" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="77" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="75" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="77" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="78" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="74" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="81" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="79" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="77" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="76" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="74" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="76" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="74" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="76" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="77" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="79" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="500231" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="79" new="78" id="3852207"/>
+        <Change property="NoteNumber" old="77" new="76" id="3852182"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852168"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852148"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852128"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852118"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852110"/>
+        <Change property="NoteNumber" old="76" new="75" id="3850571"/>
+        <Change property="NoteNumber" old="77" new="76" id="3850559"/>
+        <Change property="NoteNumber" old="79" new="78" id="3850545"/>
+        <Change property="NoteNumber" old="81" new="80" id="3850535"/>
+        <Change property="NoteNumber" old="74" new="73" id="3881140"/>
+        <Change property="NoteNumber" old="70" new="69" id="3848948"/>
+        <Change property="NoteNumber" old="78" new="77" id="3848925"/>
+        <Change property="NoteNumber" old="77" new="76" id="3848910"/>
+        <Change property="NoteNumber" old="75" new="74" id="3848899"/>
+        <Change property="NoteNumber" old="77" new="76" id="3848891"/>
+        <Change property="NoteNumber" old="77" new="76" id="3848844"/>
+        <Change property="NoteNumber" old="78" new="77" id="3847297"/>
+        <Change property="NoteNumber" old="80" new="79" id="3847283"/>
+        <Change property="NoteNumber" old="82" new="81" id="3847274"/>
+        <Change property="NoteNumber" old="75" new="74" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="78" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="77" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="70" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="76" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="75" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="82" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="80" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="77" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="75" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="77" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="78" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="74" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="81" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="79" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="77" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="76" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="74" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="76" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="74" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="76" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="77" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="79" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="77" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="76" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="69" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="75" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="74" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="81" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="79" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="76" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="74" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="76" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="77" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="73" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="80" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="78" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="76" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="75" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="73" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="75" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="73" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="75" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="76" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="78" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="532253" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="78" new="77" id="3852207"/>
+        <Change property="NoteNumber" old="76" new="75" id="3852182"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852168"/>
+        <Change property="NoteNumber" old="73" new="72" id="3852148"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852128"/>
+        <Change property="NoteNumber" old="73" new="72" id="3852118"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852110"/>
+        <Change property="NoteNumber" old="75" new="74" id="3850571"/>
+        <Change property="NoteNumber" old="76" new="75" id="3850559"/>
+        <Change property="NoteNumber" old="78" new="77" id="3850545"/>
+        <Change property="NoteNumber" old="80" new="79" id="3850535"/>
+        <Change property="NoteNumber" old="73" new="72" id="3881140"/>
+        <Change property="NoteNumber" old="69" new="68" id="3848948"/>
+        <Change property="NoteNumber" old="77" new="76" id="3848925"/>
+        <Change property="NoteNumber" old="76" new="75" id="3848910"/>
+        <Change property="NoteNumber" old="74" new="73" id="3848899"/>
+        <Change property="NoteNumber" old="76" new="75" id="3848891"/>
+        <Change property="NoteNumber" old="76" new="75" id="3848844"/>
+        <Change property="NoteNumber" old="77" new="76" id="3847297"/>
+        <Change property="NoteNumber" old="79" new="78" id="3847283"/>
+        <Change property="NoteNumber" old="81" new="80" id="3847274"/>
+        <Change property="NoteNumber" old="74" new="73" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="77" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="76" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="69" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="75" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="74" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="81" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="79" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="76" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="74" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="76" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="77" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="73" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="80" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="78" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="76" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="75" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="73" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="75" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="73" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="75" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="76" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="78" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="76" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="75" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="68" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="74" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="73" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="80" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="78" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="75" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="73" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="75" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="76" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="72" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="79" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="77" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="75" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="74" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="72" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="74" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="72" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="74" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="75" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="77" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032159" tv-usec="774642" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="77" new="76" id="3852207"/>
+        <Change property="NoteNumber" old="75" new="74" id="3852182"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852168"/>
+        <Change property="NoteNumber" old="72" new="71" id="3852148"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852128"/>
+        <Change property="NoteNumber" old="72" new="71" id="3852118"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852110"/>
+        <Change property="NoteNumber" old="74" new="73" id="3850571"/>
+        <Change property="NoteNumber" old="75" new="74" id="3850559"/>
+        <Change property="NoteNumber" old="77" new="76" id="3850545"/>
+        <Change property="NoteNumber" old="79" new="78" id="3850535"/>
+        <Change property="NoteNumber" old="72" new="71" id="3881140"/>
+        <Change property="NoteNumber" old="68" new="67" id="3848948"/>
+        <Change property="NoteNumber" old="76" new="75" id="3848925"/>
+        <Change property="NoteNumber" old="75" new="74" id="3848910"/>
+        <Change property="NoteNumber" old="73" new="72" id="3848899"/>
+        <Change property="NoteNumber" old="75" new="74" id="3848891"/>
+        <Change property="NoteNumber" old="75" new="74" id="3848844"/>
+        <Change property="NoteNumber" old="76" new="75" id="3847297"/>
+        <Change property="NoteNumber" old="78" new="77" id="3847283"/>
+        <Change property="NoteNumber" old="80" new="79" id="3847274"/>
+        <Change property="NoteNumber" old="73" new="72" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="76" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="75" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="68" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="74" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="73" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="80" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="78" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="75" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="73" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="75" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="76" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="72" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="79" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="77" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="75" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="74" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="72" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="74" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="72" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="74" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="75" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="77" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="75" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="74" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="67" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="73" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="72" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="79" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="77" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="74" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="72" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="74" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="75" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="71" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="78" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="76" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="74" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="73" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="71" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="73" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="71" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="73" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="74" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="76" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032163" tv-usec="542696" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="76" new="75" id="3852207"/>
+        <Change property="NoteNumber" old="74" new="73" id="3852182"/>
+        <Change property="NoteNumber" old="73" new="72" id="3852168"/>
+        <Change property="NoteNumber" old="71" new="70" id="3852148"/>
+        <Change property="NoteNumber" old="73" new="72" id="3852128"/>
+        <Change property="NoteNumber" old="71" new="70" id="3852118"/>
+        <Change property="NoteNumber" old="73" new="72" id="3852110"/>
+        <Change property="NoteNumber" old="73" new="72" id="3850571"/>
+        <Change property="NoteNumber" old="74" new="73" id="3850559"/>
+        <Change property="NoteNumber" old="76" new="75" id="3850545"/>
+        <Change property="NoteNumber" old="78" new="77" id="3850535"/>
+        <Change property="NoteNumber" old="71" new="70" id="3881140"/>
+        <Change property="NoteNumber" old="67" new="66" id="3848948"/>
+        <Change property="NoteNumber" old="75" new="74" id="3848925"/>
+        <Change property="NoteNumber" old="74" new="73" id="3848910"/>
+        <Change property="NoteNumber" old="72" new="71" id="3848899"/>
+        <Change property="NoteNumber" old="74" new="73" id="3848891"/>
+        <Change property="NoteNumber" old="74" new="73" id="3848844"/>
+        <Change property="NoteNumber" old="75" new="74" id="3847297"/>
+        <Change property="NoteNumber" old="77" new="76" id="3847283"/>
+        <Change property="NoteNumber" old="79" new="78" id="3847274"/>
+        <Change property="NoteNumber" old="72" new="71" id="3847262"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="75" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="74" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="67" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="73" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="72" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="79" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="77" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="74" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="72" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="74" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="75" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="71" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="78" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="76" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="74" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="73" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="71" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="73" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="71" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="73" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="74" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="76" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="819,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="39,324844" note="74" length="0,410052" velocity="72" off-velocity="64"/>
+            <note channel="0" time="41,543177" note="73" length="0,261563" velocity="69" off-velocity="64"/>
+            <note channel="0" time="43,573229" note="66" length="2,518385" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,554896" note="72" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,144948" note="71" length="0,496667" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,591563" note="78" length="0,364948" velocity="77" off-velocity="64"/>
+            <note channel="0" time="38,901615" note="76" length="0,421198" velocity="88" off-velocity="64"/>
+            <note channel="0" time="39,709531" note="73" length="1,686979" velocity="75" off-velocity="64"/>
+            <note channel="0" time="41,808073" note="71" length="0,345104" velocity="82" off-velocity="64"/>
+            <note channel="0" time="42,188125" note="73" length="0,586771" velocity="79" off-velocity="64"/>
+            <note channel="0" time="42,758281" note="74" length="0,808281" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="70" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="77" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="75" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="73" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="72" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="70" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="72" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="70" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="72" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="73" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="75" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032179" tv-usec="478869" name="transpose">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="48" new="47" id="3588284"/>
+        <Change property="NoteNumber" old="60" new="59" id="3588286"/>
+        <Change property="NoteNumber" old="58" new="57" id="3588288"/>
+        <Change property="NoteNumber" old="51" new="50" id="3588290"/>
+        <Change property="NoteNumber" old="53" new="52" id="3588292"/>
+        <Change property="NoteNumber" old="55" new="54" id="3588294"/>
+        <Change property="NoteNumber" old="58" new="57" id="3588296"/>
+        <Change property="NoteNumber" old="48" new="47" id="3588298"/>
+        <Change property="NoteNumber" old="54" new="53" id="3588300"/>
+        <Change property="NoteNumber" old="53" new="52" id="3588302"/>
+        <Change property="NoteNumber" old="51" new="50" id="3588304"/>
+        <Change property="NoteNumber" old="48" new="47" id="3588306"/>
+        <Change property="NoteNumber" old="47" new="46" id="3588308"/>
+        <Change property="NoteNumber" old="47" new="46" id="3588311"/>
+        <Change property="NoteNumber" old="59" new="58" id="3588313"/>
+        <Change property="NoteNumber" old="57" new="56" id="3588315"/>
+        <Change property="NoteNumber" old="50" new="49" id="3588317"/>
+        <Change property="NoteNumber" old="52" new="51" id="3588319"/>
+        <Change property="NoteNumber" old="54" new="53" id="3588321"/>
+        <Change property="NoteNumber" old="57" new="56" id="3588323"/>
+        <Change property="NoteNumber" old="47" new="46" id="3588325"/>
+        <Change property="NoteNumber" old="53" new="52" id="3588327"/>
+        <Change property="NoteNumber" old="52" new="51" id="3588329"/>
+        <Change property="NoteNumber" old="50" new="49" id="3588331"/>
+        <Change property="NoteNumber" old="47" new="46" id="3588333"/>
+        <Change property="NoteNumber" old="46" new="45" id="3588335"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="468,000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="36,000000" note="48" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="36,750000" note="60" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="37,500000" note="58" length="0,750000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,250000" note="51" length="0,500000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="38,750000" note="53" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="39,000000" note="55" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="39,500000" note="58" length="0,500000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="40,000000" note="48" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="40,750000" note="54" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="41,500000" note="53" length="0,750000" velocity="97" off-velocity="64"/>
+            <note channel="0" time="42,250000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="43,000000" note="48" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="43,500000" note="47" length="0,499948" velocity="84" off-velocity="0"/>
+            <note channel="0" time="44,000000" note="47" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="44,750000" note="59" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="45,500000" note="57" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="46,250000" note="50" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="46,750000" note="52" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="47,000000" note="54" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="47,500000" note="57" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="48,000000" note="47" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="48,750000" note="53" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="49,500000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="50,250000" note="50" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="51,000000" note="47" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="51,500000" note="46" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="468,000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="36,000000" note="47" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="36,750000" note="59" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="37,500000" note="57" length="0,750000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="38,250000" note="50" length="0,500000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="38,750000" note="52" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="39,000000" note="54" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="39,500000" note="57" length="0,500000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="40,000000" note="47" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="40,750000" note="53" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="41,500000" note="52" length="0,750000" velocity="97" off-velocity="64"/>
+            <note channel="0" time="42,250000" note="50" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="43,000000" note="47" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="43,500000" note="46" length="0,499948" velocity="84" off-velocity="0"/>
+            <note channel="0" time="44,000000" note="46" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="44,750000" note="58" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="45,500000" note="56" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="46,250000" note="49" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="46,750000" note="51" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="47,000000" note="53" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="47,500000" note="56" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="48,000000" note="46" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="48,750000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="49,500000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="50,250000" note="49" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="51,000000" note="46" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="51,500000" note="45" length="0,499948" velocity="97" off-velocity="0"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032197" tv-usec="926537" name="transpose">
+    <NoteDiffCommand midi-source="299749">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="75" new="76" id="3852207"/>
+        <Change property="NoteNumber" old="73" new="74" id="3852182"/>
+        <Change property="NoteNumber" old="72" new="73" id="3852168"/>
+        <Change property="NoteNumber" old="70" new="71" id="3852148"/>
+        <Change property="NoteNumber" old="72" new="73" id="3852128"/>
+        <Change property="NoteNumber" old="70" new="71" id="3852118"/>
+        <Change property="NoteNumber" old="72" new="73" id="3852110"/>
+        <Change property="NoteNumber" old="72" new="73" id="3850571"/>
+        <Change property="NoteNumber" old="73" new="74" id="3850559"/>
+        <Change property="NoteNumber" old="75" new="76" id="3850545"/>
+        <Change property="NoteNumber" old="77" new="78" id="3850535"/>
+        <Change property="NoteNumber" old="70" new="71" id="3881140"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="759,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="49,554896" note="72" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="70" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="77" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="75" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="73" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="72" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="70" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="72" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="70" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="72" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="73" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="75" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="759,000000">
+        <Selection>
+          <MIDINote region-id="299759">
+            <note channel="0" time="49,554896" note="73" length="0,324896" velocity="79" off-velocity="64"/>
+            <note channel="0" time="46,101302" note="71" length="0,445052" velocity="71" off-velocity="64"/>
+            <note channel="0" time="46,541042" note="78" length="0,397240" velocity="72" off-velocity="64"/>
+            <note channel="0" time="46,868437" note="76" length="0,561406" velocity="96" off-velocity="64"/>
+            <note channel="0" time="47,371458" note="74" length="0,370156" velocity="73" off-velocity="64"/>
+            <note channel="0" time="47,740104" note="73" length="1,634844" velocity="67" off-velocity="64"/>
+            <note channel="0" time="49,823229" note="71" length="0,413125" velocity="70" off-velocity="64"/>
+            <note channel="0" time="50,201510" note="73" length="0,873438" velocity="88" off-velocity="64"/>
+            <note channel="0" time="50,951510" note="71" length="0,778333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="51,669896" note="73" length="0,616563" velocity="72" off-velocity="64"/>
+            <note channel="0" time="52,186615" note="74" length="0,978333" velocity="99" off-velocity="64"/>
+            <note channel="0" time="53,135000" note="76" length="0,501510" velocity="112" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032213" tv-usec="758647" name="transpose">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="46" new="47" id="3588311"/>
+        <Change property="NoteNumber" old="58" new="59" id="3588313"/>
+        <Change property="NoteNumber" old="56" new="57" id="3588315"/>
+        <Change property="NoteNumber" old="49" new="50" id="3588317"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588319"/>
+        <Change property="NoteNumber" old="53" new="54" id="3588321"/>
+        <Change property="NoteNumber" old="56" new="57" id="3588323"/>
+        <Change property="NoteNumber" old="46" new="47" id="3588325"/>
+        <Change property="NoteNumber" old="52" new="53" id="3588327"/>
+        <Change property="NoteNumber" old="51" new="52" id="3588329"/>
+        <Change property="NoteNumber" old="49" new="50" id="3588331"/>
+        <Change property="NoteNumber" old="46" new="47" id="3588333"/>
+        <Change property="NoteNumber" old="45" new="46" id="3588335"/>
+        <Change property="NoteNumber" old="45" new="46" id="3588337"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="429,000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="44,000000" note="46" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="44,750000" note="58" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="45,500000" note="56" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="46,250000" note="49" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="46,750000" note="51" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="47,000000" note="53" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="47,500000" note="56" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="48,000000" note="46" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="48,750000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="49,500000" note="51" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="50,250000" note="49" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="51,000000" note="46" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="51,500000" note="45" length="0,499948" velocity="97" off-velocity="0"/>
+            <note channel="0" time="52,000000" note="45" length="0,750000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1024" left-frame="493568" y-origin="429,000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="44,000000" note="47" length="0,750000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="44,750000" note="59" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="45,500000" note="57" length="0,750000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="46,250000" note="50" length="0,500000" velocity="74" off-velocity="64"/>
+            <note channel="0" time="46,750000" note="52" length="0,250000" velocity="92" off-velocity="64"/>
+            <note channel="0" time="47,000000" note="54" length="0,500000" velocity="87" off-velocity="64"/>
+            <note channel="0" time="47,500000" note="57" length="0,500000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="48,000000" note="47" length="0,750000" velocity="84" off-velocity="64"/>
+            <note channel="0" time="48,750000" note="53" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="49,500000" note="52" length="0,750000" velocity="99" off-velocity="64"/>
+            <note channel="0" time="50,250000" note="50" length="0,750000" velocity="110" off-velocity="64"/>
+            <note channel="0" time="51,000000" note="47" length="0,500000" velocity="79" off-velocity="64"/>
+            <note channel="0" time="51,500000" note="46" length="0,499948" velocity="97" off-velocity="0"/>
+            <note channel="0" time="52,000000" note="46" length="0,750000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1248" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472032236" tv-usec="528460" name="region drag">
+    <StatefulDiffCommand obj-id="313223" type-name="ARDOUR::MidiRegion">
+      <Changes/>
     </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="493568" y-origin="429,000000">
         <Selection>
+          <Region id="313223"/>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="1344512" y-origin="87,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="493568" y-origin="429,000000">
         <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983257" tv-usec="426385" name="Region end trim">
-    <StatefulDiffCommand obj-id="327860" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="92609" to="92610"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
+          <Region id="313223"/>
           <Marker id="1248" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983258" tv-usec="259030" name="Region end trim">
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983259" tv-usec="975752" name="Region end trim">
-    <StatefulDiffCommand obj-id="327860" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="92610" to="105840"/>
-        <length-beats from="3.5" to="4"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="128" left-frame="1670912" y-origin="87,000000">
-        <Selection>
-          <Region id="327860"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983767" tv-usec="397995" name="capture">
-    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="327883"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983770" tv-usec="954827" name="delete objects">
-    <StatefulDiffCommand obj-id="13528" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Remove id="327883"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5533696" y-origin="87,000000">
-        <Selection>
-          <Region id="327883"/>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5533696" y-origin="87,000000">
-        <Selection>
-          <Marker id="1248" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1471983876" tv-usec="207438" name="capture">
-    <StatefulDiffCommand obj-id="327936" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="328118"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
   </UndoTransaction>
 </UndoHistory>
