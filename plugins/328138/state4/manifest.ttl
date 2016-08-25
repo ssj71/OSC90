@@ -9,4 +9,4 @@
 <state.ttl>
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> ;
-	lv2:appliesTo <urn:juce:TalReverb2> .
+	lv2:appliesTo <http://github.com/nicklan/drmr> .
