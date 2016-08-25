@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="385892" name-counter="5" event-counter="5057147" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="385896" name-counter="5" event-counter="5074962" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 4.1-5060-g9421e0b"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -6223,9 +6223,9 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state72">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state73">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
-          <Port symbol="amp_attack" value="+0.273903"/>
+          <Port symbol="amp_attack" value="+0.273942"/>
           <Port symbol="amp_decay" value="+0.000000"/>
           <Port symbol="amp_release" value="+0.000000"/>
           <Port symbol="amp_sustain" value="+0.000000"/>
@@ -6358,7 +6358,7 @@
           <Port symbol="volume" value="+0.590909"/>
         </lv2>
         <Controllable name="hidden" id="20513" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
-        <Controllable name="amp_attack" id="20515" flags="" value="0.273902714252" parameter="5" symbol="amp_attack"/>
+        <Controllable name="amp_attack" id="20515" flags="" value="0.273942470551" parameter="5" symbol="amp_attack"/>
         <Controllable name="amp_decay" id="20517" flags="" value="0.000000000000" parameter="6" symbol="amp_decay"/>
         <Controllable name="amp_release" id="20519" flags="" value="0.000000000000" parameter="7" symbol="amp_release"/>
         <Controllable name="amp_sustain" id="20521" flags="" value="0.000000000000" parameter="8" symbol="amp_sustain"/>
@@ -9119,7 +9119,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="348" y-size="333"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="0" y-off="313" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="no" x-off="563" y-off="276" x-size="571" y-size="435"/>
+      <Window name="audio-midi-setup" visible="no" x-off="620" y-off="249" x-size="571" y-size="435"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

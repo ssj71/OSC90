@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1472100425" tv-usec="132214" name="change velocities">
-    <NoteDiffCommand midi-source="299749">
-      <ChangedNotes>
-        <Change property="Velocity" old="72" new="71" id="3853779"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseContent" zoom="144" left-frame="1200672" y-origin="1035.000000">
-        <Selection>
-          <MIDINote region-id="299759">
-            <note channel="0" time="54.551563" note="76" length="0.309167" velocity="72" off-velocity="64"/>
-          </MIDINote>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseContent" zoom="144" left-frame="1200672" y-origin="1035.000000">
-        <Selection>
-          <MIDINote region-id="299759">
-            <note channel="0" time="54.551563" note="76" length="0.309167" velocity="71" off-velocity="64"/>
-          </MIDINote>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1472100425" tv-usec="746845" name="change velocities">
     <NoteDiffCommand midi-source="299749">
       <ChangedNotes>
@@ -487,6 +462,31 @@
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseContent" zoom="288" left-frame="1512576" y-origin="1035.000000">
         <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472100721" tv-usec="24450" name="move notes">
+    <NoteDiffCommand midi-source="273509">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="53" new="54" id="3588268"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="288" left-frame="1044864" y-origin="427.000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="31.000000" note="53" length="0.500000" velocity="86" off-velocity="64"/>
+          </MIDINote>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="288" left-frame="1044864" y-origin="427.000000">
+        <Selection>
+          <MIDINote region-id="273511">
+            <note channel="0" time="31.000000" note="54" length="0.500000" velocity="86" off-velocity="64"/>
+          </MIDINote>
+        </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
