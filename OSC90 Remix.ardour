@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="430055" name-counter="5" event-counter="5977985" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="444357" name-counter="5" event-counter="6242896" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.0"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1226,7 +1226,7 @@
     <Region name="Bass-29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="39689" position="1475145" beat="55.75" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="1.5" id="415432" type="midi" first-edit="nothing" source-0="415430" master-source-0="415430"/>
   </Regions>
   <Locations>
-    <Location id="1238" name="session" start="423360" end="6429780" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1238" name="session" start="423360" end="1872045" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="1248" name="Loop" start="1269792" end="2066688" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -1234,9 +1234,9 @@
   <Routes>
     <Route id="19448" name="Reverb Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
       <PresentationInfo order="0" flags="AudioBus,OrderSet" color="3420836351"/>
-      <Controllable name="solo" id="419444" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="419450" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="419452" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434064" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434070" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434072" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Reverb Bus" id="19476" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Reverb Bus/audio_in 1"/>
         <Port type="audio" name="Reverb Bus/audio_in 2"/>
@@ -1250,7 +1250,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="419446" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434066" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="19460" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
@@ -1335,9 +1335,9 @@
     </Route>
     <Route id="3362" name="Kick Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
       <PresentationInfo order="1" flags="AudioBus,OrderSet" color="3152376575"/>
-      <Controllable name="solo" id="419515" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="419521" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="419523" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434135" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434141" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434143" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick Bus" id="3390" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Kick Bus/audio_in 1">
           <Connection other="Kick Body/audio_out 1"/>
@@ -1359,7 +1359,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="419517" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434137" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="3374" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
@@ -1444,7 +1444,7 @@
           <Port symbol="level_in" value="+1.000000"/>
           <Port symbol="level_out" value="+1.000000"/>
           <Port symbol="hp_active" value="+1.000000"/>
-          <Port symbol="hp_freq" value="+49.341946"/>
+          <Port symbol="hp_freq" value="+36.406178"/>
           <Port symbol="hp_mode" value="+2.000000"/>
           <Port symbol="lp_active" value="+0.000000"/>
           <Port symbol="lp_freq" value="+18000.000000"/>
@@ -1456,9 +1456,9 @@
           <Port symbol="hs_level" value="+2.297397"/>
           <Port symbol="hs_freq" value="+8033.528809"/>
           <Port symbol="p1_active" value="+1.000000"/>
-          <Port symbol="p1_level" value="+1.515717"/>
-          <Port symbol="p1_freq" value="+84.001762"/>
-          <Port symbol="p1_q" value="+1.000000"/>
+          <Port symbol="p1_level" value="+1.647182"/>
+          <Port symbol="p1_freq" value="+93.984390"/>
+          <Port symbol="p1_q" value="+2.238721"/>
           <Port symbol="p2_active" value="+0.000000"/>
           <Port symbol="p2_level" value="+1.000000"/>
           <Port symbol="p2_freq" value="+120.000000"/>
@@ -1496,7 +1496,7 @@
         <Controllable name="Input Gain" id="3249" flags="" value="1.000000000000" parameter="5" symbol="level_in"/>
         <Controllable name="Output Gain" id="3250" flags="" value="1.000000000000" parameter="6" symbol="level_out"/>
         <Controllable name="HP Active" id="3251" flags="" value="1.000000000000" parameter="15" symbol="hp_active"/>
-        <Controllable name="HP Freq" id="3252" flags="" value="49.341945648193" parameter="16" symbol="hp_freq"/>
+        <Controllable name="HP Freq" id="3252" flags="" value="36.406177520752" parameter="16" symbol="hp_freq"/>
         <Controllable name="HP Mode" id="3253" flags="" value="2.000000000000" parameter="17" symbol="hp_mode"/>
         <Controllable name="LP Active" id="3254" flags="" value="0.000000000000" parameter="18" symbol="lp_active"/>
         <Controllable name="LP Freq" id="3255" flags="" value="18000.000000000000" parameter="19" symbol="lp_freq"/>
@@ -1508,9 +1508,9 @@
         <Controllable name="Level H" id="3261" flags="" value="2.297396898270" parameter="25" symbol="hs_level"/>
         <Controllable name="Freq H" id="3262" flags="" value="8033.528808593750" parameter="26" symbol="hs_freq"/>
         <Controllable name="F1 Active" id="3263" flags="" value="1.000000000000" parameter="27" symbol="p1_active"/>
-        <Controllable name="Level 1" id="3264" flags="" value="1.515717029572" parameter="28" symbol="p1_level"/>
-        <Controllable name="Freq 1" id="3265" flags="" value="84.001762390137" parameter="29" symbol="p1_freq"/>
-        <Controllable name="Q 1" id="3266" flags="" value="1.000000000000" parameter="30" symbol="p1_q"/>
+        <Controllable name="Level 1" id="3264" flags="" value="1.647182106972" parameter="28" symbol="p1_level"/>
+        <Controllable name="Freq 1" id="3265" flags="" value="93.984390258789" parameter="29" symbol="p1_freq"/>
+        <Controllable name="Q 1" id="3266" flags="" value="2.238720893860" parameter="30" symbol="p1_q"/>
         <Controllable name="F2 Active" id="3267" flags="" value="0.000000000000" parameter="31" symbol="p2_active"/>
         <Controllable name="Level 2" id="3268" flags="" value="1.000000000000" parameter="32" symbol="p2_level"/>
         <Controllable name="Freq 2" id="3269" flags="" value="120.000000000000" parameter="33" symbol="p2_freq"/>
@@ -1563,9 +1563,9 @@
     </Route>
     <Route id="28" name="Master" default-type="audio" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20">
       <PresentationInfo order="2" flags="MasterOut,OrderSet" color="3185364223"/>
-      <Controllable name="solo" id="419684" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="419690" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="419692" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434304" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434310" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434312" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Master" id="51" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
           <Connection other="Bass/audio_out 1"/>
@@ -1603,7 +1603,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="419686" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434306" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="457" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
@@ -1677,9 +1677,9 @@
     </Route>
     <Route id="9323" name="Snare Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
       <PresentationInfo order="3" flags="AudioBus,OrderSet" color="3772835327"/>
-      <Controllable name="solo" id="419740" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="419746" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="419748" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434360" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434366" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434368" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Snare Bus" id="9351" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Snare Bus/audio_in 1">
           <Connection other="Snare Bottom/audio_out 1"/>
@@ -1699,7 +1699,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="419742" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434362" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="9335" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
@@ -1856,7 +1856,7 @@
         </Processor>
       </Processor>
       <Processor id="9353" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="9327" flags="" value="0.628188908100"/>
+        <Controllable name="gaincontrol" id="9327" flags="" value="0.750571966171"/>
       </Processor>
       <Processor id="9355" name="meter-Bus 2" active="yes" user-latency="0" type="meter"/>
       <Processor id="9356" name="Snare Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Snare Bus" type="main-outs" role="Main">
@@ -1874,9 +1874,9 @@
     </Route>
     <Route id="26713" name="Drum Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
       <PresentationInfo order="4" flags="AudioBus,OrderSet" color="2160322047"/>
-      <Controllable name="solo" id="419905" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="419911" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="419913" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434525" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434531" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434533" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Drum Bus" id="26741" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Drum Bus/audio_in 1">
           <Connection other="Clap/audio_out 1"/>
@@ -1902,7 +1902,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="419907" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434527" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="26725" flags="Toggle" value="0.000000000000" phase-invert="00"/>
       <Automation/>
       <Pannable>
@@ -1953,14 +1953,14 @@
         </lv2>
         <Controllable name="Key Listen" id="69045" flags="" value="0.000000000000" parameter="2" symbol="keylisten"/>
         <Controllable name="Threshold (dB)" id="69047" flags="" value="-11.413270950317" parameter="3" symbol="threshold"/>
-        <Controllable name="Attack (ms)" id="69049" flags="" value="5.564011573792" parameter="4" symbol="attack"/>
+        <Controllable name="Attack (ms)" id="69049" flags="" value="5.564012050629" parameter="4" symbol="attack"/>
         <Controllable name="Makeup (dB)" id="69051" flags="" value="2.880000114441" parameter="5" symbol="compmakeup"/>
         <Controllable name="Decay (ms)" id="69053" flags="" value="49.901748657227" parameter="6" symbol="decay"/>
-        <Controllable name="Ratio (dB)" id="69055" flags="" value="3.461295604706" parameter="7" symbol="compratio"/>
+        <Controllable name="Ratio (dB)" id="69055" flags="" value="3.461296081543" parameter="7" symbol="compratio"/>
         <Controllable name="HPF Key Filter (Hz)" id="69057" flags="" value="20.000000000000" parameter="8" symbol="hpf"/>
         <Controllable name="LPF Key Filter (Hz)" id="69059" flags="" value="20000.000000000000" parameter="9" symbol="lpf"/>
-        <Controllable name="Gain (dB)" id="69061" flags="" value="7.040000438690" parameter="10" symbol="ingain"/>
-        <Controllable name="Knee (dB)" id="69063" flags="" value="6.399999618530" parameter="13" symbol="knee"/>
+        <Controllable name="Gain (dB)" id="69061" flags="" value="7.039999961853" parameter="10" symbol="ingain"/>
+        <Controllable name="Knee (dB)" id="69063" flags="" value="6.400000095367" parameter="13" symbol="knee"/>
         <Controllable name="Dry/Wet" id="69065" flags="" value="1.000000000000" parameter="14" symbol="drywet"/>
         <Controllable name="FeedBack Compressor" id="69067" flags="" value="0.000000000000" parameter="15" symbol="isfeedbackcompressor"/>
       </Processor>
@@ -2096,7 +2096,7 @@
         <Controllable name="Mid Side Mode" id="69180" flags="Toggle" value="0.000000000000" parameter="63" symbol="midsidemode"/>
       </Processor>
       <Processor id="26743" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="26717" flags="" value="0.751768171787"/>
+        <Controllable name="gaincontrol" id="26717" flags="" value="0.618834614754"/>
       </Processor>
       <Processor id="26745" name="meter-Bus 1" active="yes" user-latency="0" type="meter"/>
       <Processor id="26746" name="Drum Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Drum Bus" type="main-outs" role="Main">
@@ -2112,13 +2112,15 @@
       </Processor>
       <Slavable/>
     </Route>
-    <Route id="115" name="Trumpet" default-type="midi" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
-      <PresentationInfo order="5" flags="MidiTrack,Hidden,OrderSet" color="3212709375"/>
-      <Controllable name="solo" id="420082" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="420088" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="420090" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+    <Route id="115" name="Trumpet" default-type="midi" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="5" flags="MidiTrack,OrderSet" color="3212709375"/>
+      <Controllable name="solo" id="434702" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434708" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434710" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Trumpet" id="138" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Trumpet/midi_in 1"/>
+        <Port type="midi" name="Trumpet/midi_in 1">
+          <Connection other="a2j:DigitalKBD [28] (capture): DigitalKBD MIDI 1"/>
+        </Port>
       </IO>
       <IO name="Trumpet" id="139" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="Trumpet/audio_out 1">
@@ -2130,7 +2132,7 @@
         <Port type="midi" name="Trumpet/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="420084" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434704" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="493" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -2142,7 +2144,7 @@
         <Automation/>
       </Pannable>
       <Processor id="142" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="141" flags="" value="0.605653226376"/>
+        <Controllable name="gaincontrol" id="141" flags="" value="0.988631963730"/>
       </Processor>
       <Processor id="146" name="meter-Test" active="yes" user-latency="0" type="meter"/>
       <Processor id="147" name="Trumpet" active="yes" user-latency="0" own-input="yes" own-output="no" output="Trumpet" type="main-outs" role="Main">
@@ -2164,9 +2166,9 @@
     </Route>
     <Route id="13486" name="Kick MIDI" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="6" flags="MidiTrack,OrderSet" color="4207398143"/>
-      <Controllable name="solo" id="420127" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="420133" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="420135" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434747" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434753" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434755" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick MIDI" id="13514" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Kick MIDI/midi_in 1"/>
       </IO>
@@ -2178,7 +2180,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="420129" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434749" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="13498" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -2212,9 +2214,9 @@
     </Route>
     <Route id="887" name="Kick Sub" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="7" flags="MidiTrack,Selected,OrderSet" color="3853433087"/>
-      <Controllable name="solo" id="420172" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="420178" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="420180" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="434792" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="434798" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="434800" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick Sub" id="915" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Kick Sub/midi_in 1">
           <Connection other="Kick MIDI/midi_out 1"/>
@@ -2230,7 +2232,7 @@
         <Port type="midi" name="Kick Sub/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="420174" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="434794" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="899" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -2261,7 +2263,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state28">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state30">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.102941"/>
@@ -2397,7 +2399,7 @@
         </lv2>
         <Controllable name="hidden" id="964" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
         <Controllable name="amp_attack" id="966" flags="" value="0.000000000000" parameter="5" symbol="amp_attack"/>
-        <Controllable name="amp_decay" id="968" flags="" value="0.102941177785" parameter="6" symbol="amp_decay"/>
+        <Controllable name="amp_decay" id="968" flags="" value="0.102940998971" parameter="6" symbol="amp_decay"/>
         <Controllable name="amp_release" id="970" flags="" value="0.000000000000" parameter="7" symbol="amp_release"/>
         <Controllable name="amp_sustain" id="972" flags="" value="0.000000000000" parameter="8" symbol="amp_sustain"/>
         <Controllable name="arp_frequency" id="974" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
@@ -2409,7 +2411,7 @@
         <Controllable name="arp_tempo" id="986" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
         <Controllable name="beats_per_minute" id="988" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
         <Controllable name="cross_modulation" id="990" flags="" value="0.000000000000" parameter="17" symbol="cross_modulation"/>
-        <Controllable name="cutoff" id="992" flags="" value="0.108333334327" parameter="18" symbol="cutoff"/>
+        <Controllable name="cutoff" id="992" flags="" value="0.108332999051" parameter="18" symbol="cutoff"/>
         <Controllable name="delay_dry_wet" id="994" flags="" value="0.500000000000" parameter="19" symbol="delay_dry_wet"/>
         <Controllable name="delay_feedback" id="996" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
         <Controllable name="delay_frequency" id="998" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
@@ -2417,7 +2419,7 @@
         <Controllable name="delay_sync" id="1002" flags="" value="0.333332985640" parameter="23" symbol="delay_sync"/>
         <Controllable name="delay_tempo" id="1004" flags="" value="0.818181991577" parameter="24" symbol="delay_tempo"/>
         <Controllable name="fil_attack" id="1006" flags="" value="0.000000000000" parameter="25" symbol="fil_attack"/>
-        <Controllable name="fil_decay" id="1008" flags="" value="0.117647059262" parameter="26" symbol="fil_decay"/>
+        <Controllable name="fil_decay" id="1008" flags="" value="0.117646999657" parameter="26" symbol="fil_decay"/>
         <Controllable name="fil_env_depth" id="1010" flags="" value="1.000000000000" parameter="27" symbol="fil_env_depth"/>
         <Controllable name="fil_release" id="1012" flags="" value="0.000000000000" parameter="28" symbol="fil_release"/>
         <Controllable name="fil_sustain" id="1014" flags="" value="0.000000000000" parameter="29" symbol="fil_sustain"/>
@@ -2429,7 +2431,7 @@
         <Controllable name="keytrack" id="1026" flags="" value="0.500000000000" parameter="35" symbol="keytrack"/>
         <Controllable name="legato" id="1028" flags="" value="0.000000000000" parameter="36" symbol="legato"/>
         <Controllable name="mod_attack" id="1030" flags="" value="0.000000000000" parameter="37" symbol="mod_attack"/>
-        <Controllable name="mod_decay" id="1032" flags="" value="0.073529414833" parameter="38" symbol="mod_decay"/>
+        <Controllable name="mod_decay" id="1032" flags="" value="0.073528997600" parameter="38" symbol="mod_decay"/>
         <Controllable name="mod_release" id="1034" flags="" value="0.000000000000" parameter="39" symbol="mod_release"/>
         <Controllable name="mod_sustain" id="1036" flags="" value="0.000000000000" parameter="40" symbol="mod_sustain"/>
         <Controllable name="mono_lfo_1_amplitude" id="1038" flags="" value="1.000000000000" parameter="41" symbol="mono_lfo_1_amplitude"/>
@@ -2470,7 +2472,7 @@
         <Controllable name="polyphony" id="1108" flags="" value="0.000000000000" parameter="76" symbol="polyphony"/>
         <Controllable name="portamento" id="1110" flags="" value="0.000000000000" parameter="77" symbol="portamento"/>
         <Controllable name="portamento_type" id="1112" flags="" value="0.000000000000" parameter="78" symbol="portamento_type"/>
-        <Controllable name="resonance" id="1114" flags="" value="0.302816897631" parameter="79" symbol="resonance"/>
+        <Controllable name="resonance" id="1114" flags="" value="0.302816987038" parameter="79" symbol="resonance"/>
         <Controllable name="reverb_damping" id="1116" flags="" value="0.500000000000" parameter="80" symbol="reverb_damping"/>
         <Controllable name="reverb_dry_wet" id="1118" flags="" value="0.500000000000" parameter="81" symbol="reverb_dry_wet"/>
         <Controllable name="reverb_feedback" id="1120" flags="" value="0.500000000000" parameter="82" symbol="reverb_feedback"/>
@@ -2678,9 +2680,9 @@
     </Route>
     <Route id="2698" name="Kick Body" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="8" flags="MidiTrack,Hidden,OrderSet" color="3853749503"/>
-      <Controllable name="solo" id="420587" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="420593" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="420595" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="435207" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="435213" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="435215" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick Body" id="2699" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Kick Body/midi_in 1">
           <Connection other="Kick MIDI/midi_out 1"/>
@@ -2696,7 +2698,7 @@
         <Port type="midi" name="Kick Body/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="yes"/>
-      <Controllable name="mute" id="420589" flags="Toggle,RealTime" value="1.000000000000"/>
+      <Controllable name="mute" id="435209" flags="Toggle,RealTime" value="1.000000000000"/>
       <Controllable name="phase" id="3305" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -3150,9 +3152,9 @@
     </Route>
     <Route id="5325" name="Kick Transient" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="9" flags="MidiTrack,OrderSet" color="2077419007"/>
-      <Controllable name="solo" id="421008" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="421014" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="421016" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="435628" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="435634" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="435636" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick Transient" id="5326" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Kick Transient/midi_in 1">
           <Connection other="Kick MIDI/midi_out 1"/>
@@ -3168,7 +3170,7 @@
         <Port type="midi" name="Kick Transient/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="421010" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="435630" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="5932" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -3199,7 +3201,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state37">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state38">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.044118"/>
@@ -3616,9 +3618,9 @@
     </Route>
     <Route id="13637" name="Snare Midi" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="1925768703"/>
-      <Controllable name="solo" id="421423" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="421429" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="421431" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="436043" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="436049" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="436051" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Snare Midi" id="13665" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Snare Midi/midi_in 1"/>
       </IO>
@@ -3629,7 +3631,7 @@
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="421425" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="436045" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="13649" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -3663,9 +3665,9 @@
     </Route>
     <Route id="8335" name="Snare Bottom" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="11" flags="MidiTrack,Hidden,OrderSet" color="3219485439"/>
-      <Controllable name="solo" id="421468" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="421474" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="421476" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="436088" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="436094" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="436096" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Snare Bottom" id="8363" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Snare Bottom/midi_in 1">
           <Connection other="Snare Midi/midi_out 1"/>
@@ -3681,7 +3683,7 @@
         <Port type="midi" name="Snare Bottom/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="421470" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="436090" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="8347" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -4129,9 +4131,9 @@
     </Route>
     <Route id="8772" name="Snare Top" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="12" flags="MidiTrack,Hidden,OrderSet" color="3854660351"/>
-      <Controllable name="solo" id="421883" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="421889" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="421891" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="436503" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="436509" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="436511" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Snare Top" id="8773" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Snare Top/midi_in 1">
           <Connection other="Snare Midi/midi_out 1"/>
@@ -4147,7 +4149,7 @@
         <Port type="midi" name="Snare Top/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="421885" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="436505" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="9185" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -4595,9 +4597,9 @@
     </Route>
     <Route id="18200" name="HH" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="13" flags="MidiTrack,OrderSet" color="2682628351"/>
-      <Controllable name="solo" id="422298" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="422304" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="422306" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="436918" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="436924" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="436926" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="HH" id="18228" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="HH/midi_in 1"/>
       </IO>
@@ -4611,7 +4613,7 @@
         <Port type="midi" name="HH/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="422300" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="436920" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="18212" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -4977,9 +4979,9 @@
     </Route>
     <Route id="77323" name="HH Open" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="14" flags="MidiTrack,OrderSet" color="1922164223"/>
-      <Controllable name="solo" id="422635" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="422641" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="422643" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="437255" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="437261" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="437263" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="HH Open" id="77324" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="HH Open/midi_in 1"/>
       </IO>
@@ -4993,7 +4995,7 @@
         <Port type="midi" name="HH Open/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="422637" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="437257" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="77769" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -5359,9 +5361,9 @@
     </Route>
     <Route id="19805" name="Bass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="15" flags="MidiTrack,OrderSet" color="3856785663"/>
-      <Controllable name="solo" id="422972" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="422978" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="422980" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="437592" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="437598" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="437600" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Bass" id="19833" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Bass/midi_in 1"/>
       </IO>
@@ -5375,7 +5377,7 @@
         <Port type="midi" name="Bass/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="422974" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="437594" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="19817" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -5406,7 +5408,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state40">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state41">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.279412"/>
@@ -5542,9 +5544,9 @@
         </lv2>
         <Controllable name="hidden" id="19948" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
         <Controllable name="amp_attack" id="19950" flags="" value="0.000000000000" parameter="5" symbol="amp_attack"/>
-        <Controllable name="amp_decay" id="19952" flags="" value="0.279411762953" parameter="6" symbol="amp_decay"/>
+        <Controllable name="amp_decay" id="19952" flags="" value="0.279412001371" parameter="6" symbol="amp_decay"/>
         <Controllable name="amp_release" id="19954" flags="" value="0.000000000000" parameter="7" symbol="amp_release"/>
-        <Controllable name="amp_sustain" id="19956" flags="" value="0.102941177785" parameter="8" symbol="amp_sustain"/>
+        <Controllable name="amp_sustain" id="19956" flags="" value="0.102940998971" parameter="8" symbol="amp_sustain"/>
         <Controllable name="arp_frequency" id="19958" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
         <Controllable name="arp_gate" id="19960" flags="" value="0.500000000000" parameter="10" symbol="arp_gate"/>
         <Controllable name="arp_octaves" id="19962" flags="" value="0.000000000000" parameter="11" symbol="arp_octaves"/>
@@ -5554,7 +5556,7 @@
         <Controllable name="arp_tempo" id="19970" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
         <Controllable name="beats_per_minute" id="19972" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
         <Controllable name="cross_modulation" id="19974" flags="" value="1.000000000000" parameter="17" symbol="cross_modulation"/>
-        <Controllable name="cutoff" id="19976" flags="" value="0.268907576799" parameter="18" symbol="cutoff"/>
+        <Controllable name="cutoff" id="19976" flags="" value="0.268907994032" parameter="18" symbol="cutoff"/>
         <Controllable name="delay_dry_wet" id="19978" flags="" value="0.500000000000" parameter="19" symbol="delay_dry_wet"/>
         <Controllable name="delay_feedback" id="19980" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
         <Controllable name="delay_frequency" id="19982" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
@@ -5563,14 +5565,14 @@
         <Controllable name="delay_tempo" id="19988" flags="" value="0.818181991577" parameter="24" symbol="delay_tempo"/>
         <Controllable name="fil_attack" id="19990" flags="" value="0.000000000000" parameter="25" symbol="fil_attack"/>
         <Controllable name="fil_decay" id="19992" flags="" value="0.220587998629" parameter="26" symbol="fil_decay"/>
-        <Controllable name="fil_env_depth" id="19994" flags="" value="0.670811951160" parameter="27" symbol="fil_env_depth"/>
+        <Controllable name="fil_env_depth" id="19994" flags="" value="0.670812010765" parameter="27" symbol="fil_env_depth"/>
         <Controllable name="fil_release" id="19996" flags="" value="0.000000000000" parameter="28" symbol="fil_release"/>
         <Controllable name="fil_sustain" id="19998" flags="" value="0.000000000000" parameter="29" symbol="fil_sustain"/>
         <Controllable name="filter_saturation" id="20000" flags="" value="0.665405988693" parameter="30" symbol="filter_saturation"/>
         <Controllable name="filter_type" id="20002" flags="" value="0.000000000000" parameter="31" symbol="filter_type"/>
         <Controllable name="formant_on" id="20004" flags="" value="0.000000000000" parameter="32" symbol="formant_on"/>
         <Controllable name="formant_x" id="20006" flags="" value="0.500000000000" parameter="33" symbol="formant_x"/>
-        <Controllable name="formant_y" id="20008" flags="" value="0.171171173453" parameter="34" symbol="formant_y"/>
+        <Controllable name="formant_y" id="20008" flags="" value="0.171170994639" parameter="34" symbol="formant_y"/>
         <Controllable name="keytrack" id="20010" flags="" value="0.708000004292" parameter="35" symbol="keytrack"/>
         <Controllable name="legato" id="20012" flags="" value="1.000000000000" parameter="36" symbol="legato"/>
         <Controllable name="mod_attack" id="20014" flags="" value="0.000000000000" parameter="37" symbol="mod_attack"/>
@@ -5615,7 +5617,7 @@
         <Controllable name="polyphony" id="20092" flags="" value="0.096773996949" parameter="76" symbol="polyphony"/>
         <Controllable name="portamento" id="20094" flags="" value="0.476000010967" parameter="77" symbol="portamento"/>
         <Controllable name="portamento_type" id="20096" flags="" value="0.500000000000" parameter="78" symbol="portamento_type"/>
-        <Controllable name="resonance" id="20098" flags="" value="0.133802816272" parameter="79" symbol="resonance"/>
+        <Controllable name="resonance" id="20098" flags="" value="0.133802995086" parameter="79" symbol="resonance"/>
         <Controllable name="reverb_damping" id="20100" flags="" value="0.500000000000" parameter="80" symbol="reverb_damping"/>
         <Controllable name="reverb_dry_wet" id="20102" flags="" value="0.500000000000" parameter="81" symbol="reverb_dry_wet"/>
         <Controllable name="reverb_feedback" id="20104" flags="" value="0.500000000000" parameter="82" symbol="reverb_feedback"/>
@@ -5666,7 +5668,7 @@
         <Controllable name="stutter_sync" id="20194" flags="" value="0.333332985640" parameter="127" symbol="stutter_sync"/>
         <Controllable name="stutter_tempo" id="20196" flags="" value="0.400000005960" parameter="128" symbol="stutter_tempo"/>
         <Controllable name="sub_shuffle" id="20198" flags="" value="0.192000001669" parameter="129" symbol="sub_shuffle"/>
-        <Controllable name="sub_volume" id="20200" flags="" value="0.370967745781" parameter="130" symbol="sub_volume"/>
+        <Controllable name="sub_volume" id="20200" flags="" value="0.370968014002" parameter="130" symbol="sub_volume"/>
         <Controllable name="sub_waveform" id="20202" flags="" value="0.100000001490" parameter="131" symbol="sub_waveform"/>
         <Controllable name="unison_1_harmonize" id="20204" flags="" value="0.000000000000" parameter="132" symbol="unison_1_harmonize"/>
         <Controllable name="unison_2_harmonize" id="20206" flags="" value="0.000000000000" parameter="133" symbol="unison_2_harmonize"/>
@@ -5780,9 +5782,9 @@
         <Controllable name="Freq 4" id="272521" flags="" value="500.000000000000" parameter="41" symbol="p4_freq"/>
         <Controllable name="Q 4" id="272523" flags="" value="1.000000000000" parameter="42" symbol="p4_q"/>
         <Controllable name="F5 Active" id="272525" flags="" value="1.000000000000" parameter="43" symbol="p5_active"/>
-        <Controllable name="Level 5" id="272527" flags="" value="1.760395646095" parameter="44" symbol="p5_level"/>
+        <Controllable name="Level 5" id="272527" flags="" value="1.760396003723" parameter="44" symbol="p5_level"/>
         <Controllable name="Freq 5" id="272529" flags="" value="1034.799926757812" parameter="45" symbol="p5_freq"/>
-        <Controllable name="Q 5" id="272531" flags="" value="4.092606544495" parameter="46" symbol="p5_q"/>
+        <Controllable name="Q 5" id="272531" flags="" value="4.092607021332" parameter="46" symbol="p5_q"/>
         <Controllable name="F6 Active" id="272533" flags="" value="0.000000000000" parameter="47" symbol="p6_active"/>
         <Controllable name="Level 6" id="272535" flags="" value="1.000000000000" parameter="48" symbol="p6_level"/>
         <Controllable name="Freq 6" id="272537" flags="" value="2000.000000000000" parameter="49" symbol="p6_freq"/>
@@ -5866,13 +5868,15 @@
       <Controllable name="recenable" id="19841" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Bass" name="Bass" id="19846" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="123420" name="Trumpet 1" default-type="midi" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
+    <Route id="123420" name="Trumpet 1" default-type="midi" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="16" flags="MidiTrack,OrderSet" color="3851514623"/>
-      <Controllable name="solo" id="423405" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="423411" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="423413" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="438025" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="438031" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="438033" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Trumpet 1" id="123421" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Trumpet 1/midi_in 1"/>
+        <Port type="midi" name="Trumpet 1/midi_in 1">
+          <Connection other="a2j:DigitalKBD [28] (capture): DigitalKBD MIDI 1"/>
+        </Port>
       </IO>
       <IO name="Trumpet 1" id="123422" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="Trumpet 1/audio_out 1">
@@ -5884,7 +5888,7 @@
         <Port type="midi" name="Trumpet 1/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="423407" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="438027" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="123833" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -6198,16 +6202,16 @@
         </Pannable>
       </Processor>
       <Slavable/>
-      <Controllable name="monitoring" id="123838" flags="RealTime" value="0.000000000000" monitoring=""/>
+      <Controllable name="monitoring" id="123838" flags="RealTime" value="1.000000000000" monitoring="MonitorInput"/>
       <Controllable name="recsafe" id="123839" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="recenable" id="123840" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Test.2" name="Trumpet 1" id="123835" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
     <Route id="20364" name="Chords" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="17" flags="MidiTrack,OrderSet" color="3849494271"/>
-      <Controllable name="solo" id="423716" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="423722" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="423724" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="438336" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="438342" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="438344" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Chords" id="20392" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Chords/midi_in 1"/>
       </IO>
@@ -6221,7 +6225,7 @@
         <Port type="midi" name="Chords/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="423718" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="438338" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="20376" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -6263,7 +6267,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state92">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state97">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.335000"/>
           <Port symbol="amp_decay" value="+0.000000"/>
@@ -6629,7 +6633,7 @@
         <Controllable name="Right Phase" id="327712" flags="Toggle" value="0.000000000000" parameter="27" symbol="s_phase2"/>
       </Processor>
       <Processor id="20394" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="20368" flags="" value="0.442430317402"/>
+        <Controllable name="gaincontrol" id="20368" flags="" value="0.618834614754"/>
       </Processor>
       <Processor id="20396" name="meter-Chords" active="yes" user-latency="0" type="meter"/>
       <Processor id="20397" name="Chords" active="yes" user-latency="0" own-input="yes" own-output="no" output="Chords" type="main-outs" role="Main">
@@ -6651,9 +6655,9 @@
     </Route>
     <Route id="44984" name="Wow" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="18" flags="MidiTrack,OrderSet" color="2096739071"/>
-      <Controllable name="solo" id="424075" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="424081" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="424083" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="438695" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="438701" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="438703" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Wow" id="45012" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Wow/midi_in 1"/>
       </IO>
@@ -6667,7 +6671,7 @@
         <Port type="midi" name="Wow/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="424077" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="438697" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="44996" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -6988,9 +6992,9 @@
     </Route>
     <Route id="52264" name="Clap" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="19" flags="MidiTrack,OrderSet" color="2054350335"/>
-      <Controllable name="solo" id="424386" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="424392" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="424394" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="439006" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="439012" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="439014" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Clap" id="52292" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Clap/midi_in 1"/>
       </IO>
@@ -7004,7 +7008,7 @@
         <Port type="midi" name="Clap/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="424388" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="439008" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="52276" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -7432,9 +7436,9 @@
     </Route>
     <Route id="133636" name="vibrhodes" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="20" flags="MidiTrack,OrderSet" color="3849495807"/>
-      <Controllable name="solo" id="424785" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="424791" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="424793" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="439405" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="439411" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="439413" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="vibrhodes" id="133664" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="vibrhodes/midi_in 1"/>
       </IO>
@@ -7448,7 +7452,7 @@
         <Port type="midi" name="vibrhodes/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="424787" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="439407" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="133648" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -7768,10 +7772,10 @@
       <Diskstream flags="Recordable" playlist="vibrhodes" name="vibrhodes" id="133677" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
     <Route id="144358" name="Saxish" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
-      <PresentationInfo order="21" flags="MidiTrack,OrderSet" color="3467830783"/>
-      <Controllable name="solo" id="425096" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="425102" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="425104" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <PresentationInfo order="21" flags="MidiTrack,Selected,OrderSet" color="3467830783"/>
+      <Controllable name="solo" id="439716" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="439722" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="439724" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Saxish" id="144386" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Saxish/midi_in 1"/>
       </IO>
@@ -7785,7 +7789,7 @@
         <Port type="midi" name="Saxish/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="425098" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="439718" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="144370" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -8255,9 +8259,9 @@
     </Route>
     <Route id="144941" name="Hi Sqr Lead" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="22" flags="MidiTrack,OrderSet" color="2632289535"/>
-      <Controllable name="solo" id="425537" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="425543" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="425545" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="440157" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="440163" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="440165" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Hi Sqr Lead" id="144969" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Hi Sqr Lead/midi_in 1"/>
       </IO>
@@ -8271,7 +8275,7 @@
         <Port type="midi" name="Hi Sqr Lead/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Controllable name="mute" id="425539" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="mute" id="440159" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="phase" id="144953" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -8608,9 +8612,9 @@
     </Route>
     <Route id="327894" name="Drum Breaks" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="ForceChannel" capture-channel-mode="AllChannels" playback-channel-mask="0x200" capture-channel-mask="0xffff" note-mode="Percussive" step-editing="no" input-active="yes">
       <PresentationInfo order="23" flags="MidiTrack,OrderSet" color="3855774463"/>
-      <Controllable name="solo" id="425868" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="425874" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
-      <Controllable name="solo-safe" id="425876" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <Controllable name="solo" id="440488" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="440494" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="440496" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Drum Breaks" id="327922" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Drum Breaks/midi_in 1"/>
       </IO>
@@ -8624,7 +8628,7 @@
         <Port type="midi" name="Drum Breaks/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="yes"/>
-      <Controllable name="mute" id="425870" flags="Toggle,RealTime" value="1.000000000000"/>
+      <Controllable name="mute" id="440490" flags="Toggle,RealTime" value="1.000000000000"/>
       <Controllable name="phase" id="327906" flags="Toggle" value="0.000000000000" phase-invert=""/>
       <Automation/>
       <Pannable>
@@ -8858,9 +8862,10 @@
       <Region name="Saxish-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="161504" length="1270080" position="423360" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="6.1037037037" length-beats="48" id="299759" type="midi" first-edit="nothing" source-0="299749" master-source-0="299749"/>
       <Region name="Saxish-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="125685" length="846720" position="1693440" beat="64" sync-position="125685" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="4.75" length-beats="32" id="313437" type="midi" first-edit="nothing" source-0="144856" master-source-0="144856"/>
       <Region name="Saxish-9.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="161504" length="1263465" position="2963520" beat="112" sync-position="161504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="6.1037037037" length-beats="47.75" id="327557" type="midi" first-edit="nothing" source-0="299749" master-source-0="299749"/>
-      <Region name="Saxish-8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="351119" length="4207656" position="8441264" beat="317.750004742" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="12" length-beats="64" id="273468" type="midi" first-edit="nothing" source-0="273466" master-source-0="273466"/>
+      <Region name="Saxish-8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="317520" length="1919390" position="6859755" beat="259.25" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="12" length-beats="64" id="273468" type="midi" first-edit="nothing" source-0="273466" master-source-0="273466"/>
     </Playlist>
     <Playlist id="144983" name="Hi Sqr Lead.1" type="midi" orig-track-id="144941" frozen="no" combine-ops="0">
+      <Region name="Saxish-9.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1305899" length="125685" position="1567755" beat="59.25" sync-position="161504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="49.3537037037" length-beats="4.75" id="444306" type="midi" first-edit="nothing" source-0="299749" master-source-0="299749"/>
       <Region name="Saxish-2.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="125685" length="846720" position="1693440" beat="64" sync-position="125685" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4.75" length-beats="32" id="313447" type="midi" first-edit="nothing" source-0="144856" master-source-0="144856"/>
       <Region name="Saxish-9.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1008224" length="416745" position="3810240" beat="144" sync-position="1001609" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="38.1037037037" length-beats="15.75" id="327560" type="midi" first-edit="nothing" source-0="299749" master-source-0="299749"/>
     </Playlist>
@@ -9129,7 +9134,7 @@
     <ExportRevision revision="4"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
-        <Range id="1238"/>
+        <Range id="1248"/>
       </ExportTimespan>
       <ExportChannelConfiguration split="false" channels="2">
         <Channel number="1">
@@ -9158,7 +9163,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="363" y-size="342"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="321" x-size="576" y-size="447"/>
+      <Window name="audio-midi-setup" visible="no" x-off="1616" y-off="0" x-size="576" y-size="447"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9202,10 +9207,20 @@
       <Window name="PM-19478-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-19480-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-19481-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-887-962" visible="no" x-off="36" y-off="58" x-size="530" y-size="53" custom-ui="yes"/>
+      <Window name="P-887-2547" visible="no" x-off="0" y-off="0" x-size="1167" y-size="707" custom-ui="no"/>
+      <Window name="P-887-917" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-887-919" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-887-920" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-962-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2547-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-917-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-919-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-920-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3362-3398" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-3362-3393" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-3362-3421" visible="no" x-off="0" y-off="0" x-size="782" y-size="363" custom-ui="no"/>
-      <Window name="P-3362-3447" visible="no" x-off="0" y-off="0" x-size="1167" y-size="707" custom-ui="no"/>
+      <Window name="P-3362-3447" visible="no" x-off="0" y-off="0" x-size="1182" y-size="707" custom-ui="yes"/>
       <Window name="P-3362-3392" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-3362-3394" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-3362-3395" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9242,7 +9257,7 @@
       <Window name="PM-9356-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-26713-26749" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-26713-26744" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-26713-69043" visible="no" x-off="0" y-off="61" x-size="530" y-size="53" custom-ui="yes"/>
+      <Window name="P-26713-69043" visible="no" x-off="0" y-off="61" x-size="530" y-size="53" custom-ui="no"/>
       <Window name="P-26713-69072" visible="no" x-off="0" y-off="61" x-size="418" y-size="54" custom-ui="no"/>
       <Window name="P-26713-26743" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-26713-26745" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9266,16 +9281,6 @@
       <Window name="PM-13516-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-13518-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-13519-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-887-962" visible="no" x-off="36" y-off="58" x-size="530" y-size="53" custom-ui="yes"/>
-      <Window name="P-887-2547" visible="no" x-off="0" y-off="0" x-size="1167" y-size="707" custom-ui="no"/>
-      <Window name="P-887-917" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-887-919" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-887-920" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-962-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2547-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-917-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-919-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-920-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2698-3105" visible="no" x-off="36" y-off="58" x-size="418" y-size="54" custom-ui="no"/>
       <Window name="P-2698-68930" visible="no" x-off="0" y-off="61" x-size="418" y-size="54" custom-ui="no"/>
       <Window name="P-2698-3300" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9286,7 +9291,7 @@
       <Window name="PM-3300-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3302-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3303-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-5325-5732" visible="no" x-off="10" y-off="55" x-size="530" y-size="53" custom-ui="yes"/>
+      <Window name="P-5325-5732" visible="no" x-off="10" y-off="55" x-size="530" y-size="53" custom-ui="no"/>
       <Window name="P-5325-5926" visible="no" x-off="0" y-off="0" x-size="1167" y-size="707" custom-ui="no"/>
       <Window name="P-5325-5927" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-5325-5929" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9346,8 +9351,8 @@
       <Window name="PM-77760-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-77766-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-77767-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-19805-19946" visible="no" x-off="23" y-off="486" x-size="530" y-size="53" custom-ui="yes"/>
-      <Window name="P-19805-272461" visible="no" x-off="0" y-off="0" x-size="1182" y-size="694" custom-ui="yes"/>
+      <Window name="P-19805-19946" visible="no" x-off="23" y-off="486" x-size="530" y-size="53" custom-ui="no"/>
+      <Window name="P-19805-272461" visible="no" x-off="0" y-off="0" x-size="1182" y-size="694" custom-ui="no"/>
       <Window name="P-19805-87980" visible="no" x-off="0" y-off="0" x-size="771" y-size="454" custom-ui="no"/>
       <Window name="P-19805-19835" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-19805-19837" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9406,7 +9411,7 @@
       <Window name="PM-133666-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133668-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-133669-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-144358-144557" visible="no" x-off="0" y-off="66" x-size="530" y-size="53" custom-ui="no"/>
+      <Window name="P-144358-144557" visible="no" x-off="0" y-off="66" x-size="530" y-size="53" custom-ui="yes"/>
       <Window name="P-144358-312876" visible="no" x-off="1283" y-off="99" x-size="530" y-size="53" custom-ui="no"/>
       <Window name="P-144358-144918" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-144358-144388" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9453,11 +9458,11 @@
           <Object id="processor 370985"/>
         </Object>
         <Object id="route 115" color="58981:48507:49205"/>
-        <Object id="strip 115" visible="0" strip-width="Wide">
+        <Object id="strip 115" visible="1" strip-width="Wide">
           <Object id="processor 142"/>
           <Object id="processor 174"/>
         </Object>
-        <Object id="rtav 115" height="35" visible="1" note-range-min="62" note-range-max="84" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 115" height="179" visible="1" note-range-min="62" note-range-max="84" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 141" height="35" visible="0"/>
         <Object id="automation 115 12/0/0" height="35" visible="0"/>
         <Object id="automation 129" height="38" visible="0"/>
@@ -9558,7 +9563,7 @@
           <Object id="processor 86357"/>
           <Object id="processor 259621"/>
         </Object>
-        <Object id="rtav 13637" height="70" visible="1" note-range-min="47" note-range-max="70" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 13637" height="30" visible="1" note-range-min="47" note-range-max="70" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 13641" height="35" visible="0"/>
         <Object id="automation 13637 12/0/0" height="35" visible="0"/>
         <Object id="strip 13637" strip-width="Wide" visible="1">
@@ -9727,7 +9732,7 @@
         <Object id="automation 144913" height="35" visible="0"/>
         <Object id="automation 145435" height="35" visible="0"/>
         <Object id="automation 145439" height="35" visible="0"/>
-        <Object id="automation 20515" height="35" visible="1"/>
+        <Object id="automation 20515" height="136" visible="1"/>
         <Object id="rtav 327894" height="35" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="60" note-range-max="71"/>
         <Object id="automation 327898" height="35" visible="0"/>
         <Object id="automation 327894 12/0/0" height="35" visible="0"/>
