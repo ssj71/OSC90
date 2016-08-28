@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="509089" name-counter="5" event-counter="7436053" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="509111" name-counter="5" event-counter="7478771" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.1-15-g7837122"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -10003,30 +10003,6 @@
   </ControlProtocols>
   <Extra>
     <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="no" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="no" videotl="no"/>
-    <ExportRevision revision="4"/>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="1248"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="false" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
-      <ExportFilename>
-        <Folder relative="false" path="/home/rob/Bureaublad"/>
-        <Field name="label" enabled="true" value="verse"/>
-        <Field name="session" enabled="true"/>
-        <Field name="timespan" enabled="false"/>
-        <Field name="revision" enabled="false"/>
-        <Field name="time" enabled="false" value="T_None"/>
-        <Field name="date" enabled="false" value="D_None"/>
-      </ExportFilename>
-    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10681,6 +10657,30 @@
         <Object id="automation 507797" height="33" visible="0"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="4"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="1238"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="false" path="/home/rob/Bureaublad"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="false"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="true" value="T_NoDelim"/>
+        <Field name="date" enabled="true" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="no"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
