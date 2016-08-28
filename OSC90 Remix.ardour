@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="543369" name-counter="5" event-counter="8269186" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="543389" name-counter="5" event-counter="8319517" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.1-15-g7837122"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -10516,7 +10516,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="363" y-size="350"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="757" y-off="323" x-size="582" y-size="456"/>
+      <Window name="audio-midi-setup" visible="no" x-off="705" y-off="244" x-size="582" y-size="456"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10833,11 +10833,11 @@
       <Window name="PM-507807-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-525164-542265" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-542265-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-525164-542299" visible="no" x-off="813" y-off="524" x-size="471" y-size="54" custom-ui="yes"/>
+      <Window name="P-525164-542299" visible="no" x-off="761" y-off="445" x-size="471" y-size="54" custom-ui="yes"/>
       <Window name="PM-542299-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-525164-542413" visible="no" x-off="813" y-off="524" x-size="471" y-size="54" custom-ui="yes"/>
+      <Window name="P-525164-542413" visible="no" x-off="761" y-off="445" x-size="471" y-size="54" custom-ui="yes"/>
       <Window name="PM-542413-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-525164-542559" visible="no" x-off="813" y-off="439" x-size="471" y-size="224" custom-ui="yes"/>
+      <Window name="P-525164-542559" visible="no" x-off="761" y-off="360" x-size="471" y-size="224" custom-ui="yes"/>
       <Window name="PM-542559-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="route 28" color="58981:54066:29490"/>
