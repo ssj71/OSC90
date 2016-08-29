@@ -7,6 +7,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <state.ttl>
-	lv2:appliesTo <http://gareus.org/oss/lv2/fil4#stereo> ;
 	a pset:Preset ;
-	rdfs:seeAlso <state.ttl> .
+	rdfs:seeAlso <state.ttl> ;
+	lv2:appliesTo <http://gareus.org/oss/lv2/fil4#stereo> .
