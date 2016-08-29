@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="OSC90 Remix"/>
-  <Main x="0" y="0" w="1918" h="1027" current-tab="editor"/>
-  <Editor id="18" edit-horizontal-pane-pos="0.864895" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="3616" snap-to="SnapToBar" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="5434384" left-frame="2997664" y-origin="132.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByName" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
+  <Main x="0" y="0" w="1920" h="1028" current-tab="editor"/>
+  <Editor id="18" edit-horizontal-pane-pos="0.864895" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="4096" snap-to="SnapToBar" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="102532" left-frame="0" y-origin="285.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByName" mouse-mode="MouseRange" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
     <Window name="Editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Region id="508859"/>
-      <Marker id="1238" start="no"/>
+      <RouteView id="144358"/>
+      <RouteView id="144941"/>
+      <RouteView id="525164"/>
     </Selection>
     <RegionList sort-type="ByName" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
     <ActionScript lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</ActionScript>
     <ActionHooks/>
   </Editor>
   <Mixer mixer-rhs-pane1-pos="0.600000" mixer-rhs-pane2-pos="0.700000" mixer-list-hpane-pos="0.077244" mixer-inner-pane-pos="0.800000" narrow-strips="no" show-mixer="no" show-mixer-list="yes" maximised="no">
-    <Window name="Mixer" visible="no" x-off="1440" y-off="22" x-size="1436" y-size="872" tabbed="no"/>
+    <Window name="Mixer" visible="no" x-off="1920" y-off="0" x-size="1436" y-size="872" tabbed="no"/>
     <PluginOrder>
       <PluginInfo sort="0" unique-id="1a4364e9bd9ac6d9fa91211b3ec514f641eca283" expanded="0"/>
       <PluginInfo sort="1" unique-id="urn:ardour:a-comp" expanded="0"/>
@@ -37,6 +38,9 @@
       <PluginInfo sort="15" unique-id="urn:juce:TalReverb2" expanded="0"/>
       <PluginInfo sort="16" unique-id="urn:juce:TalFilter2" expanded="0"/>
       <PluginInfo sort="17" unique-id="http://distrho.sf.net/plugins/PingPongPan" expanded="0"/>
+      <PluginInfo sort="18" unique-id="https://community.ardour.org/node/7596" expanded="0"/>
+      <PluginInfo sort="19" unique-id="http://tytel.org/helm" expanded="0"/>
+      <PluginInfo sort="20" unique-id="http://calf.sourceforge.net/plugins/Analyzer" expanded="0"/>
     </PluginOrder>
   </Mixer>
   <Preferences>
