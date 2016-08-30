@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1472538113" tv-usec="532665" name="region drag">
+  <UndoTransaction tv-sec="1472538113" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313414" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2308635" to="2328480"/>
@@ -22,7 +22,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538117" tv-usec="706811" name="Region end trim">
+  <UndoTransaction tv-sec="1472538117" tv-usec="4364320" name="Region end trim">
     <StatefulDiffCommand obj-id="313393" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="79380" to="105840"/>
@@ -44,7 +44,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538121" tv-usec="551871" name="Region start trim">
+  <UndoTransaction tv-sec="1472538121" tv-usec="4364320" name="Region start trim">
     <StatefulDiffCommand obj-id="313414" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="6615" to="33075"/>
@@ -70,7 +70,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538124" tv-usec="338528" name="region drag">
+  <UndoTransaction tv-sec="1472538124" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313414" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2354940" to="2328480"/>
@@ -92,7 +92,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538126" tv-usec="760899" name="Region end trim">
+  <UndoTransaction tv-sec="1472538126" tv-usec="4364320" name="Region end trim">
     <StatefulDiffCommand obj-id="313414" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="79380" to="105840"/>
@@ -114,7 +114,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538160" tv-usec="459494" name="Region start trim">
+  <UndoTransaction tv-sec="1472538160" tv-usec="4364320" name="Region start trim">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="66150" to="52920"/>
@@ -140,7 +140,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538162" tv-usec="186018" name="region drag">
+  <UndoTransaction tv-sec="1472538162" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2493855" to="2460780"/>
@@ -162,7 +162,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538163" tv-usec="484350" name="region drag">
+  <UndoTransaction tv-sec="1472538163" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes/>
     </StatefulDiffCommand>
@@ -181,7 +181,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538165" tv-usec="818343" name="Region end trim">
+  <UndoTransaction tv-sec="1472538165" tv-usec="4364320" name="Region end trim">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="39690" to="72765"/>
@@ -203,7 +203,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538169" tv-usec="60461" name="Region start trim">
+  <UndoTransaction tv-sec="1472538169" tv-usec="4364320" name="Region start trim">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="52920" to="79380"/>
@@ -229,7 +229,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538171" tv-usec="619505" name="region drag">
+  <UndoTransaction tv-sec="1472538171" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2487240" to="2480625"/>
@@ -251,7 +251,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538173" tv-usec="688995" name="Region end trim">
+  <UndoTransaction tv-sec="1472538173" tv-usec="4364320" name="Region end trim">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="46305" to="59535"/>
@@ -273,7 +273,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538187" tv-usec="889634" name="region drag">
+  <UndoTransaction tv-sec="1472538187" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes/>
     </StatefulDiffCommand>
@@ -292,7 +292,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538189" tv-usec="29649" name="region drag">
+  <UndoTransaction tv-sec="1472538189" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2480625" to="2460780"/>
@@ -314,7 +314,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538190" tv-usec="189463" name="copy objects">
+  <UndoTransaction tv-sec="1472538190" tv-usec="4364320" name="copy objects">
     <MementoCommand obj-id="38" type-name="SelectionMemento">
       <SelectionMemento mouse-mode="MouseObject" zoom="256" left-frame="2203904" y-origin="31.000000">
         <Selection>
@@ -330,7 +330,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538190" tv-usec="809051" name="paste">
+  <UndoTransaction tv-sec="1472538190" tv-usec="4364320" name="paste">
     <StatefulDiffCommand obj-id="52306" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
@@ -353,7 +353,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538195" tv-usec="604871" name="Region start trim">
+  <UndoTransaction tv-sec="1472538195" tv-usec="4364320" name="Region start trim">
     <StatefulDiffCommand obj-id="702069" type-name="ARDOUR::MidiRegion">
       <Changes>
         <start from="79380" to="105840"/>
@@ -379,7 +379,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538198" tv-usec="484759" name="region drag">
+  <UndoTransaction tv-sec="1472538198" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="313417" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2460780" to="2480625"/>
@@ -401,7 +401,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538200" tv-usec="665852" name="region drag">
+  <UndoTransaction tv-sec="1472538200" tv-usec="4364320" name="region drag">
     <StatefulDiffCommand obj-id="702069" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="2513700" to="2520315"/>
@@ -423,7 +423,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472538202" tv-usec="872257" name="Region end trim">
+  <UndoTransaction tv-sec="1472538202" tv-usec="4364320" name="Region end trim">
     <StatefulDiffCommand obj-id="702069" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="33075" to="19845"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="702088" name-counter="6" event-counter="11017915" vca-counter="1">
+<Session version="3002" name="OSC90" sample-rate="44100" end-is-free="no" id-counter="702088" name-counter="6" event-counter="11064162" vca-counter="1">
   <ProgramVersion created-with="unknown" modified-with="Ardour 4.1-5246-gb7e8d6f"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -2705,7 +2705,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state36">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state37">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.102941"/>
@@ -3171,7 +3171,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state42">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state43">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.176471"/>
@@ -3643,7 +3643,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state44">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state45">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.044118"/>
@@ -4156,7 +4156,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state28">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state29">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.147059"/>
@@ -4622,7 +4622,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state35">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state36">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.161879"/>
@@ -5086,7 +5086,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state21">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state22">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.102941"/>
@@ -5468,7 +5468,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state26">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state27">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.279412"/>
@@ -5850,7 +5850,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state35">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.088235"/>
@@ -6294,7 +6294,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state50">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state51">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.029297"/>
           <Port symbol="amp_decay" value="+0.279412"/>
@@ -6805,7 +6805,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state50">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state51">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.000000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -7177,12 +7177,12 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state183">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state185">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
-          <Port symbol="amp_attack" value="+0.278486"/>
+          <Port symbol="amp_attack" value="+0.325000"/>
           <Port symbol="amp_decay" value="+0.000000"/>
-          <Port symbol="amp_release" value="+0.000000"/>
-          <Port symbol="amp_sustain" value="+0.000000"/>
+          <Port symbol="amp_release" value="+0.148438"/>
+          <Port symbol="amp_sustain" value="+1.000000"/>
           <Port symbol="arp_frequency" value="+0.600000"/>
           <Port symbol="arp_gate" value="+0.500000"/>
           <Port symbol="arp_octaves" value="+0.000000"/>
@@ -7312,10 +7312,10 @@
           <Port symbol="volume" value="+0.590909"/>
         </lv2>
         <Controllable name="hidden" id="20513" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
-        <Controllable name="amp_attack" id="20515" flags="" value="0.278486073017" parameter="5" symbol="amp_attack"/>
+        <Controllable name="amp_attack" id="20515" flags="" value="0.325000017881" parameter="5" symbol="amp_attack"/>
         <Controllable name="amp_decay" id="20517" flags="" value="0.000000000000" parameter="6" symbol="amp_decay"/>
-        <Controllable name="amp_release" id="20519" flags="" value="0.000000000000" parameter="7" symbol="amp_release"/>
-        <Controllable name="amp_sustain" id="20521" flags="" value="0.000000000000" parameter="8" symbol="amp_sustain"/>
+        <Controllable name="amp_release" id="20519" flags="" value="0.148437500000" parameter="7" symbol="amp_release"/>
+        <Controllable name="amp_sustain" id="20521" flags="" value="1.000000000000" parameter="8" symbol="amp_sustain"/>
         <Controllable name="arp_frequency" id="20523" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
         <Controllable name="arp_gate" id="20525" flags="" value="0.500000000000" parameter="10" symbol="arp_gate"/>
         <Controllable name="arp_octaves" id="20527" flags="" value="0.000000000000" parameter="11" symbol="arp_octaves"/>
@@ -7951,7 +7951,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state39">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state40">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.029297"/>
           <Port symbol="amp_decay" value="+0.550781"/>
@@ -8392,7 +8392,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state40">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state41">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.029297"/>
           <Port symbol="amp_decay" value="+0.550781"/>
@@ -8833,7 +8833,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state35">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.058938"/>
           <Port symbol="amp_decay" value="+0.088235"/>
@@ -9319,7 +9319,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state21">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state22">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -9875,7 +9875,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state5">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state6">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -10450,7 +10450,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state161">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state162">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.335000"/>
           <Port symbol="amp_decay" value="+0.000000"/>
@@ -10803,7 +10803,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state28">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state30">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -10818,7 +10818,7 @@
           <Port symbol="arp_tempo" value="+0.818182"/>
           <Port symbol="beats_per_minute" value="+0.357143"/>
           <Port symbol="cross_modulation" value="+0.000000"/>
-          <Port symbol="cutoff" value="+0.402177"/>
+          <Port symbol="cutoff" value="+1.000000"/>
           <Port symbol="delay_dry_wet" value="+0.500000"/>
           <Port symbol="delay_feedback" value="+0.700000"/>
           <Port symbol="delay_frequency" value="+0.571429"/>
@@ -10951,7 +10951,7 @@
         <Controllable name="arp_tempo" id="562248" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
         <Controllable name="beats_per_minute" id="562250" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
         <Controllable name="cross_modulation" id="562252" flags="" value="0.000000000000" parameter="17" symbol="cross_modulation"/>
-        <Controllable name="cutoff" id="562254" flags="" value="0.402176946402" parameter="18" symbol="cutoff"/>
+        <Controllable name="cutoff" id="562254" flags="" value="1.000000000000" parameter="18" symbol="cutoff"/>
         <Controllable name="delay_dry_wet" id="562256" flags="" value="0.500000000000" parameter="19" symbol="delay_dry_wet"/>
         <Controllable name="delay_feedback" id="562258" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
         <Controllable name="delay_frequency" id="562260" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
@@ -11244,7 +11244,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state5">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state6">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="amp_attack" value="+0.025000"/>
           <Port symbol="amp_decay" value="+0.375000"/>
@@ -12172,7 +12172,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="348" y-size="333"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="0" y-off="0" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="no" x-off="932" y-off="40" x-size="571" y-size="435"/>
+      <Window name="audio-midi-setup" visible="no" x-off="1528" y-off="835" x-size="571" y-size="435"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
