@@ -10,8 +10,3 @@
 	a pset:Preset ;
 	rdfs:seeAlso <state.ttl> ;
 	lv2:appliesTo <urn:juce:TalReverb2> .
-
-<state.ttl>
-	a pset:Preset ;
-	rdfs:seeAlso <state.ttl> ;
-	lv2:appliesTo <urn:juce:TalReverb2> .
