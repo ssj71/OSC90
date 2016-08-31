@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1472665798" tv-usec="975287048" name="add tempo mark">
+  <UndoTransaction tv-sec="1472665798" tv-usec="993584872" name="add tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -29,7 +29,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665807" tv-usec="975287048" name="replace tempo mark">
+  <UndoTransaction tv-sec="1472665807" tv-usec="993584872" name="replace tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -59,7 +59,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665811" tv-usec="975287048" name="add tempo mark">
+  <UndoTransaction tv-sec="1472665811" tv-usec="993584872" name="add tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -90,7 +90,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665815" tv-usec="975287048" name="replace tempo mark">
+  <UndoTransaction tv-sec="1472665815" tv-usec="993584872" name="replace tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -122,7 +122,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665827" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665827" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -154,7 +154,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665836" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665836" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -186,7 +186,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665850" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665850" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -218,7 +218,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665861" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665861" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -250,7 +250,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665863" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665863" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -282,7 +282,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665867" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665867" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -314,7 +314,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665943" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665943" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -346,7 +346,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472665952" tv-usec="975287048" name="move tempo mark">
+  <UndoTransaction tv-sec="1472665952" tv-usec="993584872" name="move tempo mark">
     <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
@@ -378,7 +378,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666182" tv-usec="741124" name="Region end trim">
+  <UndoTransaction tv-sec="1472666182" tv-usec="993584872" name="Region end trim">
     <StatefulDiffCommand obj-id="935045" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="474003" to="540153"/>
@@ -400,7 +400,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666187" tv-usec="659363" name="resize notes">
+  <UndoTransaction tv-sec="1472666187" tv-usec="993584872" name="resize notes">
     <NoteDiffCommand midi-source="935043">
       <ChangedNotes>
         <Change property="Length" old="7.5" new="9" id="13533767"/>
@@ -427,7 +427,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666209" tv-usec="866342" name="Region end trim">
+  <UndoTransaction tv-sec="1472666209" tv-usec="993584872" name="Region end trim">
     <StatefulDiffCommand obj-id="935113" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="474003" to="540153"/>
@@ -449,7 +449,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666211" tv-usec="887184" name="Region end trim">
+  <UndoTransaction tv-sec="1472666211" tv-usec="993584872" name="Region end trim">
     <StatefulDiffCommand obj-id="935122" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="474003" to="507078"/>
@@ -471,7 +471,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666215" tv-usec="196192" name="Region end trim">
+  <UndoTransaction tv-sec="1472666215" tv-usec="993584872" name="Region end trim">
     <StatefulDiffCommand obj-id="935122" type-name="ARDOUR::MidiRegion">
       <Changes>
         <length from="507078" to="540153"/>
@@ -493,7 +493,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666236" tv-usec="523078" name="resize notes">
+  <UndoTransaction tv-sec="1472666236" tv-usec="993584872" name="resize notes">
     <NoteDiffCommand midi-source="883802">
       <ChangedNotes>
         <Change property="Length" old="7.5" new="8.5" id="13587223"/>
@@ -520,7 +520,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472666251" tv-usec="54913" name="resize notes">
+  <UndoTransaction tv-sec="1472666251" tv-usec="993584872" name="resize notes">
     <NoteDiffCommand midi-source="883802">
       <ChangedNotes>
         <Change property="Length" old="8.5" new="9" id="13587223"/>
@@ -547,7 +547,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472667448" tv-usec="334973" name="move notes">
+  <UndoTransaction tv-sec="1472667448" tv-usec="993584872" name="move notes">
     <NoteDiffCommand midi-source="883404">
       <ChangedNotes>
         <Change property="StartTime" old="230.249" new="229.25" id="12913800"/>
