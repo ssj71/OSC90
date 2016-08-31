@@ -2,7 +2,7 @@
 <instant>
   <LastUsedSnapshot name="OSC90 Remix"/>
   <Main x="0" y="22" w="1436" h="1752" current-tab="editor"/>
-  <Editor id="18" edit-horizontal-pane-pos="0.900000" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="1024" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv4" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="102532" left-frame="0" y-origin="0.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByName" mouse-mode="MouseContent" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="0" show-marker-lines="no" nudge-clock-value="220500">
+  <Editor id="18" edit-horizontal-pane-pos="0.900000" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="4096" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv4" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="10116228" left-frame="8228864" y-origin="0.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByName" mouse-mode="MouseContent" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="0" show-marker-lines="no" nudge-clock-value="220500">
     <Window name="Editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
     <Buttons>
       <Press/>
@@ -10,7 +10,7 @@
     </Buttons>
     <Selection>
       <MIDINote region-id="801764">
-        <note channel="0" time="4.750000" note="76" length="2.750000" velocity="99" off-velocity="0"/>
+        <note channel="0" time="3.749948" note="77" length="0.500039" velocity="84" off-velocity="64"/>
       </MIDINote>
     </Selection>
     <RegionList sort-type="ByName" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>

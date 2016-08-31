@@ -1,3 +1,5 @@
-This is (potentially) the ardour project file for the Penguinators submission for the One Synth Challenge #90, composed of ssj71 and rghvdberg.
+This is the ardour 5 project file for the Penguinators submission for the One Synth Challenge #90, composed of ssj71 and rghvdberg.
 
-It may not even work this way, but we'll find out.
+It was done using git by one of us working on it while the other slept or worked. We found changes aren't mergable so only one person at a time should work on it. It went very well though for us, with a large timezone difference. 
+Feel free to open it up and see what we did, use the Helm patches we used and/or remix it!
+This work is CC-BY-SA.
