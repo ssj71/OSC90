@@ -1,797 +1,580 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1472650617" tv-usec="719359" name="change velocities">
+  <UndoTransaction tv-sec="1472665798" tv-usec="975287048" name="add tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.325238" frame="9732096" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665807" tv-usec="975287048" name="replace tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.325238" frame="9732096" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665811" tv-usec="975287048" name="add tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.862577" frame="9922560" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665815" tv-usec="975287048" name="replace tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.862577" frame="9922560" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.750000" frame="9852175" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8949760" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665827" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.250000" frame="9760472" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.750000" frame="9852175" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9645843" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.750000" frame="9852176" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9599488" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9599488" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665836" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9645843" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.750000" frame="9852176" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9645843" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.062500" frame="9726083" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9599488" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9599488" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665850" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.500000" frame="9622917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9645843" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.062500" frame="9726083" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9690750" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.062500" frame="9770990" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665861" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9690750" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.062500" frame="9770990" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9690750" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9793916" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665863" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.625000" frame="9690750" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9793916" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9725139" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9793917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665867" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="89.812500" frame="9541732" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9725139" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9793917" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.000000" frame="9563874" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9712892" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9781670" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9363968" y-origin="542.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665943" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="86.875000" frame="9194850" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.000000" frame="9563874" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9712892" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9781670" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="88.500000" frame="9366840" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.000000" frame="9543971" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9692989" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9761767" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="9122816" y-origin="199.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="9122816" y-origin="199.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472665952" tv-usec="975287048" name="move tempo mark">
+    <MementoCommand obj-id="50" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="88.500000" frame="9366840" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.000000" frame="9543971" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9692989" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9761767" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo pulse="0.000000" frame="0" beats-per-minute="100.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Constant" lock-style="AudioTime" locked-to-meter="no"/>
+        <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo pulse="87.937500" frame="9307305" beats-per-minute="100.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.000000" frame="9550861" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="90.812500" frame="9699879" beats-per-minute="40.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+        <Tempo pulse="91.187500" frame="9768657" beats-per-minute="80.000000" note-type="4.000000" movable="yes" active="yes" tempo-type="Ramp" lock-style="MusicTime" locked-to-meter="no"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="9122816" y-origin="199.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="9122816" y-origin="199.000000">
+        <Selection>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666182" tv-usec="741124" name="Region end trim">
+    <StatefulDiffCommand obj-id="935045" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="474003" to="540153"/>
+        <length-beats from="12.5" to="14.5000043115"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9613312" y-origin="199.000000">
+        <Selection>
+          <Region id="935045"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9613312" y-origin="199.000000">
+        <Selection>
+          <Region id="935045"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666187" tv-usec="659363" name="resize notes">
     <NoteDiffCommand midi-source="935043">
       <ChangedNotes>
-        <Change property="Velocity" old="81" new="82" id="13533764"/>
+        <Change property="Length" old="7.5" new="9" id="13533767"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9391104" y-origin="1380,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9613312" y-origin="199.000000">
         <Selection>
-          <MIDINote region-id="935113">
-            <note channel="0" time="342,250000" note="77" length="1,000000" velocity="81" off-velocity="64"/>
+          <MIDINote region-id="935045">
+            <note channel="0" time="343.250000" note="76" length="7.500000" velocity="99" off-velocity="64"/>
           </MIDINote>
+          <Marker id="1238" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9391104" y-origin="1380,000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9613312" y-origin="199.000000">
         <Selection>
-          <MIDINote region-id="935113">
-            <note channel="0" time="342,250000" note="77" length="1,000000" velocity="82" off-velocity="64"/>
+          <MIDINote region-id="935045">
+            <note channel="0" time="343.250000" note="76" length="9.000004" velocity="99" off-velocity="64"/>
           </MIDINote>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651107" tv-usec="789075" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <RouteView id="20364"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651110" tv-usec="82038" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5463040 0.622972667217255
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651115" tv-usec="247730" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5463040 0.622972667217255
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.622972667217255
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651119" tv-usec="343720" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.622972667217255
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="5"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651126" tv-usec="313607" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.265543818473816
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="6"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="4741120" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="6"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651173" tv-usec="269381" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.287946730852127
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="1826816" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="6"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="1826816" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651185" tv-usec="724478" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.287946730852127
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.446683585643768
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="1826816" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="1826816" y-origin="635,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651203" tv-usec="671904" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.446683585643768
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="606208" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="606208" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651212" tv-usec="149677" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.390147507190704
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="606208" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="7"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="606208" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="7"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651230" tv-usec="903553" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-9102240 0.408990681171417
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651233" tv-usec="194976" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651237" tv-usec="635505" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.336459070444107
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651244" tv-usec="920008" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.336459070444107
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651253" tv-usec="526794" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.603856027126312
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="9"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="4743168" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="9"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651260" tv-usec="455214" name="add automation event">
-    <MementoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-8996400 0.703545868396759
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="9"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651262" tv-usec="45998" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-8996400 0.703545868396759
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-9102226 0.682777106761932
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651266" tv-usec="271292" name="automation event move">
-    <MementoUndoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-9102226 0.682777106761932
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="872480" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="872480" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Touch" style="Absolute">
-        <events>0 0.661203920841217
-846006 0.661203920841217
-846656 0.659051608184814
-846720 0.41654309630394
-4127760 0.416869401931763
-4233600 0.608827710151672
-5397840 0.60953688621521
-5503680 0.416869401931763
-7408800 0.416869401931763
-7514640 0.60953688621521
-9102226 0.60953688621521
-9102240 0.416869401931763
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1024" left-frame="7947264" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1472651335" tv-usec="599476" name="move marker">
-    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="1238" name="session" start="102532" end="10029437" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="9313920" end="10160640" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-        <Location id="781657" name="Punch" start="92610" end="469665" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="1238" name="session" start="102532" end="10218267" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="9313920" end="10160640" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-        <Location id="781657" name="Punch" start="92610" end="469665" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="5230592" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
-          <Marker id="1238" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="5230592" y-origin="897,000000">
-        <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
           <Marker id="1238" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1472651342" tv-usec="476905" name="move marker">
-    <MementoCommand obj-id="31" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="1238" name="session" start="102532" end="10218267" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="9313920" end="10160640" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-        <Location id="781657" name="Punch" start="92610" end="469665" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="1238" name="session" start="102532" end="10085967" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="1248" name="Loop" start="9313920" end="10160640" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-        <Location id="781657" name="Punch" start="92610" end="469665" flags="IsAutoPunch" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1472666209" tv-usec="866342" name="Region end trim">
+    <StatefulDiffCommand obj-id="935113" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="474003" to="540153"/>
+        <length-beats from="12.5" to="14.5000043115"/>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="38" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="5230592" y-origin="897,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
         <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
+          <Region id="935113"/>
           <Marker id="1238" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="5230592" y-origin="897,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
         <Selection>
-          <ControlPoint type="track" route-id="20364" automation-list-id="872480" parameter="gain" view-index="10"/>
+          <Region id="935113"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666211" tv-usec="887184" name="Region end trim">
+    <StatefulDiffCommand obj-id="935122" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="474003" to="507078"/>
+        <length-beats from="12.5" to="13.5000043115"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
+        <Selection>
+          <Region id="935122"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
+        <Selection>
+          <Region id="935122"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666215" tv-usec="196192" name="Region end trim">
+    <StatefulDiffCommand obj-id="935122" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="507078" to="540153"/>
+        <length-beats from="13.5000043115" to="14.5000043115"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
+        <Selection>
+          <Region id="935122"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="9675264" y-origin="199.000000">
+        <Selection>
+          <Region id="935122"/>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666236" tv-usec="523078" name="resize notes">
+    <NoteDiffCommand midi-source="883802">
+      <ChangedNotes>
+        <Change property="Length" old="7.5" new="8.5" id="13587223"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9616384" y-origin="199.000000">
+        <Selection>
+          <MIDINote region-id="934885">
+            <note channel="0" time="359.250000" note="76" length="7.500000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9616384" y-origin="199.000000">
+        <Selection>
+          <MIDINote region-id="934885">
+            <note channel="0" time="359.250000" note="76" length="8.500000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472666251" tv-usec="54913" name="resize notes">
+    <NoteDiffCommand midi-source="883802">
+      <ChangedNotes>
+        <Change property="Length" old="8.5" new="9" id="13587223"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9616384" y-origin="199.000000">
+        <Selection>
+          <MIDINote region-id="934885">
+            <note channel="0" time="359.250000" note="76" length="8.500000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="9616384" y-origin="199.000000">
+        <Selection>
+          <MIDINote region-id="934885">
+            <note channel="0" time="359.250000" note="76" length="9.000000" velocity="99" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1472667448" tv-usec="334973" name="move notes">
+    <NoteDiffCommand midi-source="883404">
+      <ChangedNotes>
+        <Change property="StartTime" old="230.249" new="229.25" id="12913800"/>
+        <Change property="StartTime" old="230.223" new="229.223" id="12913798"/>
+        <Change property="StartTime" old="230.195" new="229.195" id="12913796"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="38" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="64" left-frame="6181504" y-origin="187.000000">
+        <Selection>
+          <MIDINote region-id="883406">
+            <note channel="0" time="230.194844" note="61" length="0.017344" velocity="64" off-velocity="64"/>
+            <note channel="0" time="230.222760" note="60" length="0.019948" velocity="64" off-velocity="64"/>
+            <note channel="0" time="230.249375" note="59" length="0.084635" velocity="64" off-velocity="64"/>
+          </MIDINote>
+          <Marker id="1238" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="64" left-frame="6181504" y-origin="187.000000">
+        <Selection>
+          <MIDINote region-id="883406">
+            <note channel="0" time="229.195465" note="61" length="0.017344" velocity="64" off-velocity="64"/>
+            <note channel="0" time="229.223394" note="60" length="0.019948" velocity="64" off-velocity="64"/>
+            <note channel="0" time="229.250000" note="59" length="0.084635" velocity="64" off-velocity="64"/>
+          </MIDINote>
           <Marker id="1238" start="no"/>
         </Selection>
       </SelectionMemento>
